@@ -485,6 +485,24 @@ a:hover {
 }
 
 
+
+/* =========================================================
+   MOBILE ARTICLE TAGS CONTROL
+   ========================================================= */
+
+.mobile-article-tags {
+    display: none;
+}
+
+.mobile-article-tags summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.mobile-article-tags summary::-webkit-details-marker {
+    display: none;
+}
+
 /* =========================================================
    MOBILE
    ========================================================= */
@@ -498,11 +516,59 @@ a:hover {
     }
 
     .dispatch-labels {
-        order: 2;
+        display: none;
+    }
+
+    .mobile-article-tags {
+        display: block;
+        order: 1;
+        margin: 0 0 4px;
+        border: 1px solid #c9bda5;
+        background: #f5f1e7;
+    }
+
+    .mobile-article-tags summary {
+        position: relative;
+        padding: 12px 42px 12px 14px;
+        color: #17120d;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .mobile-article-tags summary::after {
+        content: "▼";
+        position: absolute;
+        right: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 13px;
+    }
+
+    .mobile-article-tags[open] summary::after {
+        content: "▲";
+    }
+
+    .mobile-article-tags ul {
+        margin: 0;
+        padding: 0 14px 12px;
+        list-style: none;
+        columns: 2;
+        column-gap: 22px;
+    }
+
+    .mobile-article-tags li {
+        margin: 0 0 8px;
+        break-inside: avoid;
+        font-size: 13px;
+    }
+
+    .mobile-article-tags a {
+        color: #222;
     }
 
     .article-feed {
-        order: 1;
+        order: 2;
     }
 
     .dispatch-sidebar {
@@ -527,7 +593,14 @@ a:hover {
 
     .dispatch-hero {
         margin-top: 0;
-        padding: 25px;
+        padding: 16px 12px;
+        overflow: hidden;
+    }
+
+    .dispatch-masthead-image {
+        width: 135%;
+        max-width: none;
+        transform: translateX(-4%);
     }
 
     .standard-page {
@@ -678,4 +751,67 @@ a:hover {
 .magazine-download:hover {
     background: #f3a24f;
     color: #17120d;
+}
+
+/* ==================================================
+   OERIK MAGAZINE - MOBILE
+   ================================================== */
+
+@media (max-width: 800px) {
+
+    .magazine-library {
+        width: 100%;
+        padding: 30px 24px 50px;
+    }
+
+    .magazine-current {
+        margin-top: 28px;
+    }
+
+    .magazine-current-grid {
+        grid-template-columns: 1fr !important;
+        gap: 22px !important;
+        margin-top: 16px !important;
+    }
+
+    .magazine-cover-link {
+        width: 100% !important;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .magazine-current-grid img {
+        width: 100% !important;
+        max-width: 260px !important;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .magazine-current-details {
+        min-width: 0;
+    }
+
+    .magazine-current-details h2 {
+        margin-top: 0;
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    .magazine-current-details p,
+    .magazine-current-details li {
+        font-size: 16px;
+    }
+
+    .magazine-highlights {
+        padding-left: 22px;
+    }
+
+    .magazine-issue-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .magazine-card img {
+        max-width: 240px;
+        height: auto;
+    }
 }

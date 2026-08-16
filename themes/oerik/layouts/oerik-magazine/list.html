@@ -12,18 +12,15 @@
       <section class="magazine-current">
         <h2>Current Issue</h2>
 
-        <div class="magazine-current-grid"
-             style="display:grid; grid-template-columns:300px minmax(0,1fr); gap:36px; align-items:start; margin-top:18px;">
+        <div class="magazine-current-grid">
 
-          <a href="{{ .RelPermalink }}" class="magazine-cover-link"
-             style="display:block; width:300px;">
+          <a href="{{ .RelPermalink }}" class="magazine-cover-link">
             <img src="{{ strings.TrimPrefix "/" .Params.cover | relURL }}"
-                 alt="{{ .Title }} cover"
-                 style="display:block; width:300px; max-width:100%; height:auto;">
+                 alt="{{ .Title }} cover">
           </a>
 
           <div class="magazine-current-details">
-            <h2 style="margin-top:0;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             <p><strong>{{ .Params.issue_date }}</strong> · {{ .Params.greyhawk_date }}</p>
             <p>{{ .Params.summary }}</p>
 
@@ -38,11 +35,11 @@
 
             <p>
               <a class="read-more"
-					href="{{ .Params.view_url }}"
-					target="_blank"
-					rel="noopener">
-					View PDF →
-				</a>
+                 href="{{ .Params.view_url }}"
+                 target="_blank"
+                 rel="noopener">
+                View PDF →
+              </a>
             </p>
 
             {{ with .Params.download_url }}

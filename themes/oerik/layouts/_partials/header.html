@@ -1,4 +1,17 @@
 <header class="site-header">
   <h1>{{ site.Title }}</h1>
+
+  <input
+    type="checkbox"
+    id="site-menu-toggle"
+    class="site-menu-toggle"
+    aria-label="Toggle navigation menu"
+  >
+
+  <label for="site-menu-toggle" class="site-menu-button">
+    <span class="site-menu-button-label">MENU</span>
+    <span class="site-menu-icon" aria-hidden="true">☰</span>
+  </label>
+
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 </header>

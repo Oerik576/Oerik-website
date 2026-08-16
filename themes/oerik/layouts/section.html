@@ -1,49 +1,139 @@
 {{ define "main" }}
 
 <div class="standard-page">
+  <div class="dispatch-home-grid articles-three-column">
 
-  <article class="standard-page-content">
+    <aside class="dispatch-labels">
+      <h2>Labels</h2>
 
-    <h1>{{ .Title }}</h1>
+      <ul>
+        {{ range $term, $weightedPages := site.Taxonomies.tags }}
+          <li>
+            <a href="{{ $weightedPages.Page.RelPermalink }}">
+              {{ $weightedPages.Page.LinkTitle }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </aside>
 
-    <div class="taxonomy-article-list">
+    <main class="article-feed">
 
-      {{ range .Pages.ByDate.Reverse }}
+      <h1>{{ .Title }}</h1>
 
-        <article class="taxonomy-entry">
+      <details class="mobile-article-tags">
+        <summary>Article Tags</summary>
 
-          <h2>
-            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-          </h2>
+        <ul>
+          {{ range $term, $weightedPages := site.Taxonomies.tags }}
+            <li>
+              <a href="{{ $weightedPages.Page.RelPermalink }}">
+                {{ $weightedPages.Page.LinkTitle }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </details>
 
-          <div class="article-meta">
-            {{ .Date.Format "January 2, 2006" }}
+      <div class="taxonomy-article-list">
+
+        {{ range .Pages.ByDate.Reverse }}
+
+          <article class="article-preview taxonomy-entry">
+
+            <h2>
+              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            </h2>
+
+            <div class="article-meta">
+              {{ .Date.Format "January 2, 2006" }}
+            </div>
+
+            {{ with .Params.featured_image }}
+              <figure class="article-preview-image">
+                <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}">
+              </figure>
+            {{ end }}
+
+            {{ with .Params.summary }}
+              <p>{{ . }}</p>
+            {{ else }}
+              <p>{{ .Summary | plainify | truncate 220 }}</p>
+            {{ end }}
+
+            <a class="read-more" href="{{ .RelPermalink }}">
+              Read More →
+            </a>
+
+          </article>
+
+        {{ end }}
+
+      </div>
+
+    </main>
+
+    <aside class="dispatch-sidebar">
+
+      <section>
+        <h2>OERIK Magazine</h2>
+        <p>
+          <a href="{{ "oerik-magazine/" | relURL }}">
+            Explore the latest issue of OERIK Magazine.
+          </a>
+        </p>
+      </section>
+
+      <section>
+        <h2>Oerik Foundry</h2>
+        <p>Miniatures and resources for your tabletop.</p>
+      </section>
+
+      <section>
+        <h2>Categories</h2>
+        <ul>
+          {{ range $name, $taxonomy := site.Taxonomies.categories }}
+            {{ with site.GetPage (printf "/categories/%s" ($name | urlize)) }}
+              <li>
+                <a href="{{ .RelPermalink }}">{{ $name }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </section>
+
+      <section class="dispatch-archive">
+        <h2><a href="{{ "archive/" | relURL }}">Archive</a></h2>
+
+        {{ range (where site.RegularPages "Section" "articles").GroupByDate "2006" }}
+
+          <div class="archive-year">
+            <a href="{{ printf "archive/#year-%s" .Key | relURL }}">{{ .Key }}</a>
+            <span>({{ len .Pages }})</span>
           </div>
 
-          {{ with .Params.featured_image }}
-            <figure class="article-preview-image">
-              <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}">
-            </figure>
-          {{ end }}
+          <ul class="archive-months">
+            {{ range .Pages.GroupByDate "January" }}
 
-          {{ with .Params.summary }}
-            <p>{{ . }}</p>
-          {{ else }}
-            <p>{{ .Summary | plainify | truncate 220 }}</p>
-          {{ end }}
+              {{ $firstPage := index .Pages 0 }}
 
-          <a class="read-more" href="{{ .RelPermalink }}">
-            Read More →
-          </a>
+              <li>
+                <a href="{{ printf "archive/#%s" ($firstPage.Date.Format "2006-01") | relURL }}">
+                  {{ .Key }}
+                </a>
+                <span>({{ len .Pages }})</span>
+              </li>
 
-        </article>
+            {{ end }}
+          </ul>
 
-      {{ end }}
+        {{ end }}
 
-    </div>
+      </section>
 
-  </article>
+    </aside>
 
+  </div>
 </div>
 
 {{ end }}

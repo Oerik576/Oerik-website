@@ -36,6 +36,20 @@
 
 </aside>
 
+  <details class="mobile-article-tags">
+    <summary>Article Tags</summary>
+
+    <ul>
+      {{ range $term, $weightedPages := site.Taxonomies.tags }}
+        <li>
+          <a href="{{ $weightedPages.Page.RelPermalink }}">
+            {{ $weightedPages.Page.LinkTitle }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </details>
+
   <main class="article-feed">
 
     <h2>Latest Dispatches</h2>

@@ -2,7 +2,7 @@
 
 <div class="dispatch-hero">
   <img
-    src="/images/TheOerikDispatchMasthead.png"
+    src="{{ "images/TheOerikDispatchMasthead.png" | relURL }}"
     alt="The Oerik Dispatch"
     class="dispatch-masthead-image"
   >
@@ -40,7 +40,7 @@
 
     <h2>Latest Dispatches</h2>
 
-    {{ range site.RegularPages }}
+    {{ range where site.RegularPages "Section" "articles" }}
       <article class="article-preview">
 
         <h2>
@@ -82,7 +82,7 @@
   <h2>OERIK Magazine</h2>
 
   <p>
-    <a href="/oerik-magazine/">
+    <a href="{{ "oerik-magazine/" | relURL }}">
       Explore the latest issue of OERIK Magazine.
     </a>
   </p>
@@ -106,12 +106,12 @@
       </ul>
     </section>
 <section class="dispatch-archive">
-  <h2><a href="/archive/">Archive</a></h2>
+  <h2><a href="{{ "archive/" | relURL }}">Archive</a></h2>
 
 {{ range site.RegularPages.GroupByDate "2006" }}
 
   <div class="archive-year">
-    <a href="/archive/#year-{{ .Key }}">{{ .Key }}</a>
+    <a href="{{ printf "archive/#year-%s" .Key | relURL }}">{{ .Key }}</a>
     <span>({{ len .Pages }})</span>
   </div>
 
@@ -121,7 +121,7 @@
       {{ $firstPage := index .Pages 0 }}
 
       <li>
-        <a href="/archive/#{{ $firstPage.Date.Format "2006-01" }}">
+        <a href="{{ printf "archive/#%s" ($firstPage.Date.Format "2006-01") | relURL }}">
           {{ .Key }}
         </a>
         <span>({{ len .Pages }})</span>

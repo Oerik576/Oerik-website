@@ -22,7 +22,7 @@
 
           {{ with .Params.featured_image }}
             <figure class="article-preview-image">
-              <img src="{{ . }}" alt="{{ $.Title }}">
+              <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}">
             </figure>
           {{ end }}
 

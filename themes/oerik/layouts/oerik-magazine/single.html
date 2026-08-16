@@ -8,7 +8,7 @@
 
     <div class="magazine-issue-grid-single">
       <div>
-        <img class="magazine-issue-cover" src="{{ .Params.cover }}" alt="{{ .Title }} cover">
+        <img class="magazine-issue-cover" src="{{ strings.TrimPrefix "/" .Params.cover | relURL }}" alt="{{ .Title }} cover">
       </div>
 
       <div class="magazine-issue-details">

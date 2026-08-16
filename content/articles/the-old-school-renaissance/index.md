@@ -3,7 +3,7 @@ title: "The Old School Renaissance"
 subtitle: "Keeping the Torch Burning"
 author: "Roger E. Moerik"
 date: 2026-06-10
-draft: true
+draft: false
 layout: "dispatch"
 
 categories:

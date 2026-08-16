@@ -3,7 +3,7 @@ title: "Fifty Years of Adventure"
 subtitle: "From Original D&D to the Old School Renaissance"
 author: "Kam Tisk"
 date: 2026-06-03
-draft: true
+draft: false
 layout: "dispatch"
 
 categories:

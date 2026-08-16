@@ -3,7 +3,7 @@ title: "The Birth of Greyhawk"
 subtitle: "How Gary Gygax's Home Campaign Became Dungeons & Dragons First Fantasy Setting"
 author: "R. K. Zunt"
 date: 2026-06-16
-draft: true
+draft: false
 layout: "dispatch"
 
 categories:

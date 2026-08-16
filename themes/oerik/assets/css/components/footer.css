@@ -1,0 +1,19 @@
+.site-footer {
+    margin-top: 40px;
+    padding: 18px 24px;
+    border-top: 1px solid #8a4b10;
+    background: #ed913b;
+    color: #17120d;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.site-footer p {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}

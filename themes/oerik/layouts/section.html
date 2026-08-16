@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<div class="standard-page">
+
+  <article class="standard-page-content">
+
+    <h1>{{ .Title }}</h1>
+
+    <div class="taxonomy-article-list">
+
+      {{ range .Pages.ByDate.Reverse }}
+
+        <article class="taxonomy-entry">
+
+          <h2>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </h2>
+
+          <div class="article-meta">
+            {{ .Date.Format "January 2, 2006" }}
+          </div>
+
+          {{ with .Params.featured_image }}
+            <figure class="article-preview-image">
+              <img src="{{ . }}" alt="{{ $.Title }}">
+            </figure>
+          {{ end }}
+
+          {{ with .Params.summary }}
+            <p>{{ . }}</p>
+          {{ else }}
+            <p>{{ .Summary | plainify | truncate 220 }}</p>
+          {{ end }}
+
+          <a class="read-more" href="{{ .RelPermalink }}">
+            Read More →
+          </a>
+
+        </article>
+
+      {{ end }}
+
+    </div>
+
+  </article>
+
+</div>
+
+{{ end }}

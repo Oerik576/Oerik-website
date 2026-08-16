@@ -1,0 +1,681 @@
+@import "components/header.css";
+@import "components/footer.css";
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+body {
+    color: #222;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        to bottom,
+        #241039 0%,
+        #34124f 20%,
+        #5b2386 45%,
+        #4a1f73 70%,
+        #2b1245 100%
+    );
+
+    background-attachment: fixed;
+}
+
+a {
+    color: #8b4513;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   OERIK DISPATCH MASTHEAD
+   ========================================================= */
+
+.dispatch-hero {
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dispatch-masthead-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   HOMEPAGE MISSION STATEMENT
+   ========================================================= */
+
+.dispatch-mission {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 35px;
+    background: #f5f1e7;
+    border-top: 1px solid #c9bda5;
+    border-bottom: 1px solid #c9bda5;
+    box-sizing: border-box;
+}
+
+.dispatch-mission p {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+/* =========================================================
+   HOMEPAGE THREE-COLUMN LAYOUT
+   ========================================================= */
+
+.dispatch-home-grid {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr) 260px;
+    gap: 35px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 35px 40px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HOMEPAGE LABELS
+   ========================================================= */
+
+.dispatch-labels {
+    min-width: 0;
+    font-size: 11px;
+}
+
+.dispatch-labels h2 {
+    margin: 0 0 14px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #999;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+.dispatch-labels ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dispatch-labels li {
+    margin-bottom: 8px;
+}
+
+.dispatch-labels a {
+    color: #222;
+}
+
+.dispatch-labels a:hover {
+    color: #8b4513;
+}
+
+
+/* =========================================================
+   HOMEPAGE ARTICLE FEED
+   ========================================================= */
+
+.article-feed {
+    min-width: 0;
+}
+
+.article-feed > h2 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+}
+
+.article-preview {
+    padding: 0 0 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.article-preview h2 {
+    margin-bottom: 5px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+}
+
+.article-meta {
+    margin-bottom: 15px;
+    color: #777;
+    font-size: 14px;
+}
+
+.read-more {
+    font-weight: bold;
+}
+
+/* Homepage article preview artwork */
+
+.article-preview figure {
+    max-width: 100%;
+    margin: 18px 0;
+}
+
+.article-preview figure img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.article-preview .dispatch-article-hero {
+    width: 100%;
+    max-width: 100%;
+}
+
+.article-preview-image {
+    margin: 18px 0;
+}
+
+.article-preview-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* =========================================================
+   HOMEPAGE SIDEBAR
+   ========================================================= */
+
+.dispatch-sidebar {
+    border-left: 1px solid #ccc;
+    padding-left: 30px;
+}
+
+.dispatch-sidebar section {
+    margin-bottom: 40px;
+}
+
+.dispatch-sidebar h2 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #999;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.dispatch-sidebar ul {
+    padding-left: 20px;
+}
+
+
+/* =========================================================
+   STANDARD CONTENT PAGES
+   ========================================================= */
+
+.standard-page {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.standard-page-content {
+    max-width: 900px;
+    padding: 50px 60px 70px;
+    box-sizing: border-box;
+    color: #222;
+}
+
+.standard-page-content h1 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.standard-page-content h2 {
+    margin-top: 38px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #bbb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.standard-page-content p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.standard-page-content ul {
+    margin-bottom: 25px;
+}
+
+.standard-page-content li {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.standard-page-content a {
+    color: #8b4513;
+}
+
+.page-meta {
+    margin-bottom: 30px;
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   DISPATCH ARTICLE PAGE
+   ========================================================= */
+
+.dispatch-article-page {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.dispatch-article {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 55px 65px 80px;
+    box-sizing: border-box;
+}
+
+.dispatch-article-header {
+    margin-bottom: 45px;
+}
+
+.dispatch-article-header h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 44px;
+    line-height: 1.15;
+}
+
+.dispatch-article-subtitle {
+    margin: 10px 0 18px;
+    color: #555;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.dispatch-article-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #777;
+    font-size: 14px;
+}
+
+.dispatch-source-note {
+    margin-top: 22px;
+    padding: 11px 14px;
+    border-left: 4px solid #8b4513;
+    background: #f5f1e7;
+    color: #333;
+    font-size: 14px;
+    width: fit-content;
+    min-width: 420px;
+    box-sizing: border-box;
+}
+
+.dispatch-featured-image {
+    margin: 0 0 35px;
+}
+
+.dispatch-featured-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dispatch-article-body {
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.dispatch-article-body h2 {
+    margin-top: 42px;
+    margin-bottom: 14px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #bbb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.dispatch-article-body h3 {
+    margin-top: 30px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.dispatch-article-body blockquote {
+    margin: 28px 0;
+    padding: 14px 24px;
+    border-left: 4px solid #8b4513;
+    background: #f5f1e7;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.dispatch-article-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   DISPATCH ARTICLE ARTWORK
+   ========================================================= */
+
+.dispatch-article-body figure {
+    margin: 32px 0;
+}
+
+.dispatch-article-body figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dispatch-article-body figcaption {
+    margin-top: 8px;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.4;
+    font-style: italic;
+    text-align: center;
+}
+
+.dispatch-article-body figure.dispatch-article-hero {
+    width: 100%;
+    max-width: 100%;
+    margin: 28px 0 30px;
+}
+
+.dispatch-article-body figure.dispatch-article-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   INLINE DISPATCH SIDEBARS
+   ========================================================= */
+
+.dispatch-inline-sidebar {
+    float: right;
+    width: 300px;
+    margin: 10px 0 25px 30px;
+    padding: 20px 22px;
+    background: #f5f1e7;
+    border: 1px solid #c9bda5;
+    box-sizing: border-box;
+}
+
+.dispatch-inline-sidebar h3 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.dispatch-inline-sidebar ul {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+
+/* =========================================================
+   DISPATCH INFO BOX
+   ========================================================= */
+
+.dispatch-info-box {
+    margin: 32px 0;
+    padding: 22px 24px;
+    background: #f5f1e7;
+    border-left: 4px solid #8b4513;
+    box-sizing: border-box;
+}
+
+.dispatch-info-box h3 {
+    margin: 0 0 18px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+}
+
+.dispatch-info-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.dispatch-info-columns p {
+    margin-top: 0;
+}
+
+.dispatch-info-columns ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+}
+
+.dispatch-info-footer {
+    margin: 20px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid #c9bda5;
+    font-style: italic;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .dispatch-home-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 25px;
+    }
+
+    .dispatch-labels {
+        order: 2;
+    }
+
+    .article-feed {
+        order: 1;
+    }
+
+    .dispatch-sidebar {
+        order: 3;
+    }
+
+    .dispatch-mission {
+        padding: 16px 25px;
+    }
+
+    .dispatch-mission p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .dispatch-sidebar {
+        border-left: 0;
+        border-top: 1px solid #ccc;
+        padding-top: 25px;
+        padding-left: 0;
+    }
+
+    .dispatch-hero {
+        margin-top: 0;
+        padding: 25px;
+    }
+
+    .standard-page {
+        margin: 0;
+    }
+
+    .standard-page-content {
+        max-width: none;
+        padding: 30px 24px 50px;
+    }
+
+    .standard-page-content h1 {
+        font-size: 30px;
+    }
+
+    .dispatch-article-page {
+        margin: 0;
+    }
+
+    .dispatch-article {
+        max-width: none;
+        margin: 0;
+        padding: 35px 24px 60px;
+    }
+
+    .dispatch-article-header h1 {
+        font-size: 34px;
+    }
+
+    .dispatch-article-body {
+        font-size: 17px;
+    }
+
+    .dispatch-inline-sidebar {
+        float: none;
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .dispatch-info-columns {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .dispatch-source-note {
+        min-width: 0;
+        width: 100%;
+    }
+}
+/* =========================================================
+   ARTICLE LABELS / TAGS
+   ========================================================= */
+
+.dispatch-article-footer {
+    margin-top: 28px;
+    padding: 12px 16px;
+    background: #eeeeee;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.dispatch-article-labels {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+/* =========================================================
+   HOMEPAGE ARCHIVE
+   ========================================================= */
+
+.dispatch-archive {
+    margin-top: 35px;
+}
+
+.dispatch-archive h2 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #999;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.archive-year {
+    display: flex;
+    gap: 6px;
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.archive-year a {
+    color: #222;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+}
+
+.archive-year a:hover {
+    color: #8b4513;
+}
+/* ==================================================
+   OERIK MAGAZINE
+   ================================================== */
+
+.magazine-library {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 50px 60px 70px;
+    box-sizing: border-box;
+}
+
+.magazine-current {
+    margin-top: 36px;
+}
+
+.magazine-current-grid {
+    display: grid !important;
+    grid-template-columns: 300px 1fr;
+    gap: 36px;
+    align-items: start;
+    margin-top: 18px;
+}
+
+.magazine-current-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.magazine-current-details h2 {
+    margin-top: 0;
+}
+
+.magazine-current-details p {
+    line-height: 1.6;
+}
+
+.magazine-download {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 18px;
+    border: 1px solid #8b4513;
+    background: #ed913b;
+    color: #17120d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.magazine-download:hover {
+    background: #f3a24f;
+    color: #17120d;
+}

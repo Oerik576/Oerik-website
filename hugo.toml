@@ -1,0 +1,41 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "OERIK"
+theme = "oerik"
+
+[menus]
+
+[[menus.main]]
+name = 'Home'
+url = '/'
+weight = 5
+
+[[menus.main]]
+name = 'Articles'
+url = '/articles/'
+weight = 10
+
+[[menus.main]]
+name = 'Game Rules'
+url = '/game-rules/'
+weight = 20
+
+[[menus.main]]
+name = 'OERIK Magazine'
+url = '/oerik-magazine/'
+weight = 30
+
+[[menus.main]]
+name = 'Oerik Foundry'
+url = '/foundry/'
+weight = 40
+
+[[menus.main]]
+name = 'Greyhawk'
+url = '/greyhawk/'
+weight = 50
+
+[[menus.main]]
+name = 'About'
+url = '/about/'
+weight = 60

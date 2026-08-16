@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content magazine-library">
+
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ $issues := .Pages.ByTitle }}
+
+    {{ range where $issues "Params.current" true }}
+      <section class="magazine-current">
+        <h2>Current Issue</h2>
+
+        <div class="magazine-current-grid"
+             style="display:grid; grid-template-columns:300px minmax(0,1fr); gap:36px; align-items:start; margin-top:18px;">
+
+          <a href="{{ .RelPermalink }}" class="magazine-cover-link"
+             style="display:block; width:300px;">
+            <img src="{{ .Params.cover }}"
+                 alt="{{ .Title }} cover"
+                 style="display:block; width:300px; max-width:100%; height:auto;">
+          </a>
+
+          <div class="magazine-current-details">
+            <h2 style="margin-top:0;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p><strong>{{ .Params.issue_date }}</strong> · {{ .Params.greyhawk_date }}</p>
+            <p>{{ .Params.summary }}</p>
+
+            {{ with .Params.highlights }}
+              <h3>In This Issue</h3>
+              <ul class="magazine-highlights">
+                {{ range . }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            {{ end }}
+
+            <p>
+              <a class="read-more"
+					href="{{ .Params.view_url }}"
+					target="_blank"
+					rel="noopener">
+					View PDF →
+				</a>
+            </p>
+
+            {{ with .Params.download_url }}
+              <p>
+                <a class="magazine-download"
+                   href="{{ . }}"
+                   target="_blank"
+                   rel="noopener">
+                  Download Free PDF
+                </a>
+              </p>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    <section class="magazine-past">
+      <h2>Past Issues</h2>
+
+      <div class="magazine-issue-grid">
+        {{ range where $issues "Params.current" "ne" true }}
+          <article class="magazine-card">
+            <a href="{{ .RelPermalink }}">
+              <img src="{{ .Params.cover }}" alt="{{ .Title }} cover">
+            </a>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Params.issue_date }}</p>
+            <p>{{ .Params.summary }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+
+  </article>
+</div>
+
+{{ end }}

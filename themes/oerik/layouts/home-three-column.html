@@ -1,0 +1,108 @@
+{{ define "main" }}
+
+<div class="dispatch-hero">
+  <img
+    src="/images/TheOerikDispatchMasthead.png"
+    alt="The Oerik Dispatch"
+    class="dispatch-masthead-image"
+  >
+</div>
+
+<section class="dispatch-mission">
+  <p>
+    The Oerik Dispatch is dedicated to exploring the World of Greyhawk as it stands in CY 576
+    and preserving the spirit of old-school fantasy gaming. Our focus is on playing in Greyhawk
+    using Adventures Dark &amp; Deep, with useful articles, adventures, resources, history, and
+    inspiration for players and referees who still believe the greatest stories begin around
+    the gaming table.
+  </p>
+</section>
+
+<div class="dispatch-home-grid">
+
+  <aside class="dispatch-labels">
+
+    <h2>Labels</h2>
+
+    <ul>
+      {{ range $name, $taxonomy := site.Taxonomies.tags }}
+        {{ with site.GetPage (printf "/tags/%s" ($name | urlize)) }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ $name }}</a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+
+  </aside>
+
+  <main class="article-feed">
+
+    <h2>Latest Dispatches</h2>
+
+    {{ range site.RegularPages }}
+      <article class="article-preview">
+
+        <h2>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </h2>
+
+        <div class="article-meta">
+          {{ .Date.Format "January 2, 2006" }}
+        </div>
+
+        <div class="article-summary">
+
+          {{ with .Params.featured_image }}
+            <figure class="article-preview-image">
+              <img src="{{ . }}" alt="{{ $.Title }}">
+            </figure>
+          {{ end }}
+
+          {{ with .Params.summary }}
+            <p>{{ . }}</p>
+          {{ else }}
+            <p>{{ .Summary | plainify | truncate 220 }}</p>
+          {{ end }}
+
+        </div>
+
+        <a class="read-more" href="{{ .RelPermalink }}">
+          Read More →
+        </a>
+
+      </article>
+    {{ end }}
+
+  </main>
+
+  <aside class="dispatch-sidebar">
+
+    <section>
+      <h2>OERIK Magazine</h2>
+      <p>Explore the latest issue of OERIK Magazine.</p>
+    </section>
+
+    <section>
+      <h2>Oerik Foundry</h2>
+      <p>Miniatures and resources for your tabletop.</p>
+    </section>
+
+    <section>
+      <h2>Categories</h2>
+      <ul>
+        {{ range $name, $taxonomy := site.Taxonomies.categories }}
+          {{ with site.GetPage (printf "/categories/%s" ($name | urlize)) }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ $name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </section>
+
+  </aside>
+
+</div>
+
+{{ end }}

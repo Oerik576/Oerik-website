@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+<div class="dispatch-article-page">
+
+  <article class="dispatch-article">
+
+    <header class="dispatch-article-header">
+
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Params.subtitle }}
+        <p class="dispatch-article-subtitle">{{ . }}</p>
+      {{ end }}
+
+      <div class="dispatch-article-meta">
+
+        {{ with .Params.author }}
+          <span>by {{ . }}</span>
+        {{ end }}
+
+        {{ if .Date }}
+          <span>{{ .Date.Format "January 2, 2006" }}</span>
+        {{ end }}
+
+      </div>
+
+      {{ with .Params.source_issue }}
+        <div class="dispatch-source-note">
+          Originally published in {{ . }}.
+        </div>
+      {{ end }}
+
+    </header>
+
+    {{ with .Params.featured_image }}
+      <figure class="dispatch-featured-image">
+        <img src="{{ . }}" alt="{{ $.Title }}">
+      </figure>
+    {{ end }}
+
+    <div class="dispatch-article-body">
+      {{ .Content }}
+    </div>
+
+
+    {{ with .GetTerms "tags" }}
+      <footer class="dispatch-article-footer">
+        <p class="dispatch-article-labels">
+          <strong>Labels:</strong>
+          {{ range $index, $term := . }}
+            {{ if $index }}, {{ end }}
+            <a href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a>
+          {{ end }}
+        </p>
+      </footer>
+    {{ end }}
+
+  </article>
+
+</div>
+
+{{ end }}

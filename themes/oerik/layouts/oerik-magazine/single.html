@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content magazine-issue-page">
+
+    <h1>{{ .Title }}</h1>
+    <p class="article-meta">{{ .Params.issue_date }} · {{ .Params.greyhawk_date }}</p>
+
+    <div class="magazine-issue-grid-single">
+      <div>
+        <img class="magazine-issue-cover" src="{{ .Params.cover }}" alt="{{ .Title }} cover">
+      </div>
+
+      <div class="magazine-issue-details">
+        {{ .Content }}
+
+        <div class="magazine-issue-actions">
+          {{ with .Params.view_url }}
+            <a class="magazine-download" href="{{ . }}" target="_blank" rel="noopener">View PDF</a>
+          {{ end }}
+
+          {{ with .Params.download_url }}
+            <a class="magazine-download" href="{{ . }}" target="_blank" rel="noopener">Download Free PDF</a>
+          {{ else }}
+            <p><em>Download link will be added here.</em></p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+  </article>
+</div>
+
+{{ end }}

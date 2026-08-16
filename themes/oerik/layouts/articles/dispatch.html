@@ -33,10 +33,10 @@
     </header>
 
     {{ with .Params.featured_image }}
-      <figure class="dispatch-featured-image">
-        <img src="{{ . }}" alt="{{ $.Title }}">
-      </figure>
-    {{ end }}
+  <figure class="dispatch-featured-image">
+    <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}">
+  </figure>
+{{ end }}
 
     <div class="dispatch-article-body">
       {{ .Content }}

@@ -17,7 +17,7 @@
 
           <a href="{{ .RelPermalink }}" class="magazine-cover-link"
              style="display:block; width:300px;">
-            <img src="{{ .Params.cover }}"
+            <img src="{{ strings.TrimPrefix "/" .Params.cover | relURL }}"
                  alt="{{ .Title }} cover"
                  style="display:block; width:300px; max-width:100%; height:auto;">
           </a>
@@ -67,7 +67,7 @@
         {{ range where $issues "Params.current" "ne" true }}
           <article class="magazine-card">
             <a href="{{ .RelPermalink }}">
-              <img src="{{ .Params.cover }}" alt="{{ .Title }} cover">
+              <img src="{{ strings.TrimPrefix "/" .Params.cover | relURL }}" alt="{{ .Title }} cover">
             </a>
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             <p>{{ .Params.issue_date }}</p>

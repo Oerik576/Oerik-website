@@ -1,6 +1,7 @@
 ---
 title: "Issue 001 — The Gateway Issue"
 type: "oerik-magazine"
+date: 2026-08-16
 issue_number: "001"
 volume: "I"
 issue_date: "September 2026"

@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content">
+
+    <div class="under-construction-page"
+         style="max-width:720px; margin:20px auto 40px; text-align:center;">
+
+      <div aria-hidden="true"
+           style="font-family:Georgia, 'Times New Roman', serif; font-size:58px; line-height:1; margin-bottom:18px;">
+        ⚒
+      </div>
+
+      <h1 style="margin-bottom:18px;">{{ .Title }}</h1>
+
+      <h2 style="margin-top:0; border-bottom:0; padding-bottom:0;">
+        Under Construction
+      </h2>
+
+      <p>
+        This section of The Oerik Dispatch is still being prepared.
+      </p>
+
+      <p>
+        Check back soon for new material from the World of Greyhawk,
+        OERIK Magazine, and Oerik Foundry.
+      </p>
+
+      <p style="margin-top:32px;">
+        <a class="read-more" href="{{ "" | relURL }}">← Return to The Oerik Dispatch</a>
+      </p>
+
+    </div>
+
+  </article>
+</div>
+
+{{ end }}

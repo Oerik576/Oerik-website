@@ -815,3 +815,45 @@ a:hover {
         height: auto;
     }
 }
+
+/* =========================================================
+   FOLLOW THE DISPATCH
+   ========================================================= */
+
+.dispatch-follow p {
+    margin-bottom: 12px;
+}
+
+.dispatch-subscribe-form {
+    margin: 10px 0;
+}
+
+.dispatch-subscribe-form input[type="email"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 9px;
+    margin-bottom: 7px;
+    border: 1px solid #aaa;
+    background: #fff;
+    font: inherit;
+}
+
+.dispatch-subscribe-form button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #8b4513;
+    background: #ed913b;
+    color: #17120d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dispatch-subscribe-form button:hover {
+    background: #f3a24f;
+}
+
+.dispatch-rss-link {
+    font-size: 0.9em;
+}

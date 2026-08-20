@@ -16,6 +16,8 @@ echo.
 echo Creating commit...
 git commit -m "Update Oerik website"
 
+git pull --rebase origin main
+
 echo.
 echo Pushing to GitHub...
 git push origin main

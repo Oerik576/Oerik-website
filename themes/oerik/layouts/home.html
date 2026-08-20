@@ -92,7 +92,34 @@
 
   <aside class="dispatch-sidebar">
 
-    <section>
+    <section class="dispatch-follow">
+  <h2>Follow The Dispatch</h2>
+  <p>Get new dispatches by email.</p>
+
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/dm_rx_mouton"
+    method="post"
+    class="dispatch-subscribe-form"
+	target="_blank"
+  >
+    <input
+      type="email"
+      name="email"
+      id="bd-email"
+      placeholder="Your email address"
+      aria-label="Email address"
+      required
+    >
+
+    <button type="submit">Subscribe</button>
+  </form>
+
+  <p class="dispatch-rss-link">
+    Prefer RSS? <a href="{{ "index.xml" | relURL }}">Follow the feed.</a>
+  </p>
+</section>
+
+<section>
   <h2>OERIK Magazine</h2>
 
   <p>

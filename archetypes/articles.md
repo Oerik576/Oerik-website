@@ -4,6 +4,10 @@ subtitle: ""
 author: ""
 date: {{ .Date }}
 draft: true
+layout: "dispatch"
+
+summary:
+  - ""
 
 categories:
   - ""

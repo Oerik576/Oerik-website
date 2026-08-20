@@ -9,6 +9,6 @@ echo   STARTING OERIK HUGO SERVER
 echo ========================================
 echo.
 
-hugo server -D
+hugo server --baseURL http://localhost:1313/ --appendPort=false
 
 pause

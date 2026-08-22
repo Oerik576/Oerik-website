@@ -1,37 +1,71 @@
 {{ define "main" }}
 
 <div class="standard-page">
-  <article class="standard-page-content">
+  <article class="standard-page-content game-rules-page">
 
-    <div class="game-rules-under-construction"
-         style="max-width:760px; margin:10px auto 30px; text-align:center;">
+    <header class="game-rules-header">
+
+      <h1>Campaign Game Rules Using</h1>
 
       <img
         src="{{ "images/game-rules/ADAD-Logo.png" | relURL }}"
-        alt="Adventure Dark and Deep"
-        style="display:block; width:100%; max-width:700px; height:auto; margin:0 auto 28px;"
+        alt="Adventures Dark and Deep"
+        class="game-rules-header-logo"
       >
 
-      <h1 style="margin-bottom:14px;">Page</h1>
+      <div class="game-rules-introduction">
+        {{ .Content }}
+      </div>
 
-      <h2 style="margin-top:0; border-bottom:0; padding-bottom:0;">
-        Under Construction
-      </h2>
+    </header>
 
+    <section class="game-rules-option">
+      <h2>Core Rulebooks</h2>
       <p>
-        This section of The Oerik Dispatch is still being prepared.
+        Explore the core rulebooks for <strong>Adventures Dark &amp; Deep</strong>,
+        including an overview of each volume, what it contains, and links to
+        BRW Games products on DriveThruRPG.
       </p>
+      <p><a class="read-more" href="{{ "game-rules/core-rulebooks/" | relURL }}">Explore Core Rulebooks →</a></p>
+    </section>
 
+    <section class="game-rules-option">
+      <h2>Rules at the Table</h2>
       <p>
-        Check back soon for information on Adventure Dark and Deep OSR rules
-		by Joseph Bloch.
+        Practical explanations of Adventures Dark &amp; Deep rules and how they
+        work during play, with a focus on the situations that actually arise
+        around the gaming table.
       </p>
+      <p><a class="read-more" href="{{ "game-rules/rules-at-the-table/" | relURL }}">Explore Rules at the Table →</a></p>
+    </section>
 
-      <p style="margin-top:32px;">
-        <a class="read-more" href="{{ "" | relURL }}">← Return to The Oerik Dispatch</a>
+    <section class="game-rules-option">
+      <h2>Character Creation</h2>
+      <p>
+        A guide to creating an Adventures Dark &amp; Deep character, from ability
+        scores, race and class through equipment and the other choices needed
+        to get a new character ready for play.
       </p>
+      <p><a class="read-more" href="{{ "game-rules/character-creation/" | relURL }}">Create a Character →</a></p>
+    </section>
 
-    </div>
+    <section class="game-rules-option">
+      <h2>Player &amp; Referee Resources</h2>
+      <p>
+        Character sheets, reference material, quick-reference aids, screens,
+        tables, and other useful resources for players and referees.
+      </p>
+      <p><a class="read-more" href="{{ "game-rules/resources/" | relURL }}">View Resources →</a></p>
+    </section>
+
+    <section class="game-rules-option">
+      <h2>House Rules &amp; Rulings</h2>
+      <p>
+        Campaign-specific rulings, interpretations, and house rules used at
+        DM RX's table, kept separate from the published Adventures Dark &amp; Deep rules.
+      </p>
+      <p><a class="read-more" href="{{ "game-rules/house-rules/" | relURL }}">View House Rules →</a></p>
+    </section>
 
   </article>
 </div>

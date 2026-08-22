@@ -1,0 +1,121 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaign-page">
+
+    <header class="campaign-header">
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Params.banner_image }}
+        <figure class="campaign-banner">
+          <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}">
+        </figure>
+      {{ end }}
+
+      <div class="campaign-introduction">
+        {{ .Content }}
+      </div>
+    </header>
+
+    {{ $party := site.GetPage "/campaigns/storm-tide/party" }}
+    <section class="campaign-section">
+      <h2>The Party</h2>
+      {{ with $party }}
+        {{ if .Pages }}
+          <div class="campaign-entry-list">
+            {{ range .Pages.ByTitle }}
+              <article class="campaign-entry">
+                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+              </article>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p>
+  Meet the adventurers at the heart of the <strong>Storm Tide Campaign</strong>.
+  The Party includes profiles of the player characters, their backgrounds,
+  abilities, and the companions who have joined them during their adventures.
+</p>
+        {{ end }}
+        <p><a class="read-more" href="{{ .RelPermalink }}">View The Party →</a></p>
+      {{ end }}
+    </section>
+
+    {{ $journal := site.GetPage "/campaigns/storm-tide/journal" }}
+    <section class="campaign-section">
+      <h2>Campaign Journal</h2>
+      {{ with $journal }}
+        {{ if .Pages }}
+          <div class="campaign-entry-list">
+            {{ range first 5 .Pages.ByDate.Reverse }}
+              <article class="campaign-entry">
+                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+                {{ if .Date }}<div class="article-meta">{{ .Date.Format "January 2, 2006" }}</div>{{ end }}
+                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+              </article>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p>
+  Follow the continuing story of the <strong>Storm Tide Campaign</strong>
+  through session reports, major discoveries, memorable encounters, and the
+  choices that have shaped the party’s journey across Seaton’s Cove and beyond.
+</p>
+        {{ end }}
+        <p><a class="read-more" href="{{ .RelPermalink }}">View Campaign Journal →</a></p>
+      {{ end }}
+    </section>
+
+    {{ $adventures := site.GetPage "/campaigns/storm-tide/adventures" }}
+    <section class="campaign-section">
+      <h2>Adventures</h2>
+      {{ with $adventures }}
+        {{ if .Pages }}
+          <div class="campaign-entry-list">
+            {{ range .Pages.ByTitle }}
+              <article class="campaign-entry">
+                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+              </article>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p>
+  Explore the adventures that make up the <strong>Storm Tide Campaign</strong>,
+  from local mysteries and dangerous expeditions to larger threats unfolding
+  across the southern coast of Keoland and the wider world of Greyhawk.
+</p>
+        {{ end }}
+        <p><a class="read-more" href="{{ .RelPermalink }}">View Adventures →</a></p>
+      {{ end }}
+    </section>
+
+    {{ $resources := site.GetPage "/campaigns/storm-tide/resources" }}
+    <section class="campaign-section">
+      <h2>Campaign Resources</h2>
+      {{ with $resources }}
+        {{ if .Pages }}
+          <div class="campaign-entry-list">
+            {{ range .Pages.ByTitle }}
+              <article class="campaign-entry">
+                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+              </article>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p>
+  Find player-facing maps, handouts, setting guides, reference material, and
+  other resources created for the <strong>Storm Tide Campaign</strong>. This
+  section gathers the information players may need before, during, and between
+  sessions.
+</p>
+        {{ end }}
+        <p><a class="read-more" href="{{ .RelPermalink }}">View Campaign Resources →</a></p>
+      {{ end }}
+    </section>
+
+  </article>
+</div>
+
+{{ end }}

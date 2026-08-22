@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaigns-library">
+
+    <header class="campaigns-header">
+      <h1>Campaigns</h1>
+      <p>
+        Follow ongoing campaigns and standalone adventures from The Oerik Dispatch.
+        Each campaign has its own home for the party, session journals, adventures,
+        and player-facing resources.
+      </p>
+    </header>
+
+    <section class="campaign-listing">
+      <h2>The Storm Tide Campaign</h2>
+      <p>
+        A Greyhawk campaign beginning in 576 CY along the southern coast of Keoland,
+        centered on Seaton’s Cove and the dangers, mysteries, and adventures that
+        reach outward from the Viscounty of Salinmoor.
+      </p>
+      <p><a class="read-more" href="{{ "campaigns/storm-tide/" | relURL }}">Explore Campaign →</a></p>
+    </section>
+
+    <section class="campaign-listing">
+      <h2>The Marches Campaign</h2>
+      <p>
+        The Marches Campaign section is being prepared. Campaign information,
+        characters, journals, adventures, and resources will be added here.
+      </p>
+      <p><a class="read-more" href="{{ "campaigns/marches/" | relURL }}">Explore Campaign →</a></p>
+    </section>
+
+    <section class="campaign-listing">
+      <h2>One-Shots</h2>
+
+      <figure class="campaign-listing-image">
+        <img src="{{ "images/campaigns/Campaign-One-Shot-Hero.png" | relURL }}" alt="One-Shots">
+      </figure>
+
+      <p>
+        Standalone DM'd adventures that are not part of an ongoing campaign.
+        One-Shots collects self-contained adventures that can be played on their
+        own without requiring the history of a larger campaign.
+      </p>
+      <p><a class="read-more" href="{{ "campaigns/one-shots/" | relURL }}">Explore One-Shots →</a></p>
+    </section>
+
+  </article>
+</div>
+
+{{ end }}

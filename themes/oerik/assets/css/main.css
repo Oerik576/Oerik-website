@@ -33,7 +33,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
 /* =========================================================
    OERIK DISPATCH MASTHEAD
    ========================================================= */
@@ -75,7 +74,6 @@ a:hover {
     text-align: center;
 }
 
-
 /* =========================================================
    HOMEPAGE THREE-COLUMN LAYOUT
    ========================================================= */
@@ -90,7 +88,6 @@ a:hover {
     background: #fff;
     box-sizing: border-box;
 }
-
 
 /* =========================================================
    HOMEPAGE LABELS
@@ -126,7 +123,6 @@ a:hover {
 .dispatch-labels a:hover {
     color: #8b4513;
 }
-
 
 /* =========================================================
    HOMEPAGE ARTICLE FEED
@@ -217,12 +213,106 @@ a:hover {
     padding-left: 20px;
 }
 
+/* =========================================================
+   HOMEPAGE ARCHIVE
+   ========================================================= */
+
+.dispatch-archive {
+    margin-top: 35px;
+}
+
+.dispatch-archive h2 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #999;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.archive-year {
+    display: flex;
+    gap: 6px;
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.archive-year a {
+    color: #222;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+}
+
+.archive-year a:hover {
+    color: #8b4513;
+}
+
+/* =========================================================
+   FOLLOW THE DISPATCH
+   ========================================================= */
+
+.dispatch-follow p {
+    margin-bottom: 12px;
+}
+
+.dispatch-subscribe-form {
+    margin: 10px 0;
+}
+
+.dispatch-subscribe-form input[type="email"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 9px;
+    margin-bottom: 7px;
+    border: 1px solid #aaa;
+    background: #fff;
+    font: inherit;
+}
+
+.dispatch-subscribe-form button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #8b4513;
+    background: #ed913b;
+    color: #17120d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dispatch-subscribe-form button:hover {
+    background: #f3a24f;
+}
+
+.dispatch-rss-link {
+    font-size: 0.9em;
+}
+
+/* =========================================================
+   MOBILE ARTICLE TAGS CONTROL
+   ========================================================= */
+
+.mobile-article-tags {
+    display: none;
+}
+
+.mobile-article-tags summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.mobile-article-tags summary::-webkit-details-marker {
+    display: none;
+}
 
 /* =========================================================
    STANDARD CONTENT PAGES
    ========================================================= */
 
+/* Interior pages use the full white content area.
+   Home and Articles retain their sidebar layouts. */
+
 .standard-page {
+    width: calc(100% - 60px);
     max-width: 1200px;
     margin: 30px auto;
     background: #fff;
@@ -230,7 +320,8 @@ a:hover {
 }
 
 .standard-page-content {
-    max-width: 900px;
+    width: 100%;
+    max-width: none;
     padding: 50px 60px 70px;
     box-sizing: border-box;
     color: #222;
@@ -277,7 +368,6 @@ a:hover {
     font-size: 14px;
 }
 
-
 /* =========================================================
    DISPATCH ARTICLE PAGE
    ========================================================= */
@@ -290,8 +380,9 @@ a:hover {
 }
 
 .dispatch-article {
-    max-width: 1000px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: none;
+    margin: 0;
     padding: 55px 65px 80px;
     box-sizing: border-box;
 }
@@ -381,7 +472,6 @@ a:hover {
     height: auto;
 }
 
-
 /* =========================================================
    DISPATCH ARTICLE ARTWORK
    ========================================================= */
@@ -417,7 +507,6 @@ a:hover {
     height: auto;
 }
 
-
 /* =========================================================
    INLINE DISPATCH SIDEBARS
    ========================================================= */
@@ -442,7 +531,6 @@ a:hover {
     margin-top: 8px;
     padding-left: 20px;
 }
-
 
 /* =========================================================
    DISPATCH INFO BOX
@@ -484,23 +572,182 @@ a:hover {
     font-style: italic;
 }
 
+/* =========================================================
+   ARTICLE LABELS / TAGS
+   ========================================================= */
+
+.dispatch-article-footer {
+    margin-top: 28px;
+    padding: 12px 16px;
+    background: #eeeeee;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.dispatch-article-labels {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* ==================================================
+   OERIK MAGAZINE
+   ================================================== */
+
+.magazine-library {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 50px 60px 70px;
+    box-sizing: border-box;
+}
+
+.magazine-current {
+    margin-top: 36px;
+}
+
+.magazine-current-grid {
+    display: grid !important;
+    grid-template-columns: 300px 1fr;
+    gap: 36px;
+    align-items: start;
+    margin-top: 18px;
+}
+
+.magazine-current-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.magazine-current-details h2 {
+    margin-top: 0;
+}
+
+.magazine-current-details p {
+    line-height: 1.6;
+}
+
+.magazine-download {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 18px;
+    border: 1px solid #8b4513;
+    background: #ed913b;
+    color: #17120d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.magazine-download:hover {
+    background: #f3a24f;
+    color: #17120d;
+}
+
+/* ==================================================
+   OERIK MAGAZINE - MOBILE
+   ================================================== */
+
+@media (max-width: 800px) {
+
+    .magazine-library {
+        width: 100%;
+        padding: 30px 24px 50px;
+    }
+
+    .magazine-current {
+        margin-top: 28px;
+    }
+
+    .magazine-current-grid {
+        grid-template-columns: 1fr !important;
+        gap: 22px !important;
+        margin-top: 16px !important;
+    }
+
+    .magazine-cover-link {
+        width: 100% !important;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .magazine-current-grid img {
+        width: 100% !important;
+        max-width: 260px !important;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .magazine-current-details {
+        min-width: 0;
+    }
+
+    .magazine-current-details h2 {
+        margin-top: 0;
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    .magazine-current-details p,
+    .magazine-current-details li {
+        font-size: 16px;
+    }
+
+    .magazine-highlights {
+        padding-left: 22px;
+    }
+
+    .magazine-issue-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .magazine-card img {
+        max-width: 240px;
+        height: auto;
+    }
+}
 
 
 /* =========================================================
-   MOBILE ARTICLE TAGS CONTROL
+   CAMPAIGN PAGES
    ========================================================= */
 
-.mobile-article-tags {
-    display: none;
+.campaign-page {
+    width: 100%;
+    max-width: none;
 }
 
-.mobile-article-tags summary {
-    cursor: pointer;
-    list-style: none;
+.campaign-header {
+    margin-bottom: 34px;
 }
 
-.mobile-article-tags summary::-webkit-details-marker {
-    display: none;
+.campaign-banner {
+    margin: 22px 0;
+}
+
+.campaign-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.campaign-introduction {
+    font-size: 1.05em;
+}
+
+.campaign-section {
+    margin-top: 34px;
+    padding-top: 6px;
+    border-top: 1px solid #ccc;
+}
+
+.campaign-entry {
+    margin-bottom: 22px;
+}
+
+.campaign-entry h3 {
+    margin-bottom: 4px;
 }
 
 /* =========================================================
@@ -649,211 +896,223 @@ a:hover {
         min-width: 0;
         width: 100%;
     }
-}
-/* =========================================================
-   ARTICLE LABELS / TAGS
-   ========================================================= */
 
-.dispatch-article-footer {
-    margin-top: 28px;
-    padding: 12px 16px;
-    background: #eeeeee;
-    border-top: 1px solid #d0d0d0;
-    border-bottom: 1px solid #d0d0d0;
+
+    .campaign-page {
+        max-width: none;
+    }
+
+    .campaign-section {
+        margin-top: 28px;
+    }
 }
 
-.dispatch-article-labels {
-    margin: 0;
-    font-size: 14px;
-    line-height: 1.5;
-}
-/* =========================================================
-   HOMEPAGE ARCHIVE
-   ========================================================= */
-
-.dispatch-archive {
-    margin-top: 35px;
-}
-
-.dispatch-archive h2 {
-    padding-bottom: 8px;
-    border-bottom: 2px solid #999;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 22px;
-}
-
-.archive-year {
-    display: flex;
-    gap: 6px;
-    margin: 8px 0;
-    font-size: 15px;
-}
-
-.archive-year a {
-    color: #222;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 18px;
-}
-
-.archive-year a:hover {
-    color: #8b4513;
-}
-/* ==================================================
-   OERIK MAGAZINE
-   ================================================== */
-
-.magazine-library {
-    max-width: none;
+/* CAMPAIGN CHARACTER PAGES */
+.campaign-character-page {
     width: 100%;
-    margin: 0;
-    padding: 50px 60px 70px;
+    max-width: none;
+}
+.campaign-character-header { margin-bottom: 26px; }
+
+.campaign-character-overview {
+    display: grid;
+    grid-template-columns: minmax(260px, 380px) 1fr;
+    gap: 36px;
+    align-items: start;
+    margin-bottom: 42px;
+}
+
+.campaign-character-portrait { margin: 0; }
+.campaign-character-portrait img { display:block; width:100%; height:auto; }
+
+.campaign-character-info {
+    padding: 22px 24px;
+    background: #f5f1e7;
+    border: 1px solid #c9bda5;
     box-sizing: border-box;
 }
 
-.magazine-current {
-    margin-top: 36px;
+.campaign-character-info h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #c9bda5;
 }
 
-.magazine-current-grid {
-    display: grid !important;
-    grid-template-columns: 300px 1fr;
-    gap: 36px;
-    align-items: start;
-    margin-top: 18px;
+.campaign-character-info dl { margin: 0; }
+
+.campaign-character-info dl > div {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 14px;
+    padding: 7px 0;
+    border-bottom: 1px solid #ddd3bf;
 }
 
-.magazine-current-grid img {
+.campaign-character-info dl > div:last-child { border-bottom: 0; }
+.campaign-character-info dt { font-weight: bold; }
+.campaign-character-info dd { margin: 0; }
+
+.campaign-character-section { margin-top: 36px; }
+.campaign-character-body { font-size: 17px; line-height: 1.7; }
+.campaign-character-back { margin-top: 40px; }
+
+@media (max-width: 800px) {
+    .campaign-character-page { max-width: none; }
+    .campaign-character-overview { grid-template-columns: 1fr; gap: 24px; }
+    .campaign-character-portrait { max-width: 360px; margin: 0 auto; }
+    .campaign-character-info dl > div { grid-template-columns: 105px 1fr; }
+}
+
+
+/* =========================================================
+   GAME RULES
+   ========================================================= */
+
+.game-rules-page,
+.core-rulebooks-page {
+    width: 100%;
+    max-width: none;
+}
+
+.game-rules-header,
+.core-rulebooks-header {
+    margin-bottom: 34px;
+}
+
+.game-rules-header {
+    text-align: left;
+}
+
+.game-rules-header-logo {
     display: block;
     width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 28px;
+}
+
+.game-rules-introduction {
+    text-align: left;
+}
+
+.game-rules-option {
+    margin-top: 34px;
+    padding-top: 8px;
+    border-top: 1px solid #ccc;
+}
+
+
+.game-rules-back {
+    margin-top: 28px;
+}
+
+/* =========================================================
+   CORE RULEBOOK LIST
+   ========================================================= */
+
+.rulebook-entry {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 26px;
+    align-items: start;
+    padding: 28px 0;
+    border-top: 1px solid #ccc;
+}
+
+.rulebook-cover {
+    margin: 0;
+}
+
+.rulebook-cover img {
+    display: block;
+    width: 130px;
+    max-width: 100%;
     height: auto;
 }
 
-.magazine-current-details h2 {
-    margin-top: 0;
-}
-
-.magazine-current-details p {
-    line-height: 1.6;
-}
-
-.magazine-download {
-    display: inline-block;
-    margin-top: 14px;
-    padding: 10px 18px;
-    border: 1px solid #8b4513;
-    background: #ed913b;
-    color: #17120d;
+.rulebook-description h2,
+.rulebook-description h3 {
+    margin: 0 0 10px;
     font-family: Georgia, "Times New Roman", serif;
-    font-weight: bold;
-    text-decoration: none;
+    line-height: 1.2;
 }
 
-.magazine-download:hover {
-    background: #f3a24f;
-    color: #17120d;
+.rulebook-description p {
+    margin: 0 0 14px;
 }
 
-/* ==================================================
-   OERIK MAGAZINE - MOBILE
-   ================================================== */
+.rulebook-description .read-more {
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.player-resources-section {
+    margin-top: 30px;
+    padding-top: 18px;
+    border-top: 2px solid #999;
+}
+
+.player-resources-section > h2 {
+    margin-bottom: 0;
+}
+
+/* Mobile */
 
 @media (max-width: 800px) {
 
-    .magazine-library {
+    .rulebook-entry {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .rulebook-cover {
+        max-width: 160px;
+        margin: 0 auto;
+    }
+
+    .rulebook-cover img {
         width: 100%;
-        padding: 30px 24px 50px;
-    }
-
-    .magazine-current {
-        margin-top: 28px;
-    }
-
-    .magazine-current-grid {
-        grid-template-columns: 1fr !important;
-        gap: 22px !important;
-        margin-top: 16px !important;
-    }
-
-    .magazine-cover-link {
-        width: 100% !important;
-        max-width: 260px;
-        margin: 0 auto;
-    }
-
-    .magazine-current-grid img {
-        width: 100% !important;
-        max-width: 260px !important;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .magazine-current-details {
-        min-width: 0;
-    }
-
-    .magazine-current-details h2 {
-        margin-top: 0;
-        font-size: 26px;
-        line-height: 1.2;
-    }
-
-    .magazine-current-details p,
-    .magazine-current-details li {
-        font-size: 16px;
-    }
-
-    .magazine-highlights {
-        padding-left: 22px;
-    }
-
-    .magazine-issue-grid {
-        grid-template-columns: 1fr !important;
-    }
-
-    .magazine-card img {
-        max-width: 240px;
-        height: auto;
     }
 }
 
 /* =========================================================
-   FOLLOW THE DISPATCH
+   CAMPAIGNS LANDING PAGE
    ========================================================= */
 
-.dispatch-follow p {
-    margin-bottom: 12px;
-}
-
-.dispatch-subscribe-form {
-    margin: 10px 0;
-}
-
-.dispatch-subscribe-form input[type="email"] {
-    box-sizing: border-box;
+.campaigns-library {
     width: 100%;
-    padding: 8px 9px;
-    margin-bottom: 7px;
-    border: 1px solid #aaa;
-    background: #fff;
-    font: inherit;
+    max-width: none;
 }
 
-.dispatch-subscribe-form button {
-    box-sizing: border-box;
+.campaigns-header {
+    margin-bottom: 34px;
+}
+
+.campaign-listing {
+    margin-top: 34px;
+    padding-top: 8px;
+    border-top: 1px solid #ccc;
+}
+
+.campaign-listing h2 {
+    margin-top: 0;
+}
+
+.campaign-listing-image {
+    margin: 18px 0 22px;
+}
+
+.campaign-listing-image img {
+    display: block;
     width: 100%;
-    padding: 8px 10px;
-    border: 1px solid #8b4513;
-    background: #ed913b;
-    color: #17120d;
-    font-family: Georgia, "Times New Roman", serif;
-    font-weight: bold;
-    cursor: pointer;
+    max-width: 100%;
+    height: auto;
 }
 
-.dispatch-subscribe-form button:hover {
-    background: #f3a24f;
+@media (max-width: 800px) {
+    .campaign-listing {
+        margin-top: 28px;
+    }
 }
 
-.dispatch-rss-link {
-    font-size: 0.9em;
-}

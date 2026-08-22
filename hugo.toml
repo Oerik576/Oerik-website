@@ -21,6 +21,11 @@ url = '/game-rules/'
 weight = 20
 
 [[menus.main]]
+name = 'Campaigns'
+url = '/campaigns/'
+weight = 25
+
+[[menus.main]]
 name = 'OERIK Magazine'
 url = '/oerik-magazine/'
 weight = 30

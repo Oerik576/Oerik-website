@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaign-character-page">
+
+    <header class="campaign-character-header">
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    <div class="campaign-character-overview">
+      {{ with .Params.portrait }}
+        <figure class="campaign-character-portrait">
+          <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}">
+        </figure>
+      {{ end }}
+
+      <aside class="campaign-character-info">
+        <h2>Character Information</h2>
+        <dl>
+          {{ with .Params.player }}<div><dt>Player</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{ with .Params.race }}<div><dt>Race</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{ with .Params.class }}<div><dt>Class</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{ with .Params.level }}<div><dt>Level</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{ with .Params.background }}<div><dt>Background</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{ with .Params.status }}<div><dt>Status</dt><dd>{{ . }}</dd></div>{{ end }}
+        </dl>
+      </aside>
+    </div>
+
+    <section class="campaign-character-section">
+      <h2>Background</h2>
+      <div class="campaign-character-body">{{ .Content }}</div>
+    </section>
+
+    {{ with .Params.campaign_history }}
+      <section class="campaign-character-section">
+        <h2>Campaign History</h2>
+        <div class="campaign-character-body">{{ . | markdownify }}</div>
+      </section>
+    {{ end }}
+
+    <p class="campaign-character-back">
+      <a class="read-more" href="{{ "../" | relURL }}">← Return to The Party</a>
+    </p>
+
+  </article>
+</div>
+
+{{ end }}

@@ -34,11 +34,11 @@ Whether representing brave adventurers, fearsome dragons, loyal hirelings, or my
 
 That simple idea inspired the creation of Oerik Foundry.
 
-Oerik Foundry was created to produce high-quality 32 mm printable fantasy miniatures designed specifically for Adventures Dark & Deep™ and the World of Greyhawk. Rather than creating generic fantasy figures, every OF Mini is sculpted to represent the people, creatures, and locations that appear throughout the pages of OERIK Magazine. As the magazine grows, so too will the collection, allowing readers to build a tabletop world that reflects the adventures they read each month.
+Oerik Foundry was created to produce high-quality 32 mm printable fantasy miniatures designed specifically for Adventures Dark & Deep™ and the World of Greyhawk. Rather than creating generic fantasy figures, every Oerik Foundry Mini is sculpted to represent the people, creatures, and locations that appear throughout the pages of OERIK Magazine. As the magazine grows, so too will the collection, allowing readers to build a tabletop world that reflects the adventures they read each month.
 
-## Every Issue Includes a Free OF Mini
+## Every Issue Includes a Free Oerik Foundry Mini
 
-Beginning with Issue #1, every subscriber to OERIK Magazine will receive a free downloadable OF Mini.
+Beginning with Issue #1, every subscriber to OERIK Magazine will receive a free downloadable Oerik Foundry Mini.
 
 These professionally sculpted STL files are designed for home resin printing or use with your favorite commercial 3D printing service. Simply download the file, print the miniature, paint it, and introduce it into your own Greyhawk campaign.
 
@@ -48,7 +48,7 @@ Each month's featured miniature will connect directly to the contents of the mag
 
 ### Lady Arcella
 
-The inaugural OF Mini is Lady Arcella, the noblewoman of House Halvern.
+The inaugural Oerik Foundry Mini is Lady Arcella, the noblewoman of House Halvern.
 
 Designed in heroic 32 mm scale, Lady Arcella is ready to serve as a trusted ally, influential patron, courageous adventurer, or beautifully painted display piece. Whether she appears in your own campaign or simply joins your miniature collection, she marks the beginning of what we hope will become a long tradition within the pages of OERIK.
 
@@ -66,7 +66,7 @@ In future issues, this department will explore the growing hobby of tabletop min
 
 ## Looking Ahead
 
-Every issue of OERIK Magazine will introduce new OF Minis inspired by the adventures, personalities, monsters, and locations of Greyhawk.
+Every issue of OERIK Magazine will introduce new Oerik Foundry Minis inspired by the adventures, personalities, monsters, and locations of Greyhawk.
 
 Heroes.
 

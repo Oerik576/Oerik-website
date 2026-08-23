@@ -573,6 +573,33 @@ a:hover {
 }
 
 /* =========================================================
+   WHERE IS OERIK?
+   ========================================================= */
+
+.dispatch-about-link {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background: #f5f1e7;
+    border-bottom: 1px solid #c9bda5;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.dispatch-about-link a {
+    color: #222;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dispatch-about-link a:hover {
+    color: #8b4513;
+    text-decoration: none;
+}
+
+/* =========================================================
    ARTICLE LABELS / TAGS
    ========================================================= */
 

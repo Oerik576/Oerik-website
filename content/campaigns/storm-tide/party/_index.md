@@ -1,7 +1,4 @@
 ---
 title: "The Party"
+layout: "party"
 ---
-
-Player-character profiles belong here.
-
-Create one Markdown page per current or former player character.

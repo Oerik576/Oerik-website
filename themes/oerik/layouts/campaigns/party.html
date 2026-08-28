@@ -1,0 +1,177 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaign-party-page">
+
+    <header class="campaign-party-header">
+      <h1>The Party</h1>
+
+      <p>
+        Meet the adventurers at the heart of the
+        <strong>Storm Tide Campaign</strong>. The Party includes the player
+        characters and companions who have taken part in the campaign.
+      </p>
+    </header>
+
+
+    <!-- =====================================================
+         PARTY ROSTER
+         ===================================================== -->
+
+    <table class="party-roster">
+      <thead>
+        <tr>
+          <th>Character</th>
+          <th>Player</th>
+          <th>Class</th>
+          <th>Race</th>
+          <th>Level</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+  {{ range .Pages.ByTitle }}
+
+    <tr>
+      <td>
+        <a href="#{{ .File.TranslationBaseName }}">
+          {{ .Title }}
+        </a>
+      </td>
+
+      <td>{{ .Params.player }}</td>
+      <td>{{ .Params.class }}</td>
+      <td>{{ .Params.race }}</td>
+      <td>{{ .Params.level }}</td>
+      <td>{{ .Params.status }}</td>
+    </tr>
+
+  {{ end }}
+
+</tbody>
+    </table>
+
+
+    <!-- =====================================================
+         CHARACTER PROFILES
+         ===================================================== -->
+
+    <div class="party-character-profiles">
+
+      {{ range .Pages.ByTitle }}
+
+        <section
+          class="party-character-profile"
+          id="{{ .File.ContentBaseName }}"
+        >
+
+          <h2>{{ .Title }}</h2>
+
+          <div class="campaign-character-overview">
+
+            {{ with .Params.portrait }}
+              <figure class="campaign-character-portrait">
+                <img
+                  src="{{ strings.TrimPrefix "/" . | relURL }}"
+                  alt="{{ $.Title }}"
+                >
+              </figure>
+            {{ end }}
+
+            <aside class="campaign-character-info">
+              <h3>Character Information</h3>
+
+              <dl>
+
+                {{ with .Params.player }}
+                  <div>
+                    <dt>Player</dt>
+                    <dd>{{ . }}</dd>
+                  </div>
+                {{ end }}
+
+                {{ with .Params.race }}
+                  <div>
+                    <dt>Race</dt>
+                    <dd>{{ . }}</dd>
+                  </div>
+                {{ end }}
+
+                {{ with .Params.class }}
+                  <div>
+                    <dt>Class</dt>
+                    <dd>{{ . }}</dd>
+                  </div>
+                {{ end }}
+
+                {{ with .Params.level }}
+                  <div>
+                    <dt>Level</dt>
+                    <dd>{{ . }}</dd>
+                  </div>
+                {{ end }}
+
+                {{ with .Params.background }}
+                  <div>
+                    <dt>Background</dt>
+                    <dd>{{ . }}</dd>
+                  </div>
+                {{ end }}
+
+                {{ with .Params.status }}
+                  <div>
+                    <dt>Status</dt>
+                    <dd>{{ . }}</dd>
+                  </div>
+                {{ end }}
+
+              </dl>
+            </aside>
+
+          </div>
+
+
+          <div class="campaign-character-section">
+            <h3>Background</h3>
+
+            <div class="campaign-character-body">
+              {{ .Content }}
+            </div>
+          </div>
+
+
+          {{ with .Params.campaign_history }}
+            <div class="campaign-character-section">
+              <h3>Campaign History</h3>
+
+              <div class="campaign-character-body">
+                {{ . | markdownify }}
+              </div>
+            </div>
+          {{ end }}
+
+          <p class="party-return-top">
+            <a href="#top">↑ Return to Party Roster</a>
+          </p>
+
+        </section>
+
+      {{ end }}
+
+    </div>
+
+    <p class="campaign-character-back">
+      <a
+        class="read-more"
+        href="{{ "campaigns/storm-tide/" | relURL }}"
+      >
+        ← Return to The Storm Tide Campaign
+      </a>
+    </p>
+
+  </article>
+</div>
+
+{{ end }}

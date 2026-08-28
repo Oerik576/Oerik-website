@@ -18,29 +18,94 @@
     </header>
 
     {{ $party := site.GetPage "/campaigns/storm-tide/party" }}
-    <section class="campaign-section">
-      <h2>The Party</h2>
-      {{ with $party }}
-        {{ if .Pages }}
-          <div class="campaign-entry-list">
-            {{ range .Pages.ByTitle }}
-              <article class="campaign-entry">
-                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-              </article>
-            {{ end }}
-          </div>
-        {{ else }}
-          <p>
-  Meet the adventurers at the heart of the <strong>Storm Tide Campaign</strong>.
-  The Party includes profiles of the player characters, their backgrounds,
-  abilities, and the companions who have joined them during their adventures.
-</p>
-        {{ end }}
-        <p><a class="read-more" href="{{ .RelPermalink }}">View The Party →</a></p>
-      {{ end }}
-    </section>
+   {{ $party := site.GetPage "/campaigns/storm-tide/party" }}
+<section class="campaign-section">
+  <h2>The Party</h2>
 
+  <table class="party-roster">
+    <thead>
+      <tr>
+        <th>Character</th>
+        <th>Player</th>
+        <th>Class</th>
+        <th>Race</th>
+        <th>Level</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Arenir Stormrider</td>
+        <td>Albert</td>
+        <td>Cavalier</td>
+        <td>Human</td>
+        <td>1</td>
+        <td>Retired</td>
+      </tr>
+      <tr>
+        <td>Cyr Baggins</td>
+        <td>Cyril</td>
+        <td>Thief</td>
+        <td>Halfling</td>
+        <td>2</td>
+        <td>Active</td>
+      </tr>
+      <tr>
+        <td>Darrak Goldenforge</td>
+        <td>Sean</td>
+        <td>Fighter</td>
+        <td>Dwarf</td>
+        <td>2</td>
+        <td>Active</td>
+      </tr>
+      <tr>
+        <td>Galborn Valgwyn</td>
+        <td>Craig</td>
+        <td>Ranger</td>
+        <td>Elf</td>
+        <td>2</td>
+        <td>Active</td>
+      </tr>
+      <tr>
+        <td>Haldir Soreson</td>
+        <td>Dante</td>
+        <td>Druid</td>
+        <td>Half-elf</td>
+        <td>2</td>
+        <td>Active</td>
+      </tr>
+      <tr>
+        <td>Hugo Baudelaire</td>
+        <td>Nathan</td>
+        <td>Magic User</td>
+        <td>Human</td>
+        <td>2</td>
+        <td>Active</td>
+      </tr>
+      <tr>
+        <td>Merrick, Devout of Osprem</td>
+        <td>NPC</td>
+        <td>Cleric</td>
+        <td>Human</td>
+        <td>2</td>
+        <td>NPC</td>
+      </tr>
+      <tr>
+        <td>Xalen Thistlewacker</td>
+        <td>Allen</td>
+        <td>Ftr/Illusion/Th</td>
+        <td>Gnome</td>
+        <td>2</td>
+        <td>Active</td>
+      </tr>
+    </tbody>
+  </table>
+
+  {{ with $party }}
+    <p><a class="read-more" href="{{ .RelPermalink }}">View The Party →</a></p>
+  {{ end }}
+</section>
     {{ $journal := site.GetPage "/campaigns/storm-tide/journal" }}
     <section class="campaign-section">
       <h2>Campaign Journal</h2>

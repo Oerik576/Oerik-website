@@ -1142,4 +1142,73 @@ a:hover {
         margin-top: 28px;
     }
 }
+/* =========================================================
+   CAMPAIGN PARTY ROSTER
+   ========================================================= */
 
+.party-roster {
+    width: 100%;
+    margin: 18px 0 22px;
+    border-collapse: collapse;
+    table-layout: auto;
+    font-size: 14px;
+}
+
+.party-roster thead {
+    background: #f5f1e7;
+}
+
+.party-roster th {
+    padding: 10px 12px;
+    border-top: 1px solid #c9bda5;
+    border-bottom: 2px solid #999;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.party-roster td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.party-roster tbody tr:nth-child(even) {
+    background: #fafafa;
+}
+
+.party-roster tbody tr:hover {
+    background: #f5f1e7;
+}
+
+.party-roster th:nth-child(1),
+.party-roster td:nth-child(1) {
+    width: 24%;
+}
+
+.party-roster th:nth-child(2),
+.party-roster td:nth-child(2) {
+    width: 12%;
+}
+
+.party-roster th:nth-child(3),
+.party-roster td:nth-child(3) {
+    width: 20%;
+}
+
+.party-roster th:nth-child(4),
+.party-roster td:nth-child(4) {
+    width: 12%;
+}
+
+.party-roster th:nth-child(5),
+.party-roster td:nth-child(5) {
+    width: 8%;
+    text-align: center;
+}
+
+.party-roster th:nth-child(6),
+.party-roster td:nth-child(6) {
+    width: 12%;
+}

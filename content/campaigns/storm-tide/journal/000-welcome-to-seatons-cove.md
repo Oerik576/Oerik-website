@@ -41,8 +41,7 @@ for centuries.
 
 ## Seaton's Cove
 
-![Seaton's Cove, a small coastal community in the Duchy of
-Salinmoor.](/Oerik-website/images/campaigns/storm-tide/journals/Seatons%20Cove%20Header.png)
+![Seaton's Cove, a small coastal community in the Duchy of Salinmoor.](images/campaigns/storm-tide/journals/Seatons-Cove-Header.png)
 
 *Seaton's Cove on the southern coast of Keoland.*
 
@@ -99,7 +98,7 @@ Campaign.
 
 ## Arenir Stormrider
 
-![Arenir Stormrider](/Oerik-website/images/campaigns/storm-tide/journals/Arenir.png)
+![Arenir Stormrider](images/campaigns/storm-tide/journals/Arenir.png)
 
 **Human Champion --- Noble**
 
@@ -116,7 +115,7 @@ magic, Arenir was prepared to meet danger directly.
 
 ## Galborn Valgwyn
 
-![Galborn Valgwyn](/Oerik-website/images/campaigns/storm-tide/journals/Galborn.png)
+![Galborn Valgwyn](images/campaigns/storm-tide/journals/Galborn.png)
 
 **Elf Ranger --- Hunter**
 
@@ -131,7 +130,7 @@ His bow gave the company reach. His experience gave them warning.
 
 ## Cyr Baggins
 
-![Cyr Baggins](/Oerik-website/images/campaigns/storm-tide/journals/Cyr.png)
+![Cyr Baggins](images/campaigns/storm-tide/journals/Cyr.png)
 
 **Halfling Rogue --- Scout**
 
@@ -146,7 +145,7 @@ and getting into---or out of---places where others might struggle.
 
 ## Haldir Sorenson
 
-![Haldir Sorenson](/Oerik-website/images/campaigns/storm-tide/journals/Haldir.png)
+![Haldir Sorenson](images/campaigns/storm-tide/journals/Haldir.png)
 
 **Half-Elf Druid --- Scout**
 
@@ -162,7 +161,7 @@ valuable.
 
 ## Hugo Baudelaire
 
-![Hugo Baudelaire](/Oerik-website/images/campaigns/storm-tide/journals/Hugo.png)
+![Hugo Baudelaire](images/campaigns/storm-tide/journals/Hugo.png)
 
 **Human Wizard --- Barrister**
 

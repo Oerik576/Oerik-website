@@ -1,0 +1,5 @@
+<img
+  src="{{ .Destination | strings.TrimPrefix "/" | relURL }}"
+  alt="{{ .Text }}"
+  {{ with .Title }}title="{{ . }}"{{ end }}
+>

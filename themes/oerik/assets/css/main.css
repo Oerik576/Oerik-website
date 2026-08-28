@@ -358,6 +358,12 @@ a:hover {
     line-height: 1.7;
 }
 
+.standard-page-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .standard-page-content a {
     color: #8b4513;
 }
@@ -878,7 +884,9 @@ a:hover {
     }
 
     .standard-page {
-        margin: 0;
+    width: 100%;
+    max-width: none;
+    margin: 0;
     }
 
     .standard-page-content {

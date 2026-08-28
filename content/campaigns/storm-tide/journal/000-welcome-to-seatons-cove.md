@@ -42,7 +42,7 @@ for centuries.
 ## Seaton's Cove
 
 ![Seaton's Cove, a small coastal community in the Duchy of
-Salinmoor.](/images/campaigns/storm-tide/journals/Seatons%20Cove%20Header.png)
+Salinmoor.](/Oerik-website/images/campaigns/storm-tide/journals/Seatons%20Cove%20Header.png)
 
 *Seaton's Cove on the southern coast of Keoland.*
 
@@ -99,7 +99,7 @@ Campaign.
 
 ## Arenir Stormrider
 
-![Arenir Stormrider](/images/campaigns/storm-tide/journals/Arenir.png)
+![Arenir Stormrider](/Oerik-website/images/campaigns/storm-tide/journals/Arenir.png)
 
 **Human Champion --- Noble**
 
@@ -112,11 +112,11 @@ presence. Where others relied upon stealth, wilderness knowledge, or
 magic, Arenir was prepared to meet danger directly.
 
 [Meet Arenir Stormrider
-→](/campaigns/storm-tide/party/#arenir-stormrider)
+→](/Oerik-website/campaigns/storm-tide/party/#arenir-stormrider)
 
 ## Galborn Valgwyn
 
-![Galborn Valgwyn](/images/campaigns/storm-tide/journals/Galborn.png)
+![Galborn Valgwyn](/Oerik-website/images/campaigns/storm-tide/journals/Galborn.png)
 
 **Elf Ranger --- Hunter**
 
@@ -127,11 +127,11 @@ beyond the town.
 
 His bow gave the company reach. His experience gave them warning.
 
-[Meet Galborn Valgwyn →](/campaigns/storm-tide/party/#galborn-valgwyn)
+[Meet Galborn Valgwyn →](/Oerik-website/campaigns/storm-tide/party/#galborn-valgwyn)
 
 ## Cyr Baggins
 
-![Cyr Baggins](/images/campaigns/storm-tide/journals/Cyr.png)
+![Cyr Baggins](/Oerik-website/images/campaigns/storm-tide/journals/Cyr.png)
 
 **Halfling Rogue --- Scout**
 
@@ -142,11 +142,11 @@ gotten somewhere they had carefully locked.
 Cyr was a scout and rogue whose strengths lay in stealth, investigation,
 and getting into---or out of---places where others might struggle.
 
-[Meet Cyr Baggins →](/campaigns/storm-tide/party/#cyr-baggins)
+[Meet Cyr Baggins →](/Oerik-website/campaigns/storm-tide/party/#cyr-baggins)
 
 ## Haldir Sorenson
 
-![Haldir Sorenson](/images/campaigns/storm-tide/journals/Haldir.png)
+![Haldir Sorenson](/Oerik-website/images/campaigns/storm-tide/journals/Haldir.png)
 
 **Half-Elf Druid --- Scout**
 
@@ -158,11 +158,11 @@ In a region where forest, swamp, coastline, and civilization constantly
 pressed against one another, Haldir's perspective would prove especially
 valuable.
 
-[Meet Haldir Sorenson →](/campaigns/storm-tide/party/#haldir-sorenson)
+[Meet Haldir Sorenson →](/Oerik-website/campaigns/storm-tide/party/#haldir-sorenson)
 
 ## Hugo Baudelaire
 
-![Hugo Baudelaire](/images/campaigns/storm-tide/journals/Hugo.png)
+![Hugo Baudelaire](/Oerik-website/images/campaigns/storm-tide/journals/Hugo.png)
 
 **Human Wizard --- Barrister**
 
@@ -175,7 +175,7 @@ Magic gave him capabilities that none of his companions possessed. His
 education gave him another weapon entirely: the ability to recognize
 that many mysteries could be solved before anyone drew a sword.
 
-[Meet Hugo Baudelaire →](/campaigns/storm-tide/party/#hugo-baudelaire)
+[Meet Hugo Baudelaire →](/Oerik-website/campaigns/storm-tide/party/#hugo-baudelaire)
 
 <hr style="border:0; border-top:3px solid #000000; width:100%;">
 # The Beginning
@@ -210,4 +210,4 @@ Fishery Hall**.
 And someone decided it was time to find a few adventurers.
 
 **Next: [Campaign Journal 001 --- Something Beneath the Cove
-→](/campaigns/storm-tide/journals/001-something-beneath-the-cove/)**
+→](/Oerik-website/campaigns/storm-tide/journals/001-something-beneath-the-cove/)**

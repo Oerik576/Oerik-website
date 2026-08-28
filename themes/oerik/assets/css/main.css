@@ -1212,3 +1212,37 @@ a:hover {
 .party-roster td:nth-child(6) {
     width: 12%;
 }
+@media (max-width: 768px) {
+
+  .campaign-party-page .party-roster {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .campaign-party-page .party-roster th,
+  .campaign-party-page .party-roster td {
+    white-space: nowrap;
+  }
+
+  .campaign-party-page .campaign-character-overview {
+    display: block;
+  }
+
+  .campaign-party-page .campaign-character-portrait,
+  .campaign-party-page .campaign-character-info {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .campaign-party-page .campaign-character-portrait img {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+}

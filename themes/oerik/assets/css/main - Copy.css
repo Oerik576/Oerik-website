@@ -1,0 +1,555 @@
+@import "components/header.css";
+@import "components/footer.css";
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+body {
+    color: #222;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        to bottom,
+        #241039 0%,
+        #34124f 20%,
+        #5b2386 45%,
+        #4a1f73 70%,
+        #2b1245 100%
+    );
+
+    background-attachment: fixed;
+}
+
+a {
+    color: #8b4513;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   OERIK DISPATCH MASTHEAD
+   ========================================================= */
+
+.dispatch-hero {
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dispatch-masthead-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   HOMEPAGE BLOG LAYOUT
+   ========================================================= */
+
+.dispatch-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+    gap: 50px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+
+    box-sizing: border-box;
+    background: #fff;
+}
+
+
+/* =========================================================
+   HOMEPAGE ARTICLE FEED
+   ========================================================= */
+
+.article-feed {
+    min-width: 0;
+}
+
+.article-feed > h2 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+}
+
+.article-preview {
+    padding: 0 0 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.article-preview h2 {
+    margin-bottom: 5px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+}
+
+.article-meta {
+    margin-bottom: 15px;
+    color: #777;
+    font-size: 14px;
+}
+
+.read-more {
+    font-weight: bold;
+}
+
+
+/* =========================================================
+   HOMEPAGE SIDEBAR
+   ========================================================= */
+
+.dispatch-sidebar {
+    border-left: 1px solid #ccc;
+    padding-left: 30px;
+}
+
+.dispatch-sidebar section {
+    margin-bottom: 40px;
+}
+
+.dispatch-sidebar h2 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #999;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.dispatch-sidebar ul {
+    padding-left: 20px;
+}
+
+
+/* =========================================================
+   STANDARD CONTENT PAGES
+   ========================================================= */
+
+.standard-page {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.standard-page-content {
+    max-width: 900px;
+    padding: 50px 60px 70px;
+    box-sizing: border-box;
+    color: #222;
+}
+
+.standard-page-content h1 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.standard-page-content h2 {
+    margin-top: 38px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #bbb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.standard-page-content p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.standard-page-content ul {
+    margin-bottom: 25px;
+}
+
+.standard-page-content li {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.standard-page-content a {
+    color: #8b4513;
+}
+
+.standard-page-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.page-meta {
+    margin-bottom: 30px;
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   DISPATCH ARTICLE PAGE
+   ========================================================= */
+
+.dispatch-article-page {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.dispatch-article {
+    max-width: 900px;
+    padding: 55px 65px 80px;
+    box-sizing: border-box;
+}
+
+.dispatch-article-header {
+    margin-bottom: 45px;
+}
+
+.dispatch-article-header h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 44px;
+    line-height: 1.15;
+}
+
+.dispatch-article-subtitle {
+    margin: 10px 0 18px;
+    color: #555;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.dispatch-article-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #777;
+    font-size: 14px;
+}
+
+.dispatch-source-note {
+    margin-top: 22px;
+    padding: 11px 14px;
+    border-left: 4px solid #8b4513;
+    background: #f5f1e7;
+    color: #333;
+    font-size: 14px;
+    width: fit-content;
+    min-width: 420px;
+    box-sizing: border-box;
+}
+
+.dispatch-featured-image {
+    margin: 0 0 35px;
+}
+
+.dispatch-featured-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dispatch-article-body {
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.dispatch-article-body h2 {
+    margin-top: 42px;
+    margin-bottom: 14px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #bbb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.dispatch-article-body h3 {
+    margin-top: 30px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.dispatch-article-body blockquote {
+    margin: 28px 0;
+    padding: 14px 24px;
+    border-left: 4px solid #8b4513;
+    background: #f5f1e7;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.dispatch-article-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   DISPATCH ARTICLE ARTWORK
+   ========================================================= */
+
+.dispatch-article-body figure {
+    margin: 32px 0;
+}
+
+.dispatch-article-body figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dispatch-article-body figcaption {
+    margin-top: 8px;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.4;
+    font-style: italic;
+    text-align: center;
+}
+
+/* INLINE DISPATCH SIDEBARS */
+
+.dispatch-inline-sidebar {
+    float: right;
+    width: 300px;
+    margin: 10px 0 25px 30px;
+    padding: 20px 22px;
+    background: #f5f1e7;
+    border: 1px solid #c9bda5;
+    box-sizing: border-box;
+}
+
+.dispatch-inline-sidebar h3 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.dispatch-inline-sidebar ul {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+    .dispatch-inline-sidebar {
+        float: none;
+        width: 100%;
+        margin: 25px 0;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .dispatch-layout {
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+
+    .dispatch-sidebar {
+        border-left: 0;
+        border-top: 1px solid #ccc;
+        padding-top: 25px;
+        padding-left: 0;
+    }
+
+    .dispatch-hero {
+        margin-top: 0;
+        padding: 25px;
+    }
+
+    /* Standard pages: campaigns, journals, party pages, etc. */
+    .standard-page {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .standard-page-content {
+        width: 100%;
+        max-width: 100%;
+        padding: 30px 24px 50px;
+        box-sizing: border-box;
+        overflow-wrap: anywhere;
+    }
+
+    .standard-page-content h1 {
+        font-size: 30px;
+    }
+
+    .standard-page-content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .dispatch-article-page {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .dispatch-article {
+        width: 100%;
+        max-width: 100%;
+        padding: 35px 24px 60px;
+        box-sizing: border-box;
+    }
+
+    .dispatch-article-header h1 {
+        font-size: 34px;
+    }
+
+    .dispatch-article-body {
+        font-size: 17px;
+    }
+
+    /* Campaign and journal containers */
+    .campaign-page,
+    .campaigns-library,
+    .campaign-party-page,
+    .campaign-character-page {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .campaign-banner,
+    .campaign-listing-image {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .campaign-banner img,
+    .campaign-listing-image img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Both campaign party rosters: keep all columns usable on phones
+       without forcing the entire page wider than the viewport. */
+    .campaign-party-page .party-roster,
+    .party-roster {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border-collapse: collapse;
+        box-sizing: border-box;
+    }
+
+    .campaign-party-page .party-roster th,
+    .campaign-party-page .party-roster td,
+    .party-roster th,
+    .party-roster td {
+        white-space: nowrap;
+    }
+
+    /* Character overview blocks used on party pages */
+    .campaign-character-overview {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .campaign-character-portrait,
+    .campaign-character-info {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .campaign-character-portrait {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .campaign-character-portrait img {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .campaign-character-info dl > div {
+        grid-template-columns: 105px minmax(0, 1fr);
+    }
+}
+
+/* =========================================================
+   DISPATCH HERO — WIDE FEATURE ARTWORK
+   ========================================================= */
+
+.dispatch-article-body figure.dispatch-article-hero {
+    width: 100%;
+    max-width: 100%;
+    margin: 28px 0 30px;
+}
+
+.dispatch-article-body figure.dispatch-article-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* =========================================================
+   CAMPAIGN / JOURNAL / PARTY RESPONSIVE SAFETY
+   ========================================================= */
+
+.campaign-page,
+.campaigns-library,
+.campaign-party-page,
+.campaign-character-page {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.campaign-banner,
+.campaign-listing-image {
+    max-width: 100%;
+}
+
+.campaign-banner img,
+.campaign-listing-image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.party-roster {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}

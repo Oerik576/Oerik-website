@@ -16,6 +16,23 @@
 
     {{ .Content }}
 
+{{ if eq .Params.type "campaign-journal" }}
+
+  {{ with .GetTerms "tags" }}
+    <footer class="dispatch-article-footer">
+      <div class="dispatch-article-tags">
+        <strong>Tags:</strong>
+        {{ range . }}
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+      </div>
+    </footer>
+  {{ end }}
+
+  {{ partial "comments.html" . }}
+
+{{ end }}
+
   </article>
 
 </div>

@@ -6,6 +6,11 @@ location: Seaton's Cove, Duchy of Salinmoor
 title: Welcome to Seaton's Cove
 type: campaign-journal
 year: 576 CY
+tags:
+  - Storm Tide Campaign
+  - Seaton's Cove
+  - Salinmoor
+  - Campaign Journal
 ---
 
 **Seaton's Cove, Duchy of Salinmoor --- Fireseek, 576 CY**\
@@ -111,7 +116,7 @@ presence. Where others relied upon stealth, wilderness knowledge, or
 magic, Arenir was prepared to meet danger directly.
 
 [Meet Arenir Stormrider
-→](/Oerik-website/campaigns/storm-tide/party/#arenir-stormrider)
+→](campaigns/storm-tide/party/#arenir-stormrider)
 
 ## Galborn Valgwyn
 
@@ -126,7 +131,7 @@ beyond the town.
 
 His bow gave the company reach. His experience gave them warning.
 
-[Meet Galborn Valgwyn →](/Oerik-website/campaigns/storm-tide/party/#galborn-valgwyn)
+[Meet Galborn Valgwyn →](campaigns/storm-tide/party/#galborn-valgwyn)
 
 ## Cyr Baggins
 
@@ -141,7 +146,7 @@ gotten somewhere they had carefully locked.
 Cyr was a scout and rogue whose strengths lay in stealth, investigation,
 and getting into---or out of---places where others might struggle.
 
-[Meet Cyr Baggins →](/Oerik-website/campaigns/storm-tide/party/#cyr-baggins)
+[Meet Cyr Baggins →](campaigns/storm-tide/party/#cyr-baggins)
 
 ## Haldir Sorenson
 
@@ -157,7 +162,7 @@ In a region where forest, swamp, coastline, and civilization constantly
 pressed against one another, Haldir's perspective would prove especially
 valuable.
 
-[Meet Haldir Sorenson →](/Oerik-website/campaigns/storm-tide/party/#haldir-sorenson)
+[Meet Haldir Sorenson →](campaigns/storm-tide/party/#haldir-sorenson)
 
 ## Hugo Baudelaire
 
@@ -174,7 +179,7 @@ Magic gave him capabilities that none of his companions possessed. His
 education gave him another weapon entirely: the ability to recognize
 that many mysteries could be solved before anyone drew a sword.
 
-[Meet Hugo Baudelaire →](/Oerik-website/campaigns/storm-tide/party/#hugo-baudelaire)
+[Meet Hugo Baudelaire →](campaigns/storm-tide/party/#hugo-baudelaire)
 
 <hr style="border:0; border-top:3px solid #000000; width:100%;">
 # The Beginning
@@ -209,4 +214,4 @@ Fishery Hall**.
 And someone decided it was time to find a few adventurers.
 
 **Next: [Campaign Journal 001 --- Something Beneath the Cove
-→](/Oerik-website/campaigns/storm-tide/journals/001-something-beneath-the-cove/)**
+→](campaigns/storm-tide/journals/001-something-beneath-the-cove/)**

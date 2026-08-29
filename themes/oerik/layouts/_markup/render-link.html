@@ -1,0 +1,21 @@
+{{- $destination := .Destination -}}
+
+{{- if or
+    (strings.HasPrefix $destination "#")
+    (strings.HasPrefix $destination "http://")
+    (strings.HasPrefix $destination "https://")
+    (strings.HasPrefix $destination "mailto:")
+    (strings.HasPrefix $destination "tel:")
+-}}
+
+  <a href="{{ $destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+    {{ .Text | safeHTML }}
+  </a>
+
+{{- else -}}
+
+  <a href="{{ $destination | strings.TrimPrefix "/" | relURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+    {{ .Text | safeHTML }}
+  </a>
+
+{{- end -}}

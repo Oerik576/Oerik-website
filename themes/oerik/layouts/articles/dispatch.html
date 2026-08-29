@@ -42,6 +42,7 @@
       {{ .Content }}
     </div>
 
+    {{ partial "comments.html" . }}
 
     {{ with .GetTerms "tags" }}
       <footer class="dispatch-article-footer">

@@ -185,6 +185,12 @@ a:hover {
     color: #8b4513;
 }
 
+.standard-page-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .page-meta {
     margin-bottom: 30px;
     color: #777;
@@ -373,26 +379,41 @@ a:hover {
         padding: 25px;
     }
 
+    /* Standard pages: campaigns, journals, party pages, etc. */
     .standard-page {
+        width: 100%;
+        max-width: 100%;
         margin: 0;
     }
 
     .standard-page-content {
-        max-width: none;
+        width: 100%;
+        max-width: 100%;
         padding: 30px 24px 50px;
+        box-sizing: border-box;
+        overflow-wrap: anywhere;
     }
 
     .standard-page-content h1 {
         font-size: 30px;
     }
 
+    .standard-page-content img {
+        max-width: 100%;
+        height: auto;
+    }
+
     .dispatch-article-page {
+        width: 100%;
+        max-width: 100%;
         margin: 0;
     }
 
     .dispatch-article {
-        max-width: none;
+        width: 100%;
+        max-width: 100%;
         padding: 35px 24px 60px;
+        box-sizing: border-box;
     }
 
     .dispatch-article-header h1 {
@@ -402,14 +423,92 @@ a:hover {
     .dispatch-article-body {
         font-size: 17px;
     }
+
+    /* Campaign and journal containers */
+    .campaign-page,
+    .campaigns-library,
+    .campaign-party-page,
+    .campaign-character-page {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .campaign-banner,
+    .campaign-listing-image {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .campaign-banner img,
+    .campaign-listing-image img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Both campaign party rosters: keep all columns usable on phones
+       without forcing the entire page wider than the viewport. */
+    .campaign-party-page .party-roster,
+    .party-roster {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border-collapse: collapse;
+        box-sizing: border-box;
+    }
+
+    .campaign-party-page .party-roster th,
+    .campaign-party-page .party-roster td,
+    .party-roster th,
+    .party-roster td {
+        white-space: nowrap;
+    }
+
+    /* Character overview blocks used on party pages */
+    .campaign-character-overview {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .campaign-character-portrait,
+    .campaign-character-info {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .campaign-character-portrait {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .campaign-character-portrait img {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .campaign-character-info dl > div {
+        grid-template-columns: 105px minmax(0, 1fr);
+    }
 }
+
 /* =========================================================
    DISPATCH HERO — WIDE FEATURE ARTWORK
    ========================================================= */
 
 .dispatch-article-body figure.dispatch-article-hero {
-    width: 950px;
-    max-width: calc(100vw - 80px);
+    width: 100%;
+    max-width: 100%;
     margin: 28px 0 30px;
 }
 
@@ -419,3 +518,38 @@ a:hover {
     height: auto;
 }
 
+
+
+/* =========================================================
+   CAMPAIGN / JOURNAL / PARTY RESPONSIVE SAFETY
+   ========================================================= */
+
+.campaign-page,
+.campaigns-library,
+.campaign-party-page,
+.campaign-character-page {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.campaign-banner,
+.campaign-listing-image {
+    max-width: 100%;
+}
+
+.campaign-banner img,
+.campaign-listing-image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.party-roster {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}

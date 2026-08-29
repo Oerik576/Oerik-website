@@ -1,11 +1,14 @@
 ---
 campaign: The Storm Tide Campaign
-date: 2023-07-08
+date: 2026-08-28
+session_date: 2023-07-08
 journal: 0
 location: Seaton's Cove, Duchy of Salinmoor
 title: Welcome to Seaton's Cove
 type: campaign-journal
 year: 576 CY
+featured_image: "images/campaigns/storm-tide/journals/Seatons-Cove-Header.png"
+summary: "Meet the five adventurers at the beginning of the Storm Tide Campaign and discover Seaton's Cove, the small Salinmoor community where their story begins."
 tags:
   - Storm Tide Campaign
   - Seaton's Cove

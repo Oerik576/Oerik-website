@@ -59,7 +59,10 @@
 
     <h2>Latest Dispatches</h2>
 
-    {{ range where site.RegularPages "Section" "articles" }}
+    {{ $dispatches := where site.RegularPages "Type" "in" (slice "articles" "campaign-journal") }}
+
+    {{ range $dispatches.ByDate.Reverse }}
+
       <article class="article-preview">
 
         <h2>

@@ -1,37 +1,48 @@
 {{ define "main" }}
 
 <div class="standard-page">
-  <article class="standard-page-content">
+  <article class="standard-page-content greyhawk-page">
 
-    <div class="greyhawk-under-construction"
-         style="max-width:760px; margin:10px auto 30px; text-align:center;">
+    <header class="greyhawk-header">
 
       <img
         src="{{ "images/greyhawk/WorldofGreyhawk.png" | relURL }}"
         alt="World of Greyhawk Fantasy Setting"
-        style="display:block; width:100%; max-width:700px; height:auto; margin:0 auto 28px;"
+        class="greyhawk-header-logo"
       >
 
-      <h1 style="margin-bottom:14px;">Page</h1>
+      <div class="greyhawk-introduction">
+        {{ .Content }}
+      </div>
 
-      <h2 style="margin-top:0; border-bottom:0; padding-bottom:0;">
-        Under Construction
-      </h2>
+    </header>
 
+    <section class="greyhawk-option">
+      <h2>Greyhawk Reference Library</h2>
       <p>
-        This section of The Oerik Dispatch is still being prepared.
+        Foundational books and player resources for the World of Greyhawk,
+        including the original 1980 Folio and OERIK's selected player guides.
       </p>
+      <p><a class="read-more" href="{{ "greyhawk/reference-library/" | relURL }}">Explore the Reference Library →</a></p>
+    </section>
 
+    <section class="greyhawk-option">
+      <h2>History &amp; Lore</h2>
       <p>
-        Check back soon for history, lore, places, peoples, and resources
-        from the World of Greyhawk.
+        Explore the origins of Greyhawk, the development of the Flanaess, and
+        the history that shaped the setting before Common Year 576.
       </p>
+      <p><a class="read-more" href="{{ "articles/the-birth-of-greyhawk/" | relURL }}">Read The Birth of Greyhawk →</a></p>
+    </section>
 
-      <p style="margin-top:32px;">
-        <a class="read-more" href="{{ "" | relURL }}">← Return to The Oerik Dispatch</a>
+    <section class="greyhawk-option">
+      <h2>Peoples &amp; Cultures</h2>
+      <p>
+        Meet the Flan, Oeridians, Suel, Baklunish, and the elder races whose
+        migrations, kingdoms, traditions, and conflicts shaped the Flanaess.
       </p>
-
-    </div>
+      <p><a class="read-more" href="{{ "articles/the-races-and-cultures-of-greyhawk/" | relURL }}">Explore the Peoples of Greyhawk →</a></p>
+    </section>
 
   </article>
 </div>

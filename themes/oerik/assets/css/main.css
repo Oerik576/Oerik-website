@@ -1257,3 +1257,105 @@ a:hover {
   }
 
 }
+
+/* =========================================================
+   GREYHAWK
+   ========================================================= */
+
+.greyhawk-page,
+.greyhawk-reference-page {
+    width: 100%;
+    max-width: none;
+}
+
+.greyhawk-header,
+.greyhawk-reference-header {
+    margin-bottom: 34px;
+}
+
+.greyhawk-header-logo {
+    display: block;
+    width: 100%;
+    max-width: 620px;
+    height: auto;
+    margin: 0 auto 30px;
+}
+
+.greyhawk-introduction {
+    text-align: left;
+}
+
+.greyhawk-option {
+    margin-top: 34px;
+    padding-top: 8px;
+    border-top: 1px solid #ccc;
+}
+
+.greyhawk-reference-entry {
+    grid-template-columns: 130px 1fr;
+}
+
+.greyhawk-reference-cover {
+    margin: 0;
+    width: 130px;
+}
+
+.greyhawk-reference-cover-placeholder {
+    width: 130px;
+    min-height: 168px;
+    padding: 16px 10px;
+    box-sizing: border-box;
+    border: 1px solid #8b4513;
+    background: #f5f1e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.05;
+}
+
+.greyhawk-reference-cover-placeholder strong {
+    font-size: 17px;
+}
+
+.greyhawk-reference-cover-placeholder span {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+}
+
+.greyhawk-reference-code {
+    font-weight: bold;
+    color: #8b4513;
+}
+
+.greyhawk-reference-meta {
+    font-style: italic;
+}
+
+.greyhawk-reference-pending {
+    font-style: italic;
+    color: #666;
+}
+
+.greyhawk-back {
+    margin-top: 28px;
+}
+
+@media (max-width: 800px) {
+
+    .greyhawk-header-logo {
+        max-width: 520px;
+    }
+
+    .greyhawk-reference-entry {
+        grid-template-columns: 1fr;
+    }
+
+    .greyhawk-reference-cover {
+        margin: 0 auto;
+    }
+}
+

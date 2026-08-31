@@ -288,6 +288,31 @@ a:hover {
 }
 
 /* =========================================================
+   EBAY STORE
+   ========================================================= */
+
+.dispatch-ebay-button {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #8b4513;
+    background: #ed913b;
+    color: #17120d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dispatch-ebay-button:hover {
+    background: #f3a24f;
+    color: #17120d;
+    text-decoration: none;
+}
+
+/* =========================================================
    MOBILE ARTICLE TAGS CONTROL
    ========================================================= */
 

@@ -6,6 +6,8 @@
     (strings.HasPrefix $destination "https://")
     (strings.HasPrefix $destination "mailto:")
     (strings.HasPrefix $destination "tel:")
+    (strings.HasPrefix $destination "../")
+    (strings.HasPrefix $destination "./")
 -}}
 
   <a href="{{ $destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>

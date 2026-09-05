@@ -216,5 +216,4 @@ Fishery Hall**.
 
 And someone decided it was time to find a few adventurers.
 
-**Next: [Campaign Journal 001 --- Something Beneath the Cove
-→](campaigns/storm-tide/journals/001-something-beneath-the-cove/)**
+**[← Return to Campaign Journal](../)**

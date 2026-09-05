@@ -283,4 +283,4 @@ Tamily was relieved to see the adventurers return alive, but the news they broug
 
 A problem with stolen fish had become something far more serious.
 
-**And that is where Session 1 ended.**
+**[← Return to Campaign Journal](../)**

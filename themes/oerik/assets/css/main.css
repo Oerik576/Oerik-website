@@ -393,6 +393,71 @@ a:hover {
     font-size: 14px;
 }
 
+
+/* =========================================================
+   CAMPAIGN JOURNAL IMAGES
+   ========================================================= */
+
+/* Safety rule for all standard content page images */
+.standard-page-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Base journal image */
+.journal-image {
+    margin: 32px auto;
+    box-sizing: border-box;
+}
+
+.journal-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.journal-image figcaption {
+    margin-top: 8px;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.4;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Full-width artwork / hero image */
+.journal-image--wide {
+    width: 100%;
+}
+
+/* Maps and floorplans */
+.journal-image--map {
+    width: min(100%, 900px);
+}
+
+/* Session photographs */
+.journal-image--photo-landscape {
+    width: min(100%, 850px);
+}
+
+.journal-image--photo-portrait {
+    width: min(100%, 520px);
+}
+
+/* RPG cards */
+.journal-image--card-landscape {
+    width: min(100%, 560px);
+}
+
+.journal-image--card-portrait {
+    width: min(100%, 360px);
+}
+
+/* General-purpose illustration */
+.journal-image--medium {
+    width: min(100%, 700px);
+}
+
 /* =========================================================
    DISPATCH ARTICLE PAGE
    ========================================================= */

@@ -106,30 +106,26 @@
     <p><a class="read-more" href="{{ .RelPermalink }}">View The Party →</a></p>
   {{ end }}
 </section>
-    {{ $journal := site.GetPage "/campaigns/storm-tide/journal" }}
-    <section class="campaign-section">
-      <h2>Campaign Journal</h2>
-      {{ with $journal }}
-        {{ if .Pages }}
-          <div class="campaign-entry-list">
-            {{ range first 5 .Pages.ByDate.Reverse }}
-              <article class="campaign-entry">
-                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-                {{ if .Date }}<div class="article-meta">{{ .Date.Format "January 2, 2006" }}</div>{{ end }}
-                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-              </article>
-            {{ end }}
-          </div>
-        {{ else }}
-          <p>
-  Follow the continuing story of the <strong>Storm Tide Campaign</strong>
-  through session reports, major discoveries, memorable encounters, and the
-  choices that have shaped the party’s journey across Seaton’s Cove and beyond.
-</p>
-        {{ end }}
-        <p><a class="read-more" href="{{ .RelPermalink }}">View Campaign Journal →</a></p>
-      {{ end }}
-    </section>
+ {{ $journal := site.GetPage "/campaigns/storm-tide/journal" }}
+
+<section class="campaign-section">
+  <h2>Campaign Journal</h2>
+
+  {{ with $journal }}
+    <p>
+      Follow the continuing story of the <strong>Storm Tide Campaign</strong>
+      through session reports, major discoveries, memorable encounters, and
+      the choices that have shaped the party’s journey through Seaton’s Cove
+      and beyond.
+    </p>
+
+    <p>
+      <a class="read-more" href="{{ .RelPermalink }}">
+        View Campaign Journal →
+      </a>
+    </p>
+  {{ end }}
+</section>
 
     {{ $adventures := site.GetPage "/campaigns/storm-tide/adventures" }}
     <section class="campaign-section">

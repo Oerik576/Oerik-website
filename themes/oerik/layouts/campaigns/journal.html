@@ -1,0 +1,87 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaign-journal-page">
+
+    <header class="campaign-journal-header">
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Content }}
+        <div class="campaign-journal-introduction">
+          {{ . }}
+        </div>
+      {{ end }}
+    </header>
+
+    <table class="party-roster journal-roster">
+      <thead>
+        <tr>
+          <th>Journal</th>
+          <th>Title</th>
+          <th>Session</th>
+          <th>Date Played</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {{ range .Pages.ByParam "journal" }}
+
+          {{ $journalNum := .Params.journal }}
+
+          <tr>
+            <td>
+              <a href="{{ .RelPermalink }}">
+                {{ printf "%03d" $journalNum }}
+              </a>
+            </td>
+
+            <td>
+              <a href="{{ .RelPermalink }}">
+                {{ .Title }}
+              </a>
+            </td>
+
+            <td>
+              {{ if eq $journalNum 0 }}
+                Campaign Prologue
+              {{ else }}
+                Session {{ .Params.session | default $journalNum }}
+              {{ end }}
+            </td>
+
+            <td>
+              {{ if eq $journalNum 0 }}
+                —
+              {{ else }}
+                {{ with .Params.session_date }}
+                  {{ . | time.Format "January 2, 2006" }}
+                {{ else }}
+                  —
+                {{ end }}
+              {{ end }}
+            </td>
+
+            <td>
+              {{ with .Params.location }}
+                {{ . }}
+              {{ else }}
+                —
+              {{ end }}
+            </td>
+          </tr>
+
+        {{ end }}
+      </tbody>
+    </table>
+
+    <p class="campaign-character-back">
+      <a class="read-more" href="{{ .Parent.RelPermalink }}">
+        ← Return to {{ .Parent.Title }}
+      </a>
+    </p>
+
+  </article>
+</div>
+
+{{ end }}

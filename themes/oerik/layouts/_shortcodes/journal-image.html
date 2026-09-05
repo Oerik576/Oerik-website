@@ -1,0 +1,17 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" }}
+{{ $type := .Get "type" | default "medium" }}
+
+<figure class="journal-image journal-image--{{ $type }}">
+  <img
+    src="{{ $src | strings.TrimPrefix "/" | relURL }}"
+    alt="{{ $alt }}"
+    loading="lazy"
+    decoding="async"
+  >
+
+  {{ with $caption }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>

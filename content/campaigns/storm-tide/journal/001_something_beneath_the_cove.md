@@ -22,7 +22,7 @@ tags:
 
 **Adventurers:** Arenir Stormrider, Cyr Baggins, Haldir Sorenson, Hugo Baudelaire  
 **Level:** 1st  
-**Adventure:** BB01 --- *Menace Under Seaton's Cove*
+**Adventure:** RX01 --- *Menace Under Seaton's Cove*
 
 Seaton's Cove was the sort of place where trouble usually arrived by sea.
 

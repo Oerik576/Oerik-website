@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaign-resource-entry-page">
+
+    <nav class="campaign-resource-breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ "campaigns/storm-tide/resources/" | relURL }}">Campaign Resources</a>
+      <span aria-hidden="true">›</span>
+      <a href="{{ .Parent.RelPermalink }}">{{ .Parent.LinkTitle }}</a>
+    </nav>
+
+    <header class="campaign-resource-entry-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.summary }}
+        <p class="campaign-resource-entry-summary">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="campaign-resource-entry-body">
+      {{ .Content }}
+    </div>
+
+    <p class="campaign-resources-back">
+      <a class="read-more" href="{{ .Parent.RelPermalink }}">
+        ← Return to {{ .Parent.LinkTitle }}
+      </a>
+    </p>
+
+  </article>
+</div>
+
+{{ end }}

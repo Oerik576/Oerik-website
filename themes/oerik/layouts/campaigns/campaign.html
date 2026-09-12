@@ -155,23 +155,11 @@
     <section class="campaign-section">
       <h2>Campaign Resources</h2>
       {{ with $resources }}
-        {{ if .Pages }}
-          <div class="campaign-entry-list">
-            {{ range .Pages.ByTitle }}
-              <article class="campaign-entry">
-                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-              </article>
-            {{ end }}
-          </div>
-        {{ else }}
-          <p>
-  Find player-facing maps, handouts, setting guides, reference material, and
-  other resources created for the <strong>Storm Tide Campaign</strong>. This
-  section gathers the information players may need before, during, and between
-  sessions.
-</p>
-        {{ end }}
+        <p>
+          Explore the player-facing reference library for the <strong>Storm Tide Campaign</strong>,
+          including locations, personalities, rumors and lore, magic items, factions, religions,
+          documents, handouts, and other information revealed during play.
+        </p>
         <p><a class="read-more" href="{{ .RelPermalink }}">View Campaign Resources →</a></p>
       {{ end }}
     </section>

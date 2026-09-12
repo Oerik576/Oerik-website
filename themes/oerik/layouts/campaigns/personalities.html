@@ -1,0 +1,172 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content npc-directory-page">
+
+    <header class="npc-directory-header">
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Params.summary }}
+        <p class="npc-directory-summary">{{ . }}</p>
+      {{ end }}
+
+      <div class="npc-directory-introduction">
+        {{ .Content }}
+      </div>
+    </header>
+
+    {{ if .Pages }}
+
+      <section class="npc-directory-tools" aria-label="NPC directory search">
+        <label for="npc-directory-search">Search NPCs &amp; Other Personalities</label>
+
+        <div class="npc-directory-search-row">
+          <input
+            id="npc-directory-search"
+            class="npc-directory-search"
+            type="search"
+            placeholder="Search by name, role, location, affiliation, or first appearance..."
+            autocomplete="off"
+          >
+          <button
+            id="npc-directory-clear"
+            class="npc-directory-clear"
+            type="button"
+            hidden
+          >
+            Clear
+          </button>
+        </div>
+
+        <p id="npc-directory-count" class="npc-directory-count" aria-live="polite">
+          {{ len .Pages }} {{ if eq (len .Pages) 1 }}entry{{ else }}entries{{ end }}
+        </p>
+      </section>
+
+      <div class="npc-directory-table-wrap">
+        <table class="npc-directory-table" id="npc-directory-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Role / Description</th>
+              <th>Location</th>
+              <th>Affiliation</th>
+              <th>First Appeared</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {{ range .Pages.ByTitle }}
+              <tr
+                class="npc-directory-row"
+                data-href="{{ .RelPermalink }}"
+                tabindex="0"
+              >
+                <td data-label="Name">
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </td>
+
+                <td data-label="Role / Description">
+                  {{ with .Params.role }}
+                    {{ . }}
+                  {{ else }}
+                    {{ with .Params.summary }}{{ . }}{{ else }}—{{ end }}
+                  {{ end }}
+                </td>
+
+                <td data-label="Location">
+                  {{ with .Params.location }}{{ . }}{{ else }}—{{ end }}
+                </td>
+
+                <td data-label="Affiliation">
+                  {{ with .Params.affiliation }}{{ . }}{{ else }}—{{ end }}
+                </td>
+
+                <td data-label="First Appeared">
+                  {{ with .Params.first_appearance }}{{ . }}{{ else }}—{{ end }}
+                </td>
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+
+        <p id="npc-directory-no-results" class="npc-directory-no-results" hidden>
+          No personalities match your search.
+        </p>
+      </div>
+
+    {{ else }}
+
+      <div class="campaign-resource-empty">
+        <p>
+          No personalities have been added yet. Entries will appear here as
+          people and other notable figures enter the campaign.
+        </p>
+      </div>
+
+    {{ end }}
+
+    <p class="campaign-resources-back">
+      <a class="read-more" href="{{ .Parent.RelPermalink }}">
+        ← Return to Campaign Resources
+      </a>
+    </p>
+
+  </article>
+</div>
+
+{{ if .Pages }}
+<script>
+(function () {
+  const search = document.getElementById("npc-directory-search");
+  const clear = document.getElementById("npc-directory-clear");
+  const table = document.getElementById("npc-directory-table");
+  const count = document.getElementById("npc-directory-count");
+  const noResults = document.getElementById("npc-directory-no-results");
+
+  if (!search || !table) return;
+
+  const rows = Array.from(table.querySelectorAll("tbody .npc-directory-row"));
+
+  function updateDirectory() {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+
+    rows.forEach(function (row) {
+      const matches = !query || row.textContent.toLowerCase().includes(query);
+      row.hidden = !matches;
+      if (matches) visible += 1;
+    });
+
+    count.textContent = visible + (visible === 1 ? " entry" : " entries");
+    noResults.hidden = visible !== 0;
+    clear.hidden = search.value.length === 0;
+  }
+
+  rows.forEach(function (row) {
+    row.addEventListener("click", function (event) {
+      if (event.target.closest("a")) return;
+      window.location.href = row.dataset.href;
+    });
+
+    row.addEventListener("keydown", function (event) {
+      if (event.key === "Enter") {
+        window.location.href = row.dataset.href;
+      }
+    });
+  });
+
+  search.addEventListener("input", updateDirectory);
+
+  clear.addEventListener("click", function () {
+    search.value = "";
+    updateDirectory();
+    search.focus();
+  });
+
+  updateDirectory();
+})();
+</script>
+{{ end }}
+
+{{ end }}

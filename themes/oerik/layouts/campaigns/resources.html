@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaign-resources-page">
+
+    <header class="campaign-resources-header">
+      <h1>{{ .Title }}</h1>
+
+      <div class="campaign-resources-introduction">
+        {{ .Content }}
+      </div>
+    </header>
+
+    {{ $primary := where .Pages "Params.resource_group" "primary" }}
+    {{ if $primary }}
+      <section class="campaign-resources-group">
+        <h2>Campaign Encyclopedia</h2>
+        <p class="campaign-resources-group-intro">
+          The core reference library for the places, personalities, stories, and treasures that have entered the campaign.
+        </p>
+
+        <div class="resource-category-grid">
+          {{ range $primary.ByWeight }}
+            <article class="resource-category-card">
+              <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+              {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+              <a class="read-more" href="{{ .RelPermalink }}">Browse {{ .LinkTitle }} →</a>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ $additional := where .Pages "Params.resource_group" "additional" }}
+    {{ if $additional }}
+      <section class="campaign-resources-group">
+        <h2>Additional Campaign Resources</h2>
+        <p class="campaign-resources-group-intro">
+          Supporting references for organizations, faiths, recovered materials, and frequently used campaign information.
+        </p>
+
+        <div class="resource-category-grid">
+          {{ range $additional.ByWeight }}
+            <article class="resource-category-card">
+              <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+              {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+              <a class="read-more" href="{{ .RelPermalink }}">Browse {{ .LinkTitle }} →</a>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    <aside class="campaign-resources-note">
+      <h2>A Living Campaign</h2>
+      <p>
+        The information in these pages reflects what has been revealed during play.
+        New entries will be added, and existing entries may expand as the party makes
+        new discoveries.
+      </p>
+    </aside>
+
+    <p class="campaign-resources-back">
+      <a class="read-more" href="{{ "campaigns/storm-tide/" | relURL }}">
+        ← Return to The Storm Tide Campaign
+      </a>
+    </p>
+
+  </article>
+</div>
+
+{{ end }}

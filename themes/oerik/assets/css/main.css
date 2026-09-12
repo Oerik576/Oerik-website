@@ -1449,3 +1449,426 @@ a:hover {
     }
 }
 
+
+/* =========================================================
+   STORM TIDE CAMPAIGN RESOURCES
+   Scoped styles only. Existing standard-page rules remain unchanged.
+   ========================================================= */
+
+.campaign-resources-page,
+.campaign-resource-category-page,
+.campaign-resource-entry-page {
+    width: 100%;
+    max-width: none;
+}
+
+.campaign-resources-header,
+.campaign-resource-category-header,
+.campaign-resource-entry-header {
+    margin-bottom: 34px;
+}
+
+.campaign-resources-introduction,
+.campaign-resource-category-introduction,
+.campaign-resource-entry-body {
+    max-width: none;
+}
+
+.campaign-resources-group {
+    margin-top: 38px;
+}
+
+.campaign-resources-group-intro {
+    margin-bottom: 22px;
+}
+
+.resource-category-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 28px;
+    margin-top: 22px;
+}
+
+.resource-category-card {
+    padding: 22px 24px;
+    border: 1px solid #c9bda5;
+    background: #fbfaf7;
+    box-sizing: border-box;
+}
+
+.resource-category-card h3 {
+    margin: 0 0 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.resource-category-card h3 a {
+    color: #222;
+    text-decoration: none;
+}
+
+.resource-category-card h3 a:hover {
+    color: #8b4513;
+}
+
+.resource-category-card p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.resource-category-card .read-more {
+    font-weight: bold;
+}
+
+.campaign-resources-note {
+    margin-top: 42px;
+    padding: 18px 22px;
+    border-left: 4px solid #8b4513;
+    background: #f5f1e7;
+    box-sizing: border-box;
+}
+
+.campaign-resources-note h2 {
+    margin-top: 0;
+}
+
+.campaign-resources-note p:last-child {
+    margin-bottom: 0;
+}
+
+.campaign-resource-category-summary,
+.campaign-resource-entry-summary {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.campaign-resource-entry-list {
+    margin-top: 30px;
+}
+
+.campaign-resource-list-entry {
+    padding: 24px 0;
+    border-top: 1px solid #ccc;
+}
+
+.campaign-resource-list-entry:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.campaign-resource-list-entry h2 {
+    margin-top: 0;
+}
+
+.campaign-resource-empty {
+    margin-top: 28px;
+    padding: 18px 22px;
+    border: 1px solid #d6d0c4;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+.campaign-resource-empty p:last-child {
+    margin-bottom: 0;
+}
+
+.campaign-resource-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 24px;
+    color: #666;
+    font-size: 14px;
+}
+
+.campaign-resource-breadcrumb a {
+    color: #8b4513;
+}
+
+.campaign-resources-back {
+    margin-top: 38px;
+}
+
+@media (max-width: 800px) {
+
+    .resource-category-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .resource-category-card {
+        padding: 20px;
+    }
+
+    .campaign-resources-group {
+        margin-top: 30px;
+    }
+}
+
+/* =========================================================
+   STORM TIDE — NPC DIRECTORY
+   ========================================================= */
+
+.npc-directory-page {
+    width: 100%;
+    max-width: none;
+}
+
+.npc-directory-header {
+    margin-bottom: 28px;
+}
+
+.npc-directory-summary {
+    margin: 6px 0 16px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.npc-directory-introduction {
+    margin-bottom: 22px;
+}
+
+.npc-directory-tools {
+    margin: 24px 0 18px;
+    padding: 18px;
+    border: 1px solid #c9bda5;
+    background: #f5f1e7;
+}
+
+.npc-directory-tools label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.npc-directory-search-row {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+}
+
+.npc-directory-search {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 10px 12px;
+    border: 1px solid #999;
+    background: #fff;
+    color: #222;
+    font: inherit;
+    font-size: 16px;
+}
+
+.npc-directory-search:focus {
+    outline: 2px solid #8b4513;
+    outline-offset: 2px;
+}
+
+.npc-directory-clear {
+    flex: 0 0 auto;
+    padding: 9px 16px;
+    border: 1px solid #8b4513;
+    background: #fff;
+    color: #8b4513;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.npc-directory-clear:hover,
+.npc-directory-clear:focus {
+    background: #8b4513;
+    color: #fff;
+}
+
+.npc-directory-count {
+    margin: 9px 0 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.npc-directory-table-wrap {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.npc-directory-table {
+    width: 100%;
+    margin: 0 0 24px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 14px;
+}
+
+.npc-directory-table thead {
+    background: #f5f1e7;
+}
+
+.npc-directory-table th {
+    padding: 10px 12px;
+    border-top: 1px solid #c9bda5;
+    border-bottom: 2px solid #999;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.npc-directory-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+
+.npc-directory-table th:nth-child(1),
+.npc-directory-table td:nth-child(1) {
+    width: 17%;
+}
+
+.npc-directory-table th:nth-child(2),
+.npc-directory-table td:nth-child(2) {
+    width: 29%;
+}
+
+.npc-directory-table th:nth-child(3),
+.npc-directory-table td:nth-child(3) {
+    width: 17%;
+}
+
+.npc-directory-table th:nth-child(4),
+.npc-directory-table td:nth-child(4) {
+    width: 18%;
+}
+
+.npc-directory-table th:nth-child(5),
+.npc-directory-table td:nth-child(5) {
+    width: 19%;
+}
+
+.npc-directory-row {
+    cursor: pointer;
+}
+
+.npc-directory-row:nth-child(even) {
+    background: #fafafa;
+}
+
+.npc-directory-row:hover {
+    background: #f5f1e7;
+}
+
+.npc-directory-row:focus {
+    outline: 2px solid #8b4513;
+    outline-offset: -2px;
+}
+
+.npc-directory-row td:first-child a {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+}
+
+.npc-directory-no-results {
+    margin: 22px 0;
+    padding: 18px;
+    border: 1px solid #c9bda5;
+    background: #fafafa;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+
+    .npc-directory-tools {
+        padding: 14px;
+    }
+
+    .npc-directory-search-row {
+        display: block;
+    }
+
+    .npc-directory-search {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .npc-directory-clear {
+        display: block;
+        width: 100%;
+        margin-top: 9px;
+        box-sizing: border-box;
+    }
+
+    .npc-directory-clear[hidden] {
+        display: none;
+    }
+
+    .npc-directory-table-wrap {
+        overflow: visible;
+    }
+
+    .npc-directory-table,
+    .npc-directory-table tbody,
+    .npc-directory-table tr,
+    .npc-directory-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .npc-directory-table {
+        margin-top: 0;
+    }
+
+    .npc-directory-table thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    .npc-directory-table tbody tr {
+        margin: 0 0 16px;
+        padding: 4px 0;
+        border: 1px solid #c9bda5;
+        background: #fff;
+    }
+
+    .npc-directory-table tbody tr:nth-child(even) {
+        background: #fafafa;
+    }
+
+    .npc-directory-table td {
+        display: grid;
+        grid-template-columns: 118px minmax(0, 1fr);
+        gap: 10px;
+        padding: 8px 10px;
+        border-bottom: 1px solid #e5e0d6;
+    }
+
+    .npc-directory-table td:last-child {
+        border-bottom: 0;
+    }
+
+    .npc-directory-table td::before {
+        content: attr(data-label);
+        font-family: Georgia, "Times New Roman", serif;
+        font-weight: bold;
+    }
+
+    .npc-directory-table th:nth-child(n),
+    .npc-directory-table td:nth-child(n) {
+        width: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaign-resource-category-page">
+
+    <header class="campaign-resource-category-header">
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Params.summary }}
+        <p class="campaign-resource-category-summary">{{ . }}</p>
+      {{ end }}
+
+      <div class="campaign-resource-category-introduction">
+        {{ .Content }}
+      </div>
+    </header>
+
+    {{ if .Pages }}
+      <div class="campaign-resource-entry-list">
+        {{ range .Pages.ByTitle }}
+          <article class="campaign-resource-list-entry">
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            {{ with .Params.summary }}
+              <p>{{ . }}</p>
+            {{ else }}
+              <p>{{ .Summary | plainify | truncate 240 }}</p>
+            {{ end }}
+            <p><a class="read-more" href="{{ .RelPermalink }}">View Entry →</a></p>
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <div class="campaign-resource-empty">
+        <p>
+          No entries have been added to this section yet. Resources will appear here
+          as they become known or relevant during the campaign.
+        </p>
+      </div>
+    {{ end }}
+
+    <p class="campaign-resources-back">
+      <a class="read-more" href="{{ .Parent.RelPermalink }}">
+        ← Return to Campaign Resources
+      </a>
+    </p>
+
+  </article>
+</div>
+
+{{ end }}

@@ -1,7 +1,10 @@
+
 ---
 title: "Campaign Resources"
 layout: "resources"
 summary: "A player-facing reference library for the people, places, lore, treasures, organizations, faiths, documents, and campaign information revealed during the Storm Tide Campaign."
+campaign_blurb: "Explore the player-facing reference library for the **Storm Tide Campaign**, including locations, personalities, rumors and lore, magic items, factions, religions, documents, handouts, and other information revealed during play."
+show_children_on_campaign_page: false
 cascade:
   layout: "resource-entry"
 ---

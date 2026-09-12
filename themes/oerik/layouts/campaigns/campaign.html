@@ -1,4 +1,13 @@
+
 {{ define "main" }}
+
+{{ $campaign := . }}
+{{ $campaignDir := strings.TrimSuffix "/" .File.Dir }}
+
+{{ $party := site.GetPage (printf "/%s/party" $campaignDir) }}
+{{ $journal := site.GetPage (printf "/%s/journal" $campaignDir) }}
+{{ $adventures := site.GetPage (printf "/%s/adventures" $campaignDir) }}
+{{ $resources := site.GetPage (printf "/%s/resources" $campaignDir) }}
 
 <div class="standard-page">
   <article class="standard-page-content campaign-page">
@@ -8,161 +17,171 @@
 
       {{ with .Params.banner_image }}
         <figure class="campaign-banner">
-          <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}">
+          <img
+            src="{{ strings.TrimPrefix "/" . | relURL }}"
+            alt="{{ $campaign.Title }}"
+          >
         </figure>
       {{ end }}
 
-      <div class="campaign-introduction">
-        {{ .Content }}
-      </div>
+      {{ with .Content }}
+        <div class="campaign-introduction">
+          {{ . }}
+        </div>
+      {{ end }}
     </header>
 
-    {{ $party := site.GetPage "/campaigns/storm-tide/party" }}
-   {{ $party := site.GetPage "/campaigns/storm-tide/party" }}
-<section class="campaign-section">
-  <h2>The Party</h2>
 
-  <table class="party-roster">
-    <thead>
-      <tr>
-        <th>Character</th>
-        <th>Player</th>
-        <th>Class</th>
-        <th>Race</th>
-        <th>Level</th>
-        <th>Status</th>
-      </tr>
-    </thead>
+    {{ with $party }}
+      <section class="campaign-section">
+        <h2>{{ .Title }}</h2>
 
-    <tbody>
-      <tr>
-        <td>Arenir Stormrider</td>
-        <td>Albert</td>
-        <td>Cavalier</td>
-        <td>Human</td>
-        <td>1</td>
-        <td>Retired</td>
-      </tr>
-      <tr>
-        <td>Cyr Baggins</td>
-        <td>Cyril</td>
-        <td>Thief</td>
-        <td>Halfling</td>
-        <td>2</td>
-        <td>Active</td>
-      </tr>
-      <tr>
-        <td>Darrak Goldenforge</td>
-        <td>Sean</td>
-        <td>Fighter</td>
-        <td>Dwarf</td>
-        <td>2</td>
-        <td>Active</td>
-      </tr>
-      <tr>
-        <td>Galborn Valgwyn</td>
-        <td>Craig</td>
-        <td>Ranger</td>
-        <td>Elf</td>
-        <td>2</td>
-        <td>Active</td>
-      </tr>
-      <tr>
-        <td>Haldir Soreson</td>
-        <td>Dante</td>
-        <td>Druid</td>
-        <td>Half-elf</td>
-        <td>2</td>
-        <td>Active</td>
-      </tr>
-      <tr>
-        <td>Hugo Baudelaire</td>
-        <td>Nathan</td>
-        <td>Magic User</td>
-        <td>Human</td>
-        <td>2</td>
-        <td>Active</td>
-      </tr>
-      <tr>
-        <td>Merrick, Devout of Osprem</td>
-        <td>NPC</td>
-        <td>Cleric</td>
-        <td>Human</td>
-        <td>2</td>
-        <td>NPC</td>
-      </tr>
-      <tr>
-        <td>Xalen Thistlewacker</td>
-        <td>Allen</td>
-        <td>Ftr/Illusion/Th</td>
-        <td>Gnome</td>
-        <td>2</td>
-        <td>Active</td>
-      </tr>
-    </tbody>
-  </table>
+        {{ with .Params.campaign_blurb }}
+          <p>{{ . | markdownify }}</p>
+        {{ else }}
+          {{ with .Content }}
+            <div class="campaign-section-introduction">
+              {{ . }}
+            </div>
+          {{ end }}
+        {{ end }}
 
-  {{ with $party }}
-    <p><a class="read-more" href="{{ .RelPermalink }}">View The Party →</a></p>
-  {{ end }}
-</section>
- {{ $journal := site.GetPage "/campaigns/storm-tide/journal" }}
-
-<section class="campaign-section">
-  <h2>Campaign Journal</h2>
-
-  {{ with $journal }}
-    <p>
-      Follow the continuing story of the <strong>Storm Tide Campaign</strong>
-      through session reports, major discoveries, memorable encounters, and
-      the choices that have shaped the party’s journey through Seaton’s Cove
-      and beyond.
-    </p>
-
-    <p>
-      <a class="read-more" href="{{ .RelPermalink }}">
-        View Campaign Journal →
-      </a>
-    </p>
-  {{ end }}
-</section>
-
-    {{ $adventures := site.GetPage "/campaigns/storm-tide/adventures" }}
-    <section class="campaign-section">
-      <h2>Adventures</h2>
-      {{ with $adventures }}
         {{ if .Pages }}
+          <table class="party-roster">
+            <thead>
+              <tr>
+                <th>Character</th>
+                <th>Player</th>
+                <th>Class</th>
+                <th>Race</th>
+                <th>Level</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              {{ range .Pages.ByTitle }}
+                <tr>
+                  <td>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </td>
+                  <td>{{ .Params.player | default "—" }}</td>
+                  <td>{{ .Params.class | default "—" }}</td>
+                  <td>{{ .Params.race | default "—" }}</td>
+                  <td>{{ .Params.level | default "—" }}</td>
+                  <td>{{ .Params.status | default "—" }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        {{ end }}
+
+        <p>
+          <a class="read-more" href="{{ .RelPermalink }}">
+            View {{ .Title }} →
+          </a>
+        </p>
+      </section>
+    {{ end }}
+
+
+    {{ with $journal }}
+      <section class="campaign-section">
+        <h2>{{ .Title }}</h2>
+
+        {{ with .Params.campaign_blurb }}
+          <p>{{ . | markdownify }}</p>
+        {{ else }}
+          {{ with .Content }}
+            <div class="campaign-section-introduction">
+              {{ . }}
+            </div>
+          {{ end }}
+        {{ end }}
+
+        <p>
+          <a class="read-more" href="{{ .RelPermalink }}">
+            View {{ .Title }} →
+          </a>
+        </p>
+      </section>
+    {{ end }}
+
+
+    {{ with $adventures }}
+      <section class="campaign-section">
+        <h2>{{ .Title }}</h2>
+
+        {{ with .Params.campaign_blurb }}
+          <p>{{ . | markdownify }}</p>
+        {{ else }}
+          {{ with .Content }}
+            <div class="campaign-section-introduction">
+              {{ . }}
+            </div>
+          {{ end }}
+        {{ end }}
+
+        {{ if and .Params.show_children_on_campaign_page .Pages }}
           <div class="campaign-entry-list">
             {{ range .Pages.ByTitle }}
               <article class="campaign-entry">
-                <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-                {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+                <h3>
+                  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                </h3>
+                {{ with .Params.summary }}
+                  <p>{{ . }}</p>
+                {{ end }}
               </article>
             {{ end }}
           </div>
-        {{ else }}
-          <p>
-  Explore the adventures that make up the <strong>Storm Tide Campaign</strong>,
-  from local mysteries and dangerous expeditions to larger threats unfolding
-  across the southern coast of Keoland and the wider world of Greyhawk.
-</p>
         {{ end }}
-        <p><a class="read-more" href="{{ .RelPermalink }}">View Adventures →</a></p>
-      {{ end }}
-    </section>
 
-    {{ $resources := site.GetPage "/campaigns/storm-tide/resources" }}
-    <section class="campaign-section">
-      <h2>Campaign Resources</h2>
-      {{ with $resources }}
         <p>
-          Explore the player-facing reference library for the <strong>Storm Tide Campaign</strong>,
-          including locations, personalities, rumors and lore, magic items, factions, religions,
-          documents, handouts, and other information revealed during play.
+          <a class="read-more" href="{{ .RelPermalink }}">
+            View {{ .Title }} →
+          </a>
         </p>
-        <p><a class="read-more" href="{{ .RelPermalink }}">View Campaign Resources →</a></p>
-      {{ end }}
-    </section>
+      </section>
+    {{ end }}
+
+
+    {{ with $resources }}
+      <section class="campaign-section">
+        <h2>{{ .Title }}</h2>
+
+        {{ with .Params.campaign_blurb }}
+          <p>{{ . | markdownify }}</p>
+        {{ else }}
+          {{ with .Content }}
+            <div class="campaign-section-introduction">
+              {{ . }}
+            </div>
+          {{ end }}
+        {{ end }}
+
+        {{ if and .Params.show_children_on_campaign_page .Pages }}
+          <div class="campaign-entry-list">
+            {{ range .Pages.ByTitle }}
+              <article class="campaign-entry">
+                <h3>
+                  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                </h3>
+                {{ with .Params.summary }}
+                  <p>{{ . }}</p>
+                {{ end }}
+              </article>
+            {{ end }}
+          </div>
+        {{ end }}
+
+        <p>
+          <a class="read-more" href="{{ .RelPermalink }}">
+            View {{ .Title }} →
+          </a>
+        </p>
+      </section>
+    {{ end }}
 
   </article>
 </div>

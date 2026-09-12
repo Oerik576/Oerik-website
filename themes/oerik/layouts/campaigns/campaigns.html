@@ -1,3 +1,4 @@
+
 {{ define "main" }}
 
 <div class="standard-page">
@@ -12,46 +13,70 @@
       </p>
     </header>
 
-    <section class="campaign-listing">
-      <h2>The Storm Tide Campaign</h2>
 
-      <figure class="campaign-listing-image">
-		<a href="{{ "campaigns/storm-tide/" | relURL }}">
-			<img src="{{ "images/campaigns/Campaign-The-Storm-Tide.png" | relURL }}" alt="The Storm Tide Campaign">
-		</a>
-	  </figure>
+    {{ with site.GetPage "/campaigns/storm-tide" }}
+      <section class="campaign-listing">
+        <h2>{{ .Title }}</h2>
 
-      <p>
-        A Greyhawk campaign beginning in 576 CY along the southern coast of Keoland,
-        centered on Seaton’s Cove and the dangers, mysteries, and adventures that
-        reach outward from the Viscounty of Salinmoor.
-      </p>
+        <figure class="campaign-listing-image">
+          <a href="{{ .RelPermalink }}">
+            <img
+              src="{{ "images/campaigns/Campaign-The-Storm-Tide.png" | relURL }}"
+              alt="{{ .Title }}"
+            >
+          </a>
+        </figure>
 
-      <p><a class="read-more" href="{{ "campaigns/storm-tide/" | relURL }}">Explore Campaign →</a></p>
-    </section>
+        <p>
+          A Greyhawk campaign beginning in 576 CY along the southern coast of Keoland,
+          centered on Seaton’s Cove and the dangers, mysteries, and adventures that
+          reach outward from the Viscounty of Salinmoor.
+        </p>
+
+        <p>
+          <a class="read-more" href="{{ .RelPermalink }}">
+            Explore Campaign →
+          </a>
+        </p>
+      </section>
+    {{ end }}
 
 
-    <section class="campaign-listing">
-      <h2>The Marches Campaign</h2>
+    {{ with site.GetPage "/campaigns/marches" }}
+      <section class="campaign-listing">
+        <h2>{{ .Title }}</h2>
 
-      <figure class="campaign-listing-image">
-        <img src="{{ "images/campaigns/Campaign-The-Marches.png" | relURL }}" alt="The Marches Campaign">
-      </figure>
+        <figure class="campaign-listing-image">
+          <a href="{{ .RelPermalink }}">
+            <img
+              src="{{ "images/campaigns/Campaign-The-Marches.png" | relURL }}"
+              alt="{{ .Title }}"
+            >
+          </a>
+        </figure>
 
-      <p>
-        The Marches Campaign section is being prepared. Campaign information,
-        characters, journals, adventures, and resources will be added here.
-      </p>
+        <p>
+          The Marches Campaign section is being prepared. Campaign information,
+          characters, journals, adventures, and resources will be added here.
+        </p>
 
-      <p><a class="read-more" href="{{ "campaigns/marches/" | relURL }}">Explore Campaign →</a></p>
-    </section>
+        <p>
+          <a class="read-more" href="{{ .RelPermalink }}">
+            Explore Campaign →
+          </a>
+        </p>
+      </section>
+    {{ end }}
 
 
     <section class="campaign-listing">
       <h2>One-Shots</h2>
 
       <figure class="campaign-listing-image">
-        <img src="{{ "images/campaigns/Campaign-One-Shot-Hero.png" | relURL }}" alt="One-Shots">
+        <img
+          src="{{ "images/campaigns/Campaign-One-Shot-Hero.png" | relURL }}"
+          alt="One-Shots"
+        >
       </figure>
 
       <p>
@@ -60,7 +85,11 @@
         own without requiring the history of a larger campaign.
       </p>
 
-      <p><a class="read-more" href="{{ "campaigns/one-shots/" | relURL }}">Explore One-Shots →</a></p>
+      <p>
+        <a class="read-more" href="{{ "campaigns/one-shots/" | relURL }}">
+          Explore One-Shots →
+        </a>
+      </p>
     </section>
 
   </article>

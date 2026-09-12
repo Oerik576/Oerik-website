@@ -1,0 +1,52 @@
+
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content campaign-subsection-page">
+
+    <header class="campaign-subsection-header">
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Content }}
+        <div class="campaign-subsection-introduction">
+          {{ . }}
+        </div>
+      {{ end }}
+    </header>
+
+    {{ if .Pages }}
+      <div class="campaign-entry-list">
+        {{ range .Pages.ByTitle }}
+          <article class="campaign-entry">
+            <h2>
+              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            </h2>
+
+            {{ with .Params.summary }}
+              <p>{{ . }}</p>
+            {{ else }}
+              {{ with .Summary }}
+                <p>{{ . | plainify | truncate 220 }}</p>
+              {{ end }}
+            {{ end }}
+
+            <p>
+              <a class="read-more" href="{{ .RelPermalink }}">
+                Read More →
+              </a>
+            </p>
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <p class="campaign-character-back">
+      <a class="read-more" href="{{ .Parent.RelPermalink }}">
+        ← Return to {{ .Parent.Title }}
+      </a>
+    </p>
+
+  </article>
+</div>
+
+{{ end }}

@@ -22,33 +22,17 @@ affiliation: "Hall of Illumination"
 first_appearance: "Campaign Journal 002 - After the Dragon"
 
 image: "images/campaigns/assets/npc/NPC-CARD-Vandy Banderdash.png"
+card_width: 300
+known_for: "Scholarship, historical records, research, and preservation of knowledge"
 ---
-
-{{< journal-image
-    src="images/campaigns/assets/npc/NPC-CARD-Vandy Banderdash.png"
-    alt="Vandy Banderdash of the Hall of Illumination"
-    type="medium"
->}}
-
 ## Overview
 
-**Vandy Banderdash** is a halfling cleric of **Delleb** and the head priestess and head librarian of the **Hall of Illumination** in [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}}).
+**Vandy Banderdash** is a halfling cleric of **Delleb** and the head priestess and head librarian of the **Hall of Illumination** in [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}}).
 
 She is one of the town's leading scholars and the principal custodian of its historical records, religious texts, maps, and accumulated knowledge. When an old inscription must be understood, a forgotten event researched, or a dangerous mystery placed into historical context, Vandy is one of the people most likely to know where to begin looking.
 
 Kind, bookish, and deeply committed to preserving knowledge, she can also become so absorbed in research that the world around her seems to disappear.
 
-## At a Glance
-
-| Field | Information |
-|---|---|
-| Race | Halfling |
-| Role | Head Priestess and Head Librarian |
-| Faith | Delleb |
-| Status | Alive |
-| Current Location | Seaton's Cove |
-| Affiliation | Hall of Illumination |
-| Known For | Scholarship, historical records, research, and preservation of knowledge |
 
 ## Physical Description
 
@@ -127,9 +111,9 @@ Her advice helped turn the town's response away from an immediate and poorly pre
 
 ## The Search for Answers
 
-After the council, **Hugo Baudelaire** and [Haldir Sorenson]({{< ref "/campaigns/storm-tide/party/haldir-sorenson.md" >}}) accompanied Vandy back toward the Hall of Illumination.
+After the council, **Hugo Baudelaire** and [Haldir Sorenson]({{% relref "/campaigns/storm-tide/party/#haldir-sorenson" %}}) accompanied Vandy back toward the Hall of Illumination.
 
-On the way, Vandy suggested consulting [Morlibint]({{< ref "/campaigns/storm-tide/resources/personalities/morlibint.md" >}}) at **Odd Stories**, knowing that his broad and unusual reading might complement the Hall's formal collection.
+On the way, Vandy suggested consulting [Morlibint]({{% relref "/campaigns/storm-tide/resources/personalities/morlibint" %}}) at **Odd Stories**, knowing that his broad and unusual reading might complement the Hall's formal collection.
 
 For the next three days, Vandy, Hugo, and Haldir searched the Hall's library while Morlibint worked through his own books.
 
@@ -162,7 +146,7 @@ Those are the kinds of questions Vandy is equipped to pursue.
 
 Vandy represents knowledge, scholarship, and historical memory within Seaton's Cove.
 
-While [Captain Lardus Longsaddle]({{< ref "/campaigns/storm-tide/resources/personalities/lardus-longsaddle.md" >}}) approaches danger through security and [Worliwynn]({{< ref "/campaigns/storm-tide/resources/personalities/worliwynn.md" >}}) through nature and ancient tradition, Vandy looks for records, precedents, translations, and explanations.
+While [Captain Lardus Longsaddle]({{% relref "/campaigns/storm-tide/resources/personalities/lardus-longsaddle" %}}) approaches danger through security and [Worliwynn]({{% relref "/campaigns/storm-tide/resources/personalities/worliwynn" %}}) through nature and ancient tradition, Vandy looks for records, precedents, translations, and explanations.
 
 For the adventurers, she can serve as:
 
@@ -209,20 +193,20 @@ Locally, she frequently works with people whose knowledge complements her own, i
 
 ## Related Locations
 
-- [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}})
+- [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}})
 - Hall of Illumination
 - Odd Stories
 - Menhemes Manor
 
 ## Related Personalities
 
-- [Oseph Menhemes]({{< ref "/campaigns/storm-tide/resources/personalities/oseph-menhemes.md" >}})
-- [Captain Lardus Longsaddle]({{< ref "/campaigns/storm-tide/resources/personalities/lardus-longsaddle.md" >}})
-- [Worliwynn]({{< ref "/campaigns/storm-tide/resources/personalities/worliwynn.md" >}})
-- [Morlibint]({{< ref "/campaigns/storm-tide/resources/personalities/morlibint.md" >}})
-- [Tamily Tanderveil]({{< ref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil.md" >}})
-- Hugo Baudelaire
-- [Haldir Sorenson]({{< ref "/campaigns/storm-tide/party/haldir-sorenson.md" >}})
+- [Oseph Menhemes]({{% relref "/campaigns/storm-tide/resources/personalities/oseph-menhemes" %}})
+- [Captain Lardus Longsaddle]({{% relref "/campaigns/storm-tide/resources/personalities/lardus-longsaddle" %}})
+- [Worliwynn]({{% relref "/campaigns/storm-tide/resources/personalities/worliwynn" %}})
+- [Morlibint]({{% relref "/campaigns/storm-tide/resources/personalities/morlibint" %}})
+- [Tamily Tanderveil]({{% relref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil" %}})
+- [Hugo Baudelaire]({{% relref "/campaigns/storm-tide/party/#hugo-baudelaire" %}})
+- [Haldir Sorenson]({{% relref "/campaigns/storm-tide/party/#haldir-sorenson" %}})
 
 ## Campaign Appearances
 

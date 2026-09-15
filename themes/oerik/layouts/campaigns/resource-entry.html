@@ -1,5 +1,18 @@
 {{ define "main" }}
 
+{{ $page := . }}
+{{ $isNPC := false }}
+{{ $isMagicItem := false }}
+
+{{ with .Params.tags }}
+  {{ if in . "npc" }}
+    {{ $isNPC = true }}
+  {{ end }}
+  {{ if in . "magic-item" }}
+    {{ $isMagicItem = true }}
+  {{ end }}
+{{ end }}
+
 <div class="standard-page">
   <article class="standard-page-content campaign-resource-entry-page">
 
@@ -11,10 +24,247 @@
 
     <header class="campaign-resource-entry-header">
       <h1>{{ .Title }}</h1>
+
       {{ with .Params.summary }}
         <p class="campaign-resource-entry-summary">{{ . }}</p>
       {{ end }}
     </header>
+
+    {{ if or $isNPC $isMagicItem }}
+      <div
+        class="resource-profile-top"
+        style="--resource-card-width: {{ .Params.card_width | default 300 }}px;"
+      >
+
+        {{ with .Params.image }}
+          <figure class="resource-profile-card">
+            <img
+              src="{{ strings.TrimPrefix "/" . | relURL }}"
+              alt="{{ $page.Title }}"
+            >
+          </figure>
+        {{ end }}
+
+        <aside class="resource-at-a-glance" aria-labelledby="resource-at-a-glance-heading">
+          <h2 id="resource-at-a-glance-heading">At a Glance</h2>
+
+          <dl class="resource-at-a-glance-list">
+
+            {{ if $isNPC }}
+
+              {{ with .Params.race }}
+                <div>
+                  <dt>Race</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.role }}
+                <div>
+                  <dt>Role</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.deity }}
+                <div>
+                  <dt>Faith</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.status }}
+                <div>
+                  <dt>Status</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.location }}
+                <div>
+                  <dt>Current Location</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.region }}
+                <div>
+                  <dt>Region</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.affiliation }}
+                <div>
+                  <dt>Affiliation</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.responsibility }}
+                <div>
+                  <dt>Responsibility</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.known_for }}
+                <div>
+                  <dt>Known For</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.business }}
+                <div>
+                  <dt>Business</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.residence }}
+                <div>
+                  <dt>Residence</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+            {{ end }}
+
+            {{ if $isMagicItem }}
+
+              {{ with .Params.item_type }}
+                <div>
+                  <dt>Item Type</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.xp_value }}
+                <div>
+                  <dt>XP Value</dt>
+                  <dd>{{ lang.FormatNumber 0 . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.gp_value }}
+                <div>
+                  <dt>GP Value</dt>
+                  <dd>{{ lang.FormatNumber 0 . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.charges }}
+                <div>
+                  <dt>Charges</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.activation }}
+                <div>
+                  <dt>Activation</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.special_affinity }}
+                <div>
+                  <dt>Special Affinity</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+            {{ end }}
+
+            {{ with .Params.first_appearance }}
+              <div>
+                <dt>First Appeared</dt>
+                <dd>{{ . }}</dd>
+              </div>
+            {{ end }}
+
+          </dl>
+        </aside>
+
+      </div>
+
+      <style>
+        .resource-profile-top {
+          display: grid;
+          grid-template-columns: minmax(220px, var(--resource-card-width)) minmax(0, 1fr);
+          gap: 32px;
+          align-items: start;
+          margin: 24px 0 34px;
+        }
+
+        .resource-profile-card {
+          width: 100%;
+          max-width: var(--resource-card-width);
+          margin: 0;
+        }
+
+        .resource-profile-card img {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+
+        .resource-at-a-glance {
+          min-width: 0;
+        }
+
+        .resource-at-a-glance h2 {
+          margin: 0 0 10px;
+          padding-bottom: 7px;
+          border-bottom: 1px solid #bbb;
+        }
+
+        .resource-at-a-glance-list {
+          margin: 0;
+        }
+
+        .resource-at-a-glance-list > div {
+          display: grid;
+          grid-template-columns: 145px minmax(0, 1fr);
+          gap: 14px;
+          padding: 7px 0;
+          border-bottom: 1px solid #e3e3e3;
+        }
+
+        .resource-at-a-glance-list > div:last-child {
+          border-bottom: 0;
+        }
+
+        .resource-at-a-glance-list dt {
+          margin: 0;
+          font-weight: bold;
+        }
+
+        .resource-at-a-glance-list dd {
+          min-width: 0;
+          margin: 0;
+        }
+
+        @media (max-width: 700px) {
+          .resource-profile-top {
+            grid-template-columns: 1fr;
+            gap: 22px;
+          }
+
+          .resource-profile-card {
+            justify-self: center;
+          }
+        }
+
+        @media (max-width: 420px) {
+          .resource-at-a-glance-list > div {
+            grid-template-columns: 1fr;
+            gap: 2px;
+          }
+        }
+      </style>
+    {{ end }}
 
     <div class="campaign-resource-entry-body">
       {{ .Content }}

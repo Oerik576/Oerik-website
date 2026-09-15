@@ -23,30 +23,15 @@ affiliation: ""
 first_appearance: "BB-01A - Menace Under Seaton's Cove"
 
 image: "images/campaigns/assets/npc/NPC-CARD-Worliwynn.png"
+card_width: 300
+region: "Salinmoor"
 ---
-
-{{< journal-image
-    src="images/campaigns/assets/npc/NPC-CARD-Worliwynn.png"
-    alt="Worliwynn, forest gnome druid of Stone Ring Pond"
-    type="medium"
->}}
-
 ## Overview
 
-Worliwynn is the wise forest gnome druid of **Stone Ring Pond**, Haldir's storm-magic mentor, a respected spiritual guide of [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}}), and one of the foremost guardians of the natural balance along the southern coast of **Salinmoor**.
+Worliwynn is the wise forest gnome druid of **Stone Ring Pond**, Haldir's storm-magic mentor, a respected spiritual guide of [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}}), and one of the foremost guardians of the natural balance along the southern coast of **Salinmoor**.
 
-She serves as a bridge between civilization and the wild places of the region, particularly [the Dreadwood]({{< ref "/campaigns/storm-tide/resources/locations/the-dreadwood.md" >}}), the marshlands, and the natural forces surrounding Seaton's Cove.
+She serves as a bridge between civilization and the wild places of the region, particularly [the Dreadwood]({{% relref "/campaigns/storm-tide/resources/locations/the-dreadwood" %}}), the marshlands, and the natural forces surrounding Seaton's Cove.
 
-## At a Glance
-
-| Field | Information |
-|---|---|
-| Race | Forest Gnome |
-| Role | Druid and Spiritual Guide |
-| Faith | Ehlonna |
-| Status | Alive |
-| Current Location | Stone Ring Pond |
-| Region | Salinmoor |
 
 ## Physical Description
 
@@ -83,10 +68,10 @@ She looks far more at home in the forest, marsh, and wilderness than within the 
 
 ### Allies
 
-- [Haldir Sorenson]({{< ref "/campaigns/storm-tide/party/haldir-sorenson.md" >}})
-- [Vandy Banderdash]({{< ref "/campaigns/storm-tide/resources/personalities/vandy-banderdash.md" >}})
-- [Mayor Oseph Menhemes]({{< ref "/campaigns/storm-tide/resources/personalities/oseph-menhemes.md" >}})
-- [Tamily Tanderveil]({{< ref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil.md" >}})
+- [Haldir Sorenson]({{% relref "/campaigns/storm-tide/party/#haldir-sorenson" %}})
+- [Vandy Banderdash]({{% relref "/campaigns/storm-tide/resources/personalities/vandy-banderdash" %}})
+- [Mayor Oseph Menhemes]({{% relref "/campaigns/storm-tide/resources/personalities/oseph-menhemes" %}})
+- [Tamily Tanderveil]({{% relref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil" %}})
 
 ### Associates
 
@@ -97,7 +82,7 @@ She looks far more at home in the forest, marsh, and wilderness than within the 
 
 Worliwynn played a critical role in Haldir's development as a druid.
 
-After Haldir's early training in [the Dreadwood]({{< ref "/campaigns/storm-tide/resources/locations/the-dreadwood.md" >}}), his mentor **Eolara Earthheart** directed him to seek out Worliwynn because of her expertise with storm magic. Worliwynn became one of Haldir's principal teachers and helped him develop his storm-born druidic abilities.
+After Haldir's early training in [the Dreadwood]({{% relref "/campaigns/storm-tide/resources/locations/the-dreadwood" %}}), his mentor **Eolara Earthheart** directed him to seek out Worliwynn because of her expertise with storm magic. Worliwynn became one of Haldir's principal teachers and helped him develop his storm-born druidic abilities.
 
 She remains one of the most influential figures in his life.
 
@@ -151,17 +136,17 @@ Her awareness makes her one of the first people likely to recognize unusual magi
 ## Related Locations
 
 - Stone Ring Pond
-- [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}})
+- [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}})
 - Salinmoor
-- [The Dreadwood]({{< ref "/campaigns/storm-tide/resources/locations/the-dreadwood.md" >}})
+- [The Dreadwood]({{% relref "/campaigns/storm-tide/resources/locations/the-dreadwood" %}})
 
 ## Related Personalities
 
-- [Haldir Sorenson]({{< ref "/campaigns/storm-tide/party/haldir-sorenson.md" >}})
+- [Haldir Sorenson]({{% relref "/campaigns/storm-tide/party/#haldir-sorenson" %}})
 - Eolara Earthheart
-- [Vandy Banderdash]({{< ref "/campaigns/storm-tide/resources/personalities/vandy-banderdash.md" >}})
-- [Mayor Oseph Menhemes]({{< ref "/campaigns/storm-tide/resources/personalities/oseph-menhemes.md" >}})
-- [Tamily Tanderveil]({{< ref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil.md" >}})
+- [Vandy Banderdash]({{% relref "/campaigns/storm-tide/resources/personalities/vandy-banderdash" %}})
+- [Mayor Oseph Menhemes]({{% relref "/campaigns/storm-tide/resources/personalities/oseph-menhemes" %}})
+- [Tamily Tanderveil]({{% relref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil" %}})
 
 ## Related Adventures
 

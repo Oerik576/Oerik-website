@@ -19,32 +19,16 @@ affiliation: "Salty Net & Fishery Hall"
 first_appearance: "Campaign Journal 001 - Something Beneath the Cove"
 
 image: "images/campaigns/assets/npc/npc-card_tamily-tanderveil-01.png"
+card_width: 300
 ---
-
-{{< journal-image
-    src="images/campaigns/assets/npc/npc-card_tamily-tanderveil-01.png"
-    alt="Tamily Tanderveil, proprietor of the Salty Net & Fishery Hall"
-    type="medium"
->}}
-
 ## Overview
 
-**Tamily Tanderveil** is the halfling proprietor of the **Salty Net & Fishery Hall** in [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}}).
+**Tamily Tanderveil** is the halfling proprietor of the **Salty Net & Fishery Hall** in [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}}).
 
 Practical, capable, and accustomed to keeping a busy fishery hall running, Tamily became directly involved in the earliest events of the Storm Tide Campaign when something began disturbing the stores beneath her building.
 
 What first appeared to be a problem with missing saltfish eventually exposed forgotten passages beneath Seaton's Cove, a kobold warren, and a young green dragon.
 
-## At a Glance
-
-| Field | Information |
-|---|---|
-| Race | Halfling |
-| Role | Proprietor of the Salty Net & Fishery Hall |
-| Status | Alive |
-| Current Location | Seaton's Cove |
-| Affiliation | Salty Net & Fishery Hall |
-| First Appeared | Campaign Journal 001 — Something Beneath the Cove |
 
 ## The Salty Net & Fishery Hall
 
@@ -85,7 +69,7 @@ Tamily's request for help brought together four newly fledged adventurers:
 
 - Arenir Stormrider
 - Cyr Baggins
-- [Haldir Sorenson]({{< ref "/campaigns/storm-tide/party/haldir-sorenson.md" >}})
+- [Haldir Sorenson]({{% relref "/campaigns/storm-tide/party/#haldir-sorenson" %}})
 - Hugo Baudelaire
 
 Their task sounded simple.
@@ -132,21 +116,21 @@ Tamily is a useful source of information regarding:
 
 ## Related Locations
 
-- [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}})
+- [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}})
 - Salty Net & Fishery Hall
 - The passages beneath Seaton's Cove
 - Menhemes Manor
 
 ## Related Personalities
 
-- Arenir Stormrider
-- Cyr Baggins
-- [Haldir Sorenson]({{< ref "/campaigns/storm-tide/party/haldir-sorenson.md" >}})
-- Hugo Baudelaire
-- [Mayor Oseph Menhemes]({{< ref "/campaigns/storm-tide/resources/personalities/oseph-menhemes.md" >}})
-- [Worliwynn]({{< ref "/campaigns/storm-tide/resources/personalities/worliwynn.md" >}})
-- [Captain Lardus Longsaddle]({{< ref "/campaigns/storm-tide/resources/personalities/lardus-longsaddle.md" >}})
-- [Vandy Banderdash]({{< ref "/campaigns/storm-tide/resources/personalities/vandy-banderdash.md" >}})
+- [Arenir Stormrider]({{% relref "/campaigns/storm-tide/party/#arenir-stormrider" %}})
+- [Cyr Baggins]({{% relref "/campaigns/storm-tide/party/#cyr-baggins" %}})
+- [Haldir Sorenson]({{% relref "/campaigns/storm-tide/party/#haldir-sorenson" %}})
+- [Hugo Baudelaire]({{% relref "/campaigns/storm-tide/party/#hugo-baudelaire" %}})
+- [Mayor Oseph Menhemes]({{% relref "/campaigns/storm-tide/resources/personalities/oseph-menhemes" %}})
+- [Worliwynn]({{% relref "/campaigns/storm-tide/resources/personalities/worliwynn" %}})
+- [Captain Lardus Longsaddle]({{% relref "/campaigns/storm-tide/resources/personalities/lardus-longsaddle" %}})
+- [Vandy Banderdash]({{% relref "/campaigns/storm-tide/resources/personalities/vandy-banderdash" %}})
 - Lyrielle the Seer
 
 ## Campaign Appearances

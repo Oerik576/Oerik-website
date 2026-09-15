@@ -22,32 +22,17 @@ affiliation: "Seaton's Cove Garrison"
 first_appearance: "Campaign Journal 002 - After the Dragon"
 
 image: "images/campaigns/assets/npc/C-NPC-Captain Longsaddle.png"
+card_width: 300
+responsibility: "Town defense, security, investigations, and law enforcement"
 ---
-
-{{< journal-image
-    src="images/campaigns/assets/npc/C-NPC-Captain Longsaddle.png"
-    alt="Captain Lardus Longsaddle, commander of the Seaton's Cove garrison"
-    type="medium"
->}}
-
 ## Overview
 
-**Captain Lardus Longsaddle** is the commander of the [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}}) garrison and the town's senior military and law-enforcement officer.
+**Captain Lardus Longsaddle** is the commander of the [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}}) garrison and the town's senior military and law-enforcement officer.
 
 A grizzled veteran with little patience for foolishness, Lardus is responsible for the security of the Cove, the investigation of serious crimes, and the local enforcement of Keoish law. His manner can be stern, but the people who know him generally consider him hard rather than cruel—and fair when it matters.
 
 His first concern is the safety of Seaton's Cove.
 
-## At a Glance
-
-| Field | Information |
-|---|---|
-| Race | Human |
-| Role | Captain of the Garrison |
-| Status | Alive |
-| Current Location | Seaton's Cove |
-| Affiliation | Seaton's Cove Garrison |
-| Responsibility | Town defense, security, investigations, and law enforcement |
 
 ## Physical Description
 
@@ -137,17 +122,19 @@ Lardus is a useful source of information regarding:
 
 ## Related Locations
 
-- [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}})
+- [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}})
 - Seaguard Road
 - Menhemes Manor
 
 ## Related Personalities
 
-- [Mayor Oseph Menhemes]({{< ref "/campaigns/storm-tide/resources/personalities/oseph-menhemes.md" >}})
-- [Worliwynn]({{< ref "/campaigns/storm-tide/resources/personalities/worliwynn.md" >}})
-- [Vandy Banderdash]({{< ref "/campaigns/storm-tide/resources/personalities/vandy-banderdash.md" >}})
+- [Arenir Stormrider]({{% relref "/campaigns/storm-tide/party/#arenir-stormrider" %}})
+- [Darrak Goldenforge]({{% relref "/campaigns/storm-tide/party/#darrak-goldenforge" %}})
+- [Mayor Oseph Menhemes]({{% relref "/campaigns/storm-tide/resources/personalities/oseph-menhemes" %}})
+- [Worliwynn]({{% relref "/campaigns/storm-tide/resources/personalities/worliwynn" %}})
+- [Vandy Banderdash]({{% relref "/campaigns/storm-tide/resources/personalities/vandy-banderdash" %}})
 - Lyrielle the Seer
-- [Tamily Tanderveil]({{< ref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil.md" >}})
+- [Tamily Tanderveil]({{% relref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil" %}})
 
 ## Campaign Appearances
 

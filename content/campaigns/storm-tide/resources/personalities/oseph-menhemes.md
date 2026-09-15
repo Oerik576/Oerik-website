@@ -20,33 +20,18 @@ affiliation: "Town Government of Seaton's Cove"
 first_appearance: "Campaign Journal 002 - After the Dragon"
 
 image: "images/campaigns/assets/npc/C-NPC-Mayor Menhemes.png"
+card_width: 300
+business: "Seaton's Cove Lumber"
+residence: "Menhemes Manor"
 ---
-
-{{< journal-image
-    src="images/campaigns/assets/npc/C-NPC-Mayor Menhemes.png"
-    alt="Mayor Oseph Menhemes of Seaton's Cove"
-    type="medium"
->}}
-
 ## Overview
 
-**Oseph Menhemes** is the elected mayor of [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}}), a prominent local merchant, and the owner of **Seaton's Cove Lumber**.
+**Oseph Menhemes** is the elected mayor of [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}}), a prominent local merchant, and the owner of **Seaton's Cove Lumber**.
 
 He occupies an unusual position in the town: Oseph is both its political leader and one of its most influential businessmen. His decisions are shaped by a strong belief that Seaton's Cove survives through stability, lawful government, reliable trade, and practical management.
 
 He can appear distant or overly calculating, but he takes threats to the town seriously and is willing to act when the safety or prosperity of Seaton's Cove is at risk.
 
-## At a Glance
-
-| Field | Information |
-|---|---|
-| Race | Human |
-| Role | Mayor, Merchant, and Lumber Proprietor |
-| Status | Alive |
-| Current Location | Seaton's Cove |
-| Affiliation | Town Government of Seaton's Cove |
-| Business | Seaton's Cove Lumber |
-| Residence | Menhemes Manor |
 
 ## Physical Description
 
@@ -193,7 +178,7 @@ Oseph is a useful source of information regarding:
 
 ## Related Locations
 
-- [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}})
+- [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}})
 - Menhemes Manor
 - Seaton's Cove Lumber
 - Seaton
@@ -201,10 +186,10 @@ Oseph is a useful source of information regarding:
 
 ## Related Personalities
 
-- [Captain Lardus Longsaddle]({{< ref "/campaigns/storm-tide/resources/personalities/lardus-longsaddle.md" >}})
-- [Tamily Tanderveil]({{< ref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil.md" >}})
-- [Worliwynn]({{< ref "/campaigns/storm-tide/resources/personalities/worliwynn.md" >}})
-- [Vandy Banderdash]({{< ref "/campaigns/storm-tide/resources/personalities/vandy-banderdash.md" >}})
+- [Captain Lardus Longsaddle]({{% relref "/campaigns/storm-tide/resources/personalities/lardus-longsaddle" %}})
+- [Tamily Tanderveil]({{% relref "/campaigns/storm-tide/resources/personalities/tamily-tanderveil" %}})
+- [Worliwynn]({{% relref "/campaigns/storm-tide/resources/personalities/worliwynn" %}})
+- [Vandy Banderdash]({{% relref "/campaigns/storm-tide/resources/personalities/vandy-banderdash" %}})
 - Lyrielle the Seer
 - Carman Rajani
 - Emnala Menhemes

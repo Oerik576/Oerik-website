@@ -18,32 +18,17 @@ affiliation: "Odd Stories"
 first_appearance: "Campaign Journal 002 - After the Dragon"
 
 image: "images/campaigns/assets/npc/C-Morlibint.png"
+card_width: 300
+known_for: "Books, research, and unusual knowledge"
 ---
-
-{{< journal-image
-    src="images/campaigns/assets/npc/C-Morlibint.png"
-    alt="Morlibint, the well-read wizard of Odd Stories"
-    type="medium"
->}}
-
 ## Overview
 
-**Morlibint** is a wizard and the proprietor of **Odd Stories**, a book shop in [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}}).
+**Morlibint** is a wizard and the proprietor of **Odd Stories**, a book shop in [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}}).
 
 Exceptionally well read and possessed of a broad range of unusual knowledge, Morlibint is the sort of person adventurers seek out when a problem may have an answer buried somewhere in an old book.
 
 He is intensely curious, even when the subject of that curiosity frightens him. News of kobolds beneath Seaton's Cove was disturbing enough; learning that a green dragon lived below the town terrified him. Even so, once the initial shock passed, his curiosity took over and he eagerly joined the search for useful information.
 
-## At a Glance
-
-| Field | Information |
-|---|---|
-| Role | Wizard and Bookseller |
-| Status | Alive |
-| Current Location | Seaton's Cove |
-| Affiliation | Odd Stories |
-| Known For | Books, research, and unusual knowledge |
-| First Appeared | Campaign Journal 002 — After the Dragon |
 
 ## Odd Stories
 
@@ -80,7 +65,7 @@ A dangerous revelation may initially horrify him, but once he realizes there is 
 
 ## The Search for Answers
 
-After the adventurers reported discovering a young green dragon beneath Seaton's Cove, **Vandy Banderdash** brought **Hugo Baudelaire** and [Haldir Sorenson]({{< ref "/campaigns/storm-tide/party/haldir-sorenson.md" >}}) to Odd Stories.
+After the adventurers reported discovering a young green dragon beneath Seaton's Cove, **Vandy Banderdash** brought **Hugo Baudelaire** and [Haldir Sorenson]({{% relref "/campaigns/storm-tide/party/haldir-sorenson" %}}) to Odd Stories.
 
 Hugo already knew Morlibint and regarded him as an exceptionally well-read man whose broad and unusual knowledge might prove useful.
 
@@ -138,15 +123,15 @@ Morlibint may be a useful source of information regarding:
 
 ## Related Locations
 
-- [Seaton's Cove]({{< ref "/campaigns/storm-tide/resources/locations/seatons-cove.md" >}})
+- [Seaton's Cove]({{% relref "/campaigns/storm-tide/resources/locations/seatons-cove" %}})
 - Odd Stories
 - Hall of Illumination
 
 ## Related Personalities
 
-- Hugo Baudelaire
-- [Haldir Sorenson]({{< ref "/campaigns/storm-tide/party/haldir-sorenson.md" >}})
-- [Vandy Banderdash]({{< ref "/campaigns/storm-tide/resources/personalities/vandy-banderdash.md" >}})
+- [Haldir Sorenson]({{% relref "/campaigns/storm-tide/party/#haldir-sorenson" %}})
+- [Hugo Baudelaire]({{% relref "/campaigns/storm-tide/party/#hugo-baudelaire" %}})
+- [Vandy Banderdash]({{% relref "/campaigns/storm-tide/resources/personalities/vandy-banderdash" %}})
 
 ## Campaign Appearances
 

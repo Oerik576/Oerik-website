@@ -17,20 +17,17 @@ tags:
   - Menace Under Seaton's Cove
 ---
 
-**Seaton's Cove, Duchy of Salinmoor --- Fireseek, 576 CY**\
+**Seaton's Cove, Duchy of Salinmoor --- 9 Fireseek, 576 CY**\
 **Session 1 --- July 8, 2023**
 
-**Adventurers:** Arenir Stormrider, Cyr Baggins, Haldir Sorenson, Hugo Baudelaire  
-**Level:** 1st  
-**Adventure:** RX01 --- *Menace Under Seaton's Cove*
+**Adventurers:** Arenir Stormrider, Cyr Baggins, Haldir Sorenson, Hugo Baudelaire\
+**Level:** 1st\
+**Adventure:** RX-01A --- *Menace Under Seaton's Cove*\
+**Weather:** Cool and breezy; overcast in the morning, clearing somewhat by afternoon; around 60°F
 
-Seaton's Cove was the sort of place where trouble usually arrived by sea.
+Seaton's Cove was the sort of place where trouble usually arrived by sea. Storms rolled in from the Azure Sea, wrecks sometimes washed up along the rocky coast, and sailors brought stories of pirates, strange lights, and things seen beyond the harbor that sensible folk preferred not to investigate.
 
-Storms rolled in from the Azure Sea. Wrecks sometimes washed up along the rocky coast. Sailors brought stories of pirates, strange lights, and things seen beyond the harbor that sensible folk preferred not to investigate.
-
-Those were dangers the people of Seaton's Cove understood.
-
-What they were less prepared for was something stirring beneath their own streets.
+Those were dangers the people of Seaton's Cove understood. What they were less prepared for was something stirring beneath their own streets.
 
 {{< journal-image
     src="images/campaigns/storm-tide/journals/001-journal/001-session-01.JPG"
@@ -49,19 +46,9 @@ For most of the town, the tremor caused little serious damage. The exception was
 
 At first, the ruins were left undisturbed. The remaining structure was unstable, and no one wanted to risk bringing more of it down while searching through the wreckage.
 
-Then, in the days and weeks that followed, people began noticing things around the site.
+Then, in the days and weeks that followed, people began noticing things around the site. Strange sounds came from beneath the rubble, unpleasant smells drifted from the wreckage, and after dark some claimed to have seen eerie lights glowing among the ruins. No one could say what was causing them.
 
-Strange sounds came from beneath the rubble.
-
-Unpleasant smells drifted from the wreckage.
-
-And, after dark, some claimed to have seen eerie lights glowing among the ruins.
-
-No one could say what was causing them.
-
-Whether the earthquake had simply opened old spaces beneath the tavern or disturbed something that had been sealed away, the townsfolk had little interest in finding out for themselves. The ruins of the Thirsty Alpaca were given a wide berth, and life in Seaton’s Cove continued.
-
-For almost a month.
+Whether the earthquake had simply opened old spaces beneath the tavern or disturbed something that had been sealed away, the townsfolk had little interest in finding out for themselves. The ruins of the Thirsty Alpaca were given a wide berth, and life in Seaton’s Cove continued for almost a month.
 
 Then another problem appeared beneath the **Salty Net & Fishery Hall**.
 
@@ -82,15 +69,9 @@ The Salty Net’s proprietor, **Tamily Tanderveil**, had little interest in wait
     type="card-portrait"
 >}}
 
-Word eventually reached four newly fledged adventurers:
+Word eventually reached four newly fledged adventurers: **Arenir Stormrider, Cyr Baggins, Haldir Sorenson, and Hugo Baudelaire**.
 
-**Arenir Stormrider, Cyr Baggins, Haldir Sorenson, and Hugo Baudelaire.**
-
-This was not a grand quest involving lost kingdoms or legendary treasure.
-
-Something was getting into Tamily’s fish.
-
-For four 1st-level adventurers looking for a place to begin, that was enough.
+This was not a grand quest involving lost kingdoms or legendary treasure. Something was getting into Tamily’s fish, and for four 1st-level adventurers looking for a place to begin, that was enough.
 
 The investigation started in the basement of the Salty Net.
 
@@ -98,13 +79,9 @@ The investigation started in the basement of the Salty Net.
 
 ## Below the Cellar
 
-The basement of the **Salty Net & Fishery Hall** should have been an ordinary storeroom.
+The basement of the **Salty Net & Fishery Hall** should have been an ordinary storeroom. Instead, the earthquake had broken open part of the wall and exposed a passage into spaces beneath the building.
 
-Instead, the earthquake had broken open part of the wall and exposed a passage into spaces beneath the building.
-
-It immediately became clear that whatever had been getting into Tamily’s supplies was not coming through the tavern above.
-
-It was coming from below.
+It quickly became clear that whatever had been getting into Tamily’s supplies was not coming through the tavern above. It was coming from below.
 
 The party had little time to examine the opening before several **giant rats** rushed from the darkness, drawn by the smell of fish and the easy access into the storeroom.
 
@@ -195,9 +172,7 @@ The passages continued, and so did the party.
 
 ## The Kobold Warren
 
-The farther the adventurers pushed beneath Seaton’s Cove, the clearer it became that some of the underground complex had been deliberately occupied.
-
-They found **kobolds**.
+The farther the adventurers pushed beneath Seaton’s Cove, the clearer it became that some of the underground complex had been deliberately occupied. They found **kobolds**.
 
 Unlike the rats, spider, and undead, the kobolds had established themselves in the passages below the town. This was no chance encounter with a wandering creature; the party had entered a small warren.
 
@@ -212,13 +187,9 @@ The tunnels became more confined and purposeful as the adventurers pressed deepe
 
 For four 1st-level adventurers, fighting through an organized group of enemies was far more dangerous than dealing with isolated creatures. Even small opponents became a serious threat when they knew the passages and could fight on ground they had claimed as their own.
 
-Eventually, the party reached the heart of the warren and defeated the kobold leader.
+Eventually, the party reached the heart of the warren and defeated the kobold leader. That should have marked the end of the immediate threat, but the passage beyond the kobold lair continued downward.
 
-That should have marked the end of the immediate threat.
-
-Instead, the passage beyond the kobold lair continued downward.
-
-And whatever lay ahead had not been built for kobolds.
+Whatever lay ahead had not been built for kobolds.
 
 {{< journal-image
     src="images/campaigns/storm-tide/journals/001-journal/001-session-04.JPG"
@@ -235,9 +206,7 @@ Beyond the kobold warren, the passages led the adventurers still deeper beneath 
 
 Eventually, they emerged into a strange grotto filled with **giant mushrooms**. The chamber was unlike anything they had encountered so far—less like a buried room beneath the town and more like a hidden world that had been growing in darkness for years.
 
-And they were not alone.
-
-Among the enormous fungi waited a **young green dragon**.
+They were not alone. Among the enormous fungi waited a **young green dragon**.
 
 {{< journal-image
     src="images/campaigns/assets/monsters/mnst-card_green-dragon-01.png"
@@ -257,9 +226,7 @@ The party tried to face the creature, but it quickly became clear that they were
     type="photo-landscape"
 >}}
 
-They withdrew.
-
-The adventurers fled back through the underground passages, leaving the mushroom grotto—and the dragon—behind them.
+The adventurers withdrew, fleeing back through the underground passages and leaving the mushroom grotto—and the dragon—behind them.
 
 What had begun as an investigation into missing saltfish had uncovered a threat far beyond anything Tamily Tanderveil had expected to be living beneath her cellar.
 
@@ -271,13 +238,9 @@ The retreat carried the party back through the passages they had already explore
 
 Eventually, the four adventurers emerged once more into the basement of the **Salty Net & Fishery Hall**.
 
-They had gone below looking for whatever was getting into Tamily’s stores.
+They had gone below looking for whatever was getting into Tamily’s stores and returned with an answer no one had expected. There were giant rats beneath the cellar, buried passages extending under the town, and kobolds established in a warren in the darkness.
 
-They returned with an answer no one had expected.
-
-There were giant rats beneath the cellar. There were buried passages extending under the town. Kobolds had established a warren in the darkness.
-
-And deeper still, a green dragon had made its lair beneath Seaton’s Cove.
+Deeper still, a green dragon had made its lair beneath Seaton’s Cove.
 
 Tamily was relieved to see the adventurers return alive, but the news they brought left little room for celebration.
 

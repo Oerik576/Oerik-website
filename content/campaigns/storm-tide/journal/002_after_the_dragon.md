@@ -40,17 +40,16 @@ tags:
   - Astraradia
 ---
 
-**Seaton's Cove, Duchy of Salinmoor --- Fireseek, 576 CY**\
+**Seaton's Cove, Duchy of Salinmoor --- 10 Fireseek–9 Readying, 576 CY**\
 **Session 2 --- July 23, 2023**
 
-**Adventurers:** Galborn Valgwyn, Haldir Sorenson  
-**Level:** 1st  
-**Adventure:** RX01 --- *Breath of the Viridian Wyrm*
+**Adventurers:** Galborn Valgwyn, Haldir Sorenson\
+**Level:** 1st\
+**Adventure:** SQ-01 --- *Breath of the Viridian Wyrm*\
+**Weather:** Cool and variable; late-Fireseek cold rains and coastal breezes giving way to milder Readying afternoons, with persistent mist and damp ground in the Fogfen
 
 
-The adventurers had returned from beneath Seaton's Cove with an answer no one had expected. What began as an investigation into missing stores beneath the **Salty Net & Fishery Hall** had uncovered forgotten passages, dangerous creatures, a kobold warren, and—deeper still—a young green dragon.
-
-They had survived their first encounter with the creature. Now Seaton's Cove had to decide what to do about it.
+The adventurers had returned from beneath Seaton's Cove with an answer no one had expected. What began as an investigation into missing stores beneath the **Salty Net & Fishery Hall** had uncovered forgotten passages, dangerous creatures, a kobold warren, and—deeper still—a young green dragon. They had survived their first encounter with the creature, but now Seaton's Cove had to decide what to do about it.
 
 <hr style="border:0; border-top:3px solid #000000; width:100%;">
 
@@ -75,7 +74,7 @@ When they returned to the Salty Net, the place already felt different. Only a sh
 
 Once the group was assembled, Tamily led them away from the wharf district and toward the **Menhemes estate**. The mayor's home was one of the oldest buildings in Seaton's Cove, a sprawling family manor larger than its current occupants required. One wing had been closed for generations, while another had been opened as a small museum devoted to the history of the town.
 
-The adventurers were not there to see the museum. They had come to warn Seaton's Cove about what was living beneath it.
+The adventurers were not there to see the museum; they had come to warn Seaton's Cove about what was living beneath it.
 
 ---
 
@@ -126,7 +125,7 @@ Hugo already knew the wizard as an exceptionally well-read man, someone with the
 
 The Hall itself stood at the eastern edge of Seaton's Cove on a raised shelf below the cliffs. It was the largest temple in town and principally dedicated to **Delleb**. When the morning sky was clear, the rising sun struck the central dome and transformed it into a brilliant beacon above the surrounding buildings.
 
-The Hall was more than a place of worship. Its central chambers contained an extensive library filled with histories, maps, textbooks, travel accounts, and works on countless other subjects. For the next **three days**, Vandy, Hugo, and Haldir worked through the collection while Morlibint pursued his own research.
+The Hall was more than a place of worship. Its central chambers contained an extensive library filled with histories, maps, textbooks, travel accounts, and works on countless other subjects. For the next **three days**, while late Fireseek brought cool sea winds and occasional cold rain to Seaton's Cove, Vandy, Hugo, and Haldir worked through the collection while Morlibint pursued his own research.
 
 {{< journal-image
     src="images/campaigns/assets/npc/NPC-CARD-Vandy Banderdash.png"
@@ -189,7 +188,7 @@ For the first time since the dragon had been discovered, the town had more than 
 
 ## Into the Fogfen
 
-The first ingredient lay much closer to Seaton's Cove than the second, but that did not make it easy to reach. About half an hour north of town stretched the **Fogfen**, a broad expanse of marsh, stagnant pools, reed beds, and low islands of firmer ground. Most people avoided it whenever possible. The footing was treacherous, the mist could thicken without warning, and the swamp was home to more than insects and waterfowl.
+The first ingredient lay much closer to Seaton's Cove than the second, but that did not make it easy to reach. About half an hour north of town stretched the **Fogfen**, a broad expanse of marsh, stagnant pools, reed beds, and low islands of firmer ground. Late-winter rain had left the wetland sodden, and cool mist clung to the low ground. Most people avoided the place whenever possible; the footing was treacherous, visibility could vanish without warning, and the swamp was home to more than insects and waterfowl.
 
 {{< journal-image
     src="images/campaigns/assets/locations/Fogfen_Swamp.png"
@@ -244,13 +243,13 @@ One half of the formula was complete. The second would require a much longer jou
 
 With the **Luminescent Pollen** secured, Haldir and Galborn returned to Seaton's Cove and prepared for the second, longer part of their search. The **Starlit Nectar** they needed could be found in the **Good Hills**, but Worliwynn believed the best way to reach it was by first seeking out the **Orius Clan** of centaurs.
 
-The following day, the pair traveled north along the **Veylan River** toward **Meravon**, a logging town on the edge of the **Dreadwood**. The journey took them away from the familiar coast and into country Galborn knew far better than the swamp they had just left behind.
+The following day, the pair traveled north along the **Veylan River** toward **Meravon**, a logging town on the edge of the **Dreadwood**. By then the calendar was turning toward Readying, bringing cool mornings and somewhat milder afternoons. The journey took them away from the familiar coast and into country Galborn knew far better than the swamp they had just left behind.
 
 They reached Meravon and stopped there for the night before continuing west the next morning. From there, they would leave the more settled route behind and search for the centaurs who ranged through the forested hills beyond the town.
 
 Worliwynn believed the Orius Clan would know how to reach the **Shrine of Lady Kayle**, where the rare **Astraradia** grew. If she was right, the centaurs were the key to finding the second ingredient.
 
-But first, Haldir and Galborn had to find them.
+Before they could reach the shrine, however, Haldir and Galborn first had to find the centaurs.
 
 ---
 
@@ -304,9 +303,7 @@ Haldir and Galborn would have to wait for the proper time to harvest the nectar.
 
 When the proper hour came, **Haldir** and **Galborn** entered the sacred grounds of the shrine and began gathering the **Starlit Nectar** from the blooming **Astraradia**. Under the light of the moons, the flowers seemed almost luminous, their pale petals reflecting the night sky as Haldir carefully collected only what Worliwynn's formula required.
 
-They were not alone.
-
-As they worked, a presence made itself known among the old stones of the shrine. The **guardian spirit** of the place appeared before them, bound in some fashion to the memory of Lady Kayle and the sacrifice that had made the shrine sacred.
+As they worked, they realized they were not alone. A presence made itself known among the old stones of the shrine, and the **guardian spirit** of the place appeared before them, bound in some fashion to the memory of Lady Kayle and the sacrifice that had made the shrine sacred.
 
 The spirit told them what had happened there more than five centuries before. **Maejerex**, a great green dragon, had once threatened the land, and Lady Kayle had stood with those who opposed it. During the final struggle, her companions attempted a ritual that would strip the dragon of its magical protections, but they needed time to complete it. Lady Kayle gave them that time by holding the dragon at bay, knowing that doing so would cost her life.
 
@@ -330,10 +327,6 @@ The potions had been created for one purpose: to give the adventurers a better c
 
 The expedition had accomplished what it set out to do. Haldir and Galborn had crossed the Fogfen, survived the swamp serpent, earned the aid of the Orius Clan, destroyed the ghouls in the cliffside tomb, reached the Shrine of Lady Kayle, and returned with both rare ingredients.
 
-Now, for the first time since the dragon had been discovered, the adventurers had something more than knowledge and courage to take with them underground.
-
-They had protection.
-
-And soon, they would return beneath Seaton's Cove.
+Now, for the first time since the dragon had been discovered, the adventurers had something more than knowledge and courage to take with them underground. They had protection, and soon they would return beneath Seaton's Cove.
 
 **[← Return to Campaign Journal](../)**

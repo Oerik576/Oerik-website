@@ -2,7 +2,7 @@
 title: "The Marches Campaign"
 layout: "marches"
 summary: "A Greyhawk campaign set in the western marches and frontier lands."
-banner_image: "images/campaigns/Campaign-The-Marches.png"
+banner_image: "images/campaigns/Campaign-The-Marches.webp"
 ---
 
 The Marches Campaign section is under construction.

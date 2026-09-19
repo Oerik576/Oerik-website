@@ -16,7 +16,7 @@ That larger geography is where the name **The Oerik Dispatch** comes from. This 
 
 <figure style="margin: 36px 0 28px;">
   <img
-    src="/images/Oerth.png"
+    src="/images/Oerth.webp"
     alt="Map of Oerth showing the continent of Oerik and the lands of Greyhawk"
     style="display:block; width:100%; max-width:100%; height:auto;"
   >

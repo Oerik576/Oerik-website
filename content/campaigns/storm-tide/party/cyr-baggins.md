@@ -7,7 +7,7 @@ class: "Thief"
 level: 2
 background: "Urban Scout"
 status: "Active"
-portrait: "/images/campaigns/storm-tide/party/PC-CARD-Cyril-Cyr.png"
+portrait: "/images/campaigns/storm-tide/party/PC-CARD-Cyril-Cyr.webp"
 summary: "A halfling thief and urban scout who left his childhood home of Seaton's Cove to learn his trade in Saltmarsh before eventually returning home."
 campaign_history: ""
 ---

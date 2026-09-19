@@ -7,7 +7,7 @@ class: "Fighter"
 level: 2
 background: "Guardsman"
 status: "Active"
-portrait: "/images/campaigns/storm-tide/party/PC-CARD-Dan-Darrak.png"
+portrait: "/images/campaigns/storm-tide/party/PC-CARD-Dan-Darrak.webp"
 summary: "A dwarven fighter and veteran guardsman whose years protecting mines and caravans eventually brought him to Seaton's Cove, where he serves in the town garrison."
 campaign_history: ""
 ---

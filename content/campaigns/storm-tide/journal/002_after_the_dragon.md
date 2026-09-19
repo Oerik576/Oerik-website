@@ -7,7 +7,7 @@ location: Seaton's Cove, Duchy of Salinmoor
 title: After the Dragon
 type: campaign-journal
 year: 576 CY
-featured_image: "images/campaigns/storm-tide/adventures/002_breath_of_the_viridian_wyrm/area_map_viridian_wyrm.png"
+featured_image: "images/campaigns/storm-tide/adventures/002_breath_of_the_viridian_wyrm/area_map_viridian_wyrm.webp"
 summary: "After discovering a young green dragon beneath Seaton's Cove, the adventurers warn the town's leaders, research their enemy, and undertake a dangerous journey to gather the ingredients for the Potion of Viridian Defense."
 tags:
   - Storm Tide Campaign
@@ -62,7 +62,7 @@ Their attempt to confront the creature had ended badly. The dragon was far beyon
 Tamily was relieved to see them return alive, but her relief quickly gave way to concern as they described what they had found. Kobolds living beneath the town were dangerous enough. A dragon was something else entirely, and there was no way to know how long it might remain hidden or what would happen if it decided to leave its cavern.
 
 {{< journal-image
-    src="images/campaigns/assets/npc/npc-card_tamily-tanderveil-01.png"
+    src="images/campaigns/assets/npc/npc-card_tamily-tanderveil-01.webp"
     alt="Tamily Tanderveil, proprietor of the Salty Net & Fishery Hall."
     caption="Tamily Tanderveil, proprietor of the Salty Net & Fishery Hall."
     type="card-portrait"
@@ -83,7 +83,7 @@ The adventurers were not there to see the museum; they had come to warn Seaton's
 A well-dressed servant received the group at the Menhemes estate and escorted them into an extensive library. Several prominent residents of Seaton's Cove were already waiting, including **Mayor Oseph Menhemes**, **Lyrielle the Seer**, **Vandy Banderdash** of the Hall of Illumination, **Worliwynn**, caretaker of the Stone Ring Pond, and **Captain Lardus Longsaddle**, commander of the town garrison.
 
 {{< journal-image
-    src="images/campaigns/assets/npc/C-NPC-Mayor Menhemes.png"
+    src="images/campaigns/assets/npc/C-NPC-Mayor Menhemes.webp"
     alt="Mayor Oseph Menhemes of Seaton's Cove."
     caption="Mayor Oseph Menhemes."
     type="card-portrait"
@@ -96,7 +96,7 @@ As the account continued, the mood in the library grew increasingly serious. May
 Captain Lardus had another problem. Many of the town's more capable guards were already away from Seaton's Cove, searching for bugbears that had been attacking travelers along the **Seaguard Road**, and they might not return for weeks. Though years past his prime, Lardus nevertheless pledged whatever support he could provide.
 
 {{< journal-image
-    src="images/campaigns/assets/npc/C-NPC-Captain Longsaddle.png"
+    src="images/campaigns/assets/npc/C-NPC-Captain Longsaddle.webp"
     alt="Captain Lardus Longsaddle, commander of the Seaton's Cove garrison."
     caption="Captain Lardus Longsaddle."
     type="card-portrait"
@@ -117,7 +117,7 @@ After leaving Menhemes Manor, **Hugo** and **Haldir** accompanied Vandy back tow
 Hugo already knew the wizard as an exceptionally well-read man, someone with the sort of broad and unusual knowledge that might prove useful now. Morlibint's reaction to the news was immediate: kobolds beneath the town were disturbing enough, but a green dragon terrified him. Even so, fear did little to diminish his curiosity, and once the initial shock had passed he eagerly agreed to help. He would search through his own books and bring anything useful he discovered to the Hall of Illumination.
 
 {{< journal-image
-    src="images/campaigns/assets/npc/C-Morlibint.png"
+    src="images/campaigns/assets/npc/C-Morlibint.webp"
     alt="Morlibint, the well-read wizard of Odd Stories."
     caption="Morlibint of Odd Stories joined the search for information about green dragons."
     type="card-portrait"
@@ -128,7 +128,7 @@ The Hall itself stood at the eastern edge of Seaton's Cove on a raised shelf bel
 The Hall was more than a place of worship. Its central chambers contained an extensive library filled with histories, maps, textbooks, travel accounts, and works on countless other subjects. For the next **three days**, while late Fireseek brought cool sea winds and occasional cold rain to Seaton's Cove, Vandy, Hugo, and Haldir worked through the collection while Morlibint pursued his own research.
 
 {{< journal-image
-    src="images/campaigns/assets/npc/NPC-CARD-Vandy Banderdash.png"
+    src="images/campaigns/assets/npc/NPC-CARD-Vandy Banderdash.webp"
     alt="Vandy Banderdash of the Hall of Illumination."
     caption="Vandy Banderdash helped lead the research at the Hall of Illumination."
     type="card-portrait"
@@ -161,7 +161,7 @@ None of this made the creature safe, but after three days of research the advent
 While the others were still weighing what they had learned, Worliwynn returned with something more practical than another tale or warning. She had found a formula for a preparation called the **Potion of Viridian Defense**, an elixir intended to provide protection against the toxic breath of a green dragon.
 
 {{< journal-image
-    src="images/campaigns/assets/npc/NPC-CARD-Worliwynn.png"
+    src="images/campaigns/assets/npc/NPC-CARD-Worliwynn.webp"
     alt="Worliwynn, caretaker of the Stone Ring Pond."
     caption="Worliwynn uncovered the formula for the Potion of Viridian Defense."
     type="card-portrait"
@@ -178,7 +178,7 @@ Worliwynn believed the **Orius Clan**, a centaur clan living west of **Meravon**
 For the first time since the dragon had been discovered, the town had more than warnings and questions. It had the beginnings of a plan. Before the adventurers returned beneath Seaton's Cove, Haldir and Galborn would have to leave it behind, first venturing into the Fogfen for the Luminariad's pollen and then traveling north toward Meravon, the Orius centaurs, and the Shrine of Lady Kayle in search of Starlit Nectar.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/002_breath_of_the_viridian_wyrm/area_map_viridian_wyrm.png"
+    src="images/campaigns/storm-tide/adventures/002_breath_of_the_viridian_wyrm/area_map_viridian_wyrm.webp"
     alt="Regional map showing the lands traveled during the search for the ingredients of Viridian Defense."
     caption="The search for the potion ingredients would carry Haldir and Galborn beyond Seaton's Cove."
     type="map"
@@ -191,7 +191,7 @@ For the first time since the dragon had been discovered, the town had more than 
 The first ingredient lay much closer to Seaton's Cove than the second, but that did not make it easy to reach. About half an hour north of town stretched the **Fogfen**, a broad expanse of marsh, stagnant pools, reed beds, and low islands of firmer ground. Late-winter rain had left the wetland sodden, and cool mist clung to the low ground. Most people avoided the place whenever possible; the footing was treacherous, visibility could vanish without warning, and the swamp was home to more than insects and waterfowl.
 
 {{< journal-image
-    src="images/campaigns/assets/locations/Fogfen_Swamp.png"
+    src="images/campaigns/assets/locations/Fogfen_Swamp.webp"
     alt="The mist-shrouded wetlands of the Fogfen north of Seaton's Cove."
     caption="The Fogfen, a dangerous wetland north of Seaton's Cove."
     type="medium"

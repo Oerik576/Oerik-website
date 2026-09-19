@@ -7,7 +7,7 @@ class: "Wizard"
 level: 2
 background: "Barrister"
 status: "Active"
-portrait: "/images/campaigns/storm-tide/party/PC-CARD-Nathan-Hugo.png"
+portrait: "/images/campaigns/storm-tide/party/PC-CARD-Nathan-Hugo.webp"
 summary: "A barrister and wizard from Gradsul whose near-death experience during a violent storm left him with visions of mysterious towers and a conviction that uncovering their secrets may be vital to humanity."
 campaign_history: ""
 ---

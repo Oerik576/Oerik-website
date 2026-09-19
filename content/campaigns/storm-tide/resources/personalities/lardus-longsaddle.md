@@ -21,7 +21,7 @@ location: "Seaton's Cove"
 affiliation: "Seaton's Cove Garrison"
 first_appearance: "Campaign Journal 002 - After the Dragon"
 
-image: "images/campaigns/assets/npc/C-NPC-Captain Longsaddle.png"
+image: "images/campaigns/assets/npc/C-NPC-Captain Longsaddle.webp"
 card_width: 300
 responsibility: "Town defense, security, investigations, and law enforcement"
 ---

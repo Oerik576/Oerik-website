@@ -7,7 +7,7 @@ class: "Ranger"
 level: 2
 background: "Hunter"
 status: "Active"
-portrait: "/images/campaigns/storm-tide/party/PC-CARD-Craig-Galborn.png"
+portrait: "/images/campaigns/storm-tide/party/PC-CARD-Craig-Galborn.webp"
 summary: "An elven ranger and hunter of the Dreadwood, trained in tracking, hunting, and the ways of the forest."
 campaign_history: ""
 ---

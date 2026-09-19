@@ -15,7 +15,7 @@ tags:
   - "Dungeons & Dragons"
   - "History & Lore"
 
-featured_image: "/images/articles/the-old-school-renaissance/the-old-school-renaissance-hero.png"
+featured_image: "/images/articles/the-old-school-renaissance/the-old-school-renaissance-hero.webp"
 summary: "The Old School Renaissance is a movement dedicated to preserving, exploring, and expanding the style of fantasy gaming that emerged during the first decade of Dungeons & Dragons."
 
 source_issue: "OERIK Magazine Issue 001"

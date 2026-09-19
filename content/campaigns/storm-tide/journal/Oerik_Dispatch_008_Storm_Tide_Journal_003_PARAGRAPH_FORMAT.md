@@ -29,7 +29,7 @@ alt="The Oerik Dispatch — Dispatches from the World of Greyhawk"></figure>
 The first time the adventurers entered the mushroom cavern beneath Seaton's Cove, the young green dragon drove them back to the surface. This time they were returning with more knowledge, a stronger company, and six **Potions of Viridian Defense** created from the rare ingredients recovered by **Haldir Sorenson** and **Galborn Valgwyn**. They had spent weeks preparing for another confrontation, and now the dragon was still below waiting for them.
 
 <figure><img
-src="https://oerik576.github.io/Oerik-website/images/campaigns/assets/monsters/mnst-card_green-dragon-01.png"
+src="https://oerik576.github.io/Oerik-website/images/campaigns/assets/monsters/mnst-card_green-dragon-01.webp"
 width="600"
 draggable="false"
 alt="Blixteem, the young green dragon beneath Seaton's Cove"></figure>
@@ -45,7 +45,7 @@ Over the course of the evening, **Haldir** and **Galborn** recounted their journ
 The following morning, the party made one final visit to **Mayor Oseph Menhemes** at the Menhemes estate. **Captain Lardus Longsaddle** reported that the entrance beneath the Salty Net had remained secured, while **Worliwynn** confirmed that the Potions of Viridian Defense were ready. Then **Lyrielle Silivren** offered a warning: she had seen troubling signs and believed the green dragon might be only one piece of a larger danger gathering around Seaton's Cove.
 
 <figure><img
-src="https://oerik576.github.io/Oerik-website/images/campaigns/assets/npc/C-NPC-Lyrielle%20Silivren.png"
+src="https://oerik576.github.io/Oerik-website/images/campaigns/assets/npc/C-NPC-Lyrielle%20Silivren.webp"
 width="420"
 draggable="false"
 alt="Lyrielle Silivren, the elven seer of Seaton's Cove"></figure>
@@ -75,7 +75,7 @@ The trail led back to the vast natural cavern where the previous expedition had 
 Then **Blixteem** attacked.
 
 <figure><img
-src="https://oerik576.github.io/Oerik-website/images/campaigns/storm-tide/journals/003-journal/003-session-01.JPG"
+src="https://oerik576.github.io/Oerik-website/images/campaigns/storm-tide/journals/003-journal/003-session-01.webp"
 width="600"
 draggable="false"
 alt="The party takes position against Blixteem in the mushroom cavern"></figure>
@@ -89,7 +89,7 @@ The battle quickly became as much about position as strength. **Arenir** and **D
 The breath weapon should have turned the battle, but instead the adventurers remained standing. The **Potions of Viridian Defense** had worked.
 
 <figure><img
-src="https://oerik576.github.io/Oerik-website/images/campaigns/storm-tide/journals/003-journal/003-session-02.JPG"
+src="https://oerik576.github.io/Oerik-website/images/campaigns/storm-tide/journals/003-journal/003-session-02.webp"
 width="600"
 draggable="false"
 alt="The battle with Blixteem continues among the giant mushrooms"></figure>
@@ -103,7 +103,7 @@ Believing its poisonous breath had crippled the warriors below, **Blixteem** ret
 The dragon fought savagely as the adventurers pressed their advantage. **Arenir Stormrider** and **Darrak Goldenforge** kept it occupied at close range, while **Galborn Valgwyn** and **Cyr Baggins** attacked whenever openings appeared. **Hugo Baudelaire** continued using magic, and **Haldir Sorenson** remained close enough to strike with his spear.
 
 <figure><img
-src="https://oerik576.github.io/Oerik-website/images/campaigns/storm-tide/journals/003-journal/003-session-03.JPG"
+src="https://oerik576.github.io/Oerik-website/images/campaigns/storm-tide/journals/003-journal/003-session-03.webp"
 width="600"
 draggable="false"
 alt="The final phase of the battle against Blixteem"></figure>

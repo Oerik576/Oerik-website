@@ -7,7 +7,7 @@ class: "Fighter/Illusionist/Thief"
 level: 2
 background: "Merchant"
 status: "Active"
-portrait: "/images/campaigns/storm-tide/party/PC-CARD-Allen-Xalen.png"
+portrait: "/images/campaigns/storm-tide/party/PC-CARD-Allen-Xalen.webp"
 summary: "A well-traveled gnome merchant turned adventurer who combines skill with weapons, thievery, illusion magic, and a lifetime of practical experience gained along the roads of the Sheldomar Valley."
 campaign_history: ""
 ---

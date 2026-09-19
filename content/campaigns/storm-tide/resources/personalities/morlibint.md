@@ -17,7 +17,7 @@ location: "Seaton's Cove"
 affiliation: "Odd Stories"
 first_appearance: "Campaign Journal 002 - After the Dragon"
 
-image: "images/campaigns/assets/npc/C-Morlibint.png"
+image: "images/campaigns/assets/npc/C-Morlibint.webp"
 card_width: 300
 known_for: "Books, research, and unusual knowledge"
 ---

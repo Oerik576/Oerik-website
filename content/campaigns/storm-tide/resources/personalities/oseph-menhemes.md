@@ -19,7 +19,7 @@ location: "Seaton's Cove"
 affiliation: "Town Government of Seaton's Cove"
 first_appearance: "Campaign Journal 002 - After the Dragon"
 
-image: "images/campaigns/assets/npc/C-NPC-Mayor Menhemes.png"
+image: "images/campaigns/assets/npc/C-NPC-Mayor Menhemes.webp"
 card_width: 300
 business: "Seaton's Cove Lumber"
 residence: "Menhemes Manor"

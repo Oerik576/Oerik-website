@@ -22,7 +22,7 @@ location: "Stone Ring Pond"
 affiliation: ""
 first_appearance: "BB-01A - Menace Under Seaton's Cove"
 
-image: "images/campaigns/assets/npc/NPC-CARD-Worliwynn.png"
+image: "images/campaigns/assets/npc/NPC-CARD-Worliwynn.webp"
 card_width: 300
 region: "Salinmoor"
 ---

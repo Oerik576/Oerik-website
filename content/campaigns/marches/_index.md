@@ -3,7 +3,7 @@
 title: "The Marches Campaign"
 layout: "campaign"
 summary: "A Greyhawk campaign centered on the western marches and frontier lands."
-banner_image: "images/campaigns/Campaign-The-Marches.png"
+banner_image: "images/campaigns/Campaign-The-Marches.webp"
 ---
 
 The **Marches Campaign** is a World of Greyhawk campaign designed for **Adventures Dark & Deep**.

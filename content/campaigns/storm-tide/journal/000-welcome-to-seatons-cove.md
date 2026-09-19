@@ -7,7 +7,7 @@ location: Seaton's Cove, Duchy of Salinmoor
 title: Welcome to Seaton's Cove
 type: campaign-journal
 year: 576 CY
-featured_image: "images/campaigns/storm-tide/journals/Seatons-Cove-Header.png"
+featured_image: "images/campaigns/storm-tide/journals/Seatons-Cove-Header.webp"
 summary: "Meet the five adventurers at the beginning of the Storm Tide Campaign and discover Seaton's Cove, the small Salinmoor community where their story begins."
 tags:
   - Storm Tide Campaign
@@ -40,7 +40,7 @@ The great Dreadwood looms inland. Marshes and fog-shrouded wetlands stretch acro
 ## Seaton's Cove
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/Seatons-Cove-Header.png"
+    src="images/campaigns/storm-tide/journals/Seatons-Cove-Header.webp"
     alt="Seaton's Cove, a small coastal community in the Duchy of Salinmoor."
     caption="Seaton's Cove on the southern coast of Keoland."
     type="wide"
@@ -85,7 +85,7 @@ Together, they would become the first company of the Storm Tide Campaign.
 ### Arenir Stormrider
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/Arenir.png"
+    src="images/campaigns/storm-tide/journals/Arenir.webp"
     alt="Arenir Stormrider."
     caption="Arenir Stormrider."
     type="card-portrait"
@@ -102,7 +102,7 @@ Among the five adventurers, Arenir represented the most obvious martial presence
 ### Galborn Valgwyn
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/Galborn.png"
+    src="images/campaigns/storm-tide/journals/Galborn.webp"
     alt="Galborn Valgwyn."
     caption="Galborn Valgwyn."
     type="card-portrait"
@@ -119,7 +119,7 @@ His bow gave the company reach, while his experience gave them warning.
 ### Cyr Baggins
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/Cyr.png"
+    src="images/campaigns/storm-tide/journals/Cyr.webp"
     alt="Cyr Baggins."
     caption="Cyr Baggins."
     type="card-portrait"
@@ -136,7 +136,7 @@ Cyr was a scout and rogue whose strengths lay in stealth, investigation, and get
 ### Haldir Sorenson
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/Haldir.png"
+    src="images/campaigns/storm-tide/journals/Haldir.webp"
     alt="Haldir Sorenson."
     caption="Haldir Sorenson."
     type="card-portrait"
@@ -153,7 +153,7 @@ In a region where forest, swamp, coastline, and civilization constantly pressed 
 ### Hugo Baudelaire
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/Hugo.png"
+    src="images/campaigns/storm-tide/journals/Hugo.webp"
     alt="Hugo Baudelaire."
     caption="Hugo Baudelaire."
     type="card-portrait"

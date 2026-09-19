@@ -6,7 +6,7 @@ class: "Cavalier"
 level: 1
 background: "Noble"
 status: "Retired"
-portrait: "/images/campaigns/storm-tide/party/PC-CARD-Albert-Arenir.png"
+portrait: "/images/campaigns/storm-tide/party/PC-CARD-Albert-Arenir.webp"
 ---
 
 Arenir Stormrider was born in a small coastal village known for its seafaring traditions. From a young age, he felt a strong affinity with the ever-changing winds and the freedom of the open sea. Arenir grew up listening to tales of legendary heroes who fought against oppressive forces and championed individual freedoms.

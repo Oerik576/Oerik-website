@@ -8,7 +8,7 @@ layout: "dispatch"
 categories:
   - "Oerik Foundry"
 
-featured_image: "/images/articles/bringing-greyhawk-to-your-table/bringing-greyhawk-to-your-table-hero.png"
+featured_image: "/images/articles/bringing-greyhawk-to-your-table/bringing-greyhawk-to-your-table-hero.webp"
 
 tags:
   - "3D Printing"

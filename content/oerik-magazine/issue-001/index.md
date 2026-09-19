@@ -6,7 +6,7 @@ issue_number: "001"
 volume: "I"
 issue_date: "September 2026"
 greyhawk_date: "CY 576"
-cover: "/images/magazine/oerik-001-cover.jpg"
+cover: "/images/magazine/oerik-001-cover.webp"
 view_url: "https://drive.google.com/file/d/1TvsKSHnl2IYeMcgxDXCuVvTrT0B5-JYg/view"
 download_url: "https://drive.google.com/uc?export=download&id=1TvsKSHnl2IYeMcgxDXCuVvTrT0B5-JYg"
 current: true

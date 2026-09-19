@@ -7,7 +7,7 @@ class: "Druid"
 level: 2
 background: "Scout"
 status: "Active"
-portrait: "/images/campaigns/storm-tide/party/PC-CARD-Dante-Haldir.png"
+portrait: "/images/campaigns/storm-tide/party/PC-CARD-Dante-Haldir.webp"
 summary: "A half-elf druid and scout from the Dreadwood, drawn to Seaton’s Cove in search of further training in storm-born druidic magic."
 campaign_history: ""
 ---

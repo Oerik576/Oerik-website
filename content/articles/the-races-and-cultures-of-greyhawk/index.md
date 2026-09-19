@@ -27,7 +27,7 @@ tags:
   - "Rhennee"
   - "Suel"
 
-featured_image: "/images/articles/the-races-and-cultures-of-greyhawk/the-races-and-cultures-of-greyhawk-hero.png"
+featured_image: "/images/articles/the-races-and-cultures-of-greyhawk/the-races-and-cultures-of-greyhawk-hero.webp"
 summary: "An introduction to the human cultures, elder races, and wandering peoples whose migrations, traditions, alliances, and conflicts shaped the Flanaess."
 
 source_issue: "OERIK Magazine Issue 001"
@@ -46,7 +46,7 @@ Long before the great kingdoms of the modern age, the lands of the Flanaess were
 
 Alongside these great human cultures live the elder races of fantasy legend. Elven forests have stood for ages beyond counting. Dwarven strongholds delve deep beneath the mountains. Halflings cultivate quiet villages along fertile rivers, while gnomes build hidden communities amid wooded hills and rocky valleys.
 
-The Flanaess is also home to countless smaller peoples and wandering folk. River nomads known as the Rhennee travel the waterways in brightly painted barges. ![Olman travelers in the tropical lands of the south](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Olman.png)
+The Flanaess is also home to countless smaller peoples and wandering folk. River nomads known as the Rhennee travel the waterways in brightly painted barges. ![Olman travelers in the tropical lands of the south](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Olman.webp)
 
 Far to the south dwell the mysterious Olman, heirs to ancient jungle civilizations, while distant lands beyond the known map are inhabited by cultures seldom encountered by northern adventurers.
 
@@ -56,7 +56,7 @@ Understanding these cultures is the first step toward understanding the world it
 
 ## The Flan
 
-![Ancient Flan gathered among standing stones](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Flan.png)
+![Ancient Flan gathered among standing stones](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Flan.webp)
 
 Long before the rise of the great kingdoms, before the migrations of the Oeridians and the coming of the Suel and Baklunish peoples, the Flanaess belonged to the Flan.
 
@@ -74,7 +74,7 @@ Many adventurers have learned that where the Flan once built, secrets—and trea
 
 ## The Oeridians
 
-![Oeridian people overlooking the settled lands of the Flanaess](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Oeridians.png)
+![Oeridian people overlooking the settled lands of the Flanaess](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Oeridians.webp)
 
 If the Flan were the first great people of the Flanaess, the Oeridians were the builders of many of its greatest kingdoms.
 
@@ -92,7 +92,7 @@ Today, the descendants of the Oeridians are found throughout the Flanaess, and t
 
 ## The Suel
 
-![Suel scholars preserving the traditions of their ancient people](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Suel-03.png)
+![Suel scholars preserving the traditions of their ancient people](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Suel-03.webp)
 
 The Suel are the descendants of one of the greatest—and most tragic—civilizations in the history of Oerth.
 
@@ -110,7 +110,7 @@ Across the Flanaess, ruined towers, buried cities, and forgotten tombs stand as 
 
 ## The Baklunish
 
-![Baklunish life in a prosperous western city](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Baklunish-02.png)
+![Baklunish life in a prosperous western city](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Baklunish-02.webp)
 
 The Baklunish are the heirs of an ancient civilization that once flourished in the lands west of the Flanaess.
 
@@ -142,7 +142,7 @@ To understand Greyhawk is to understand that the Flanaess was never the domain o
 
 ## The Elves
 
-![Elves among the ancient forests of the Flanaess](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Elves.png)
+![Elves among the ancient forests of the Flanaess](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Elves.webp)
 
 The elves, or olvenfolk, are among the oldest and most mysterious peoples of the Flanaess. Long before the first human kingdoms rose from the wilderness, elven realms flourished beneath the great forests, their histories stretching back to an age now remembered only in song and legend.
 
@@ -160,7 +160,7 @@ To many adventurers, the olvenfolk embody the wonder and mystery of the elder wo
 
 ## The Dwarves
 
-![A dwarven craftsman at work](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Dwarf.png)
+![A dwarven craftsman at work](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Dwarf.webp)
 
 The dwarves, known in the ancient Flan tongue as the dwur, are among the oldest and most steadfast peoples of the Flanaess. Their mountain halls and underground kingdoms have stood for centuries, enduring the rise and fall of human empires and the countless wars that have swept across the land.
 
@@ -176,7 +176,7 @@ Throughout the history of the Flanaess, the dwur have stood as steadfast allies 
 
 ## The Gnomes
 
-![A gnome craftsman working at his bench](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Gnome-02.png)
+![A gnome craftsman working at his bench](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Gnome-02.webp)
 
 The gnomes, known to the ancient Flan as the noniz, are a clever and industrious people who have long made their homes among the wooded hills and rocky highlands of the Flanaess. Though smaller in stature than humans and dwarves, they possess a curiosity and determination that have earned them a respected place among the elder races.
 
@@ -196,7 +196,7 @@ To travelers crossing the Flanaess, a gnome may appear cheerful and unassuming. 
 
 ## The Halflings
 
-![Halflings at work in the countryside](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Halflings.png)
+![Halflings at work in the countryside](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Halflings.webp)
 
 The halflings, often known collectively as the hinfolk, are the smallest of the elder races, but few would mistake them for weak or insignificant. Throughout the Flanaess, they are admired for their resilience, good humor, and remarkable ability to thrive wherever they settle.
 
@@ -228,7 +228,7 @@ For many adventuring companies, a half-elf or half-orc represents the spirit of 
 
 ## The Wanderers
 
-![Rhennee travelers aboard their river barges](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Rhennee.png)
+![Rhennee travelers aboard their river barges](/images/articles/the-races-and-cultures-of-greyhawk/GH-Culture-Rhennee.webp)
 
 Not every people of the Flanaess traces its roots to one of the four great human cultures or the elder races. Across the rivers, jungles, and distant frontiers of Oerth live many smaller peoples whose histories are no less ancient, though they are often less well known to travelers.
 

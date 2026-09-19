@@ -18,7 +18,7 @@ location: "Seaton's Cove"
 affiliation: "Salty Net & Fishery Hall"
 first_appearance: "Campaign Journal 001 - Something Beneath the Cove"
 
-image: "images/campaigns/assets/npc/npc-card_tamily-tanderveil-01.png"
+image: "images/campaigns/assets/npc/npc-card_tamily-tanderveil-01.webp"
 card_width: 300
 ---
 ## Overview

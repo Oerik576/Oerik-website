@@ -21,7 +21,7 @@ location: "Seaton's Cove"
 affiliation: "Hall of Illumination"
 first_appearance: "Campaign Journal 002 - After the Dragon"
 
-image: "images/campaigns/assets/npc/NPC-CARD-Vandy Banderdash.png"
+image: "images/campaigns/assets/npc/NPC-CARD-Vandy Banderdash.webp"
 card_width: 300
 known_for: "Scholarship, historical records, research, and preservation of knowledge"
 ---

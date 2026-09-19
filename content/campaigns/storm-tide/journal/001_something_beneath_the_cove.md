@@ -7,7 +7,7 @@ location: Seaton's Cove, Duchy of Salinmoor
 title: Something Beneath the Cove
 type: campaign-journal
 year: 576 CY
-featured_image: "images/campaigns/storm-tide/journals/001-journal/001-session-04.JPG"
+featured_image: "images/campaigns/storm-tide/journals/001-journal/001-session-04.webp"
 summary: "Four beginning adventurers investigate missing stores beneath the Salty Net & Fishery Hall and discover that something far more dangerous lies beneath Seaton's Cove."
 tags:
   - Storm Tide Campaign
@@ -30,7 +30,7 @@ Seaton's Cove was the sort of place where trouble usually arrived by sea. Storms
 Those were dangers the people of Seaton's Cove understood. What they were less prepared for was something stirring beneath their own streets.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-01.JPG"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-01.webp"
     alt="The first session of the Storm Tide Campaign, July 8, 2023."
     caption="At the table, July 8, 2023 — Session 1 of the Storm Tide Campaign."
     type="photo-portrait"
@@ -63,7 +63,7 @@ Saltfish had been disturbed. Supplies were being damaged. Whatever was responsib
 The Salty Net’s proprietor, **Tamily Tanderveil**, had little interest in waiting for the problem to get worse. A halfling with a practical streak and a reputation for knowing how to keep the Fishery Hall running, she began asking around for anyone willing to investigate.
 
 {{< journal-image
-    src="images/campaigns/assets/npc/npc-card_tamily-tanderveil-01.png"
+    src="images/campaigns/assets/npc/npc-card_tamily-tanderveil-01.webp"
     alt="Tamily Tanderveil, proprietor of the Salty Net & Fishery Hall."
     caption="Tamily Tanderveil, proprietor of the Salty Net & Fishery Hall."
     type="card-portrait"
@@ -86,7 +86,7 @@ It quickly became clear that whatever had been getting into Tamily’s supplies 
 The party had little time to examine the opening before several **giant rats** rushed from the darkness, drawn by the smell of fish and the easy access into the storeroom.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/mnst-card_giant-rat-01.png"
+    src="images/campaigns/assets/monsters/mnst-card_giant-rat-01.webp"
     alt="A giant rat."
     caption="Giant rats were the first danger waiting beyond the broken cellar wall."
     type="card-landscape"
@@ -99,7 +99,7 @@ Beyond it lay a passage that had not been part of the Salty Net at all.
 The adventurers pressed forward and quickly discovered that the breach did not lead into a simple burrow or drainage space. It opened into a much larger underground complex extending beneath Seaton’s Cove.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/001_menace_under_seatons_cove/01 - DyM Fishery Basement.jpg"
+    src="images/campaigns/storm-tide/adventures/001_menace_under_seatons_cove/01 - DyM Fishery Basement.webp"
     alt="Map of the Fishery basement and the passages opened by the earthquake."
     caption="The Fishery basement and the first passages beneath Seaton’s Cove."
     type="map"
@@ -112,7 +112,7 @@ The deeper they went, the clearer it became that the rats were only the first in
 And turning back at the cellar wall was already starting to feel like the safer choice.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-02.JPG"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-02.webp"
     alt="The dungeon begins to spread across the table as the party explores."
     caption="The underground complex begins to take shape during Session 1."
     type="photo-portrait"
@@ -127,7 +127,7 @@ The passages beneath Seaton’s Cove soon proved to be occupied by more than rat
 In one section of the underground complex, the party encountered a **giant spider** that had made its lair among the forgotten chambers. Webbing stretched through the area, turning the passage into a dangerous hunting ground.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/mnst-card_giant-spider-01.png"
+    src="images/campaigns/assets/monsters/mnst-card_giant-spider-01.webp"
     alt="A giant spider."
     caption="A giant spider had claimed part of the buried complex as its hunting ground."
     type="card-landscape"
@@ -142,7 +142,7 @@ Every dark opening might conceal another threat.
 And the deeper the party explored, the less the tunnels felt like an extension of the Salty Net’s cellar and the more they seemed like the remains of an older, hidden world beneath Seaton’s Cove.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-03.JPG"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-03.webp"
     alt="The group continues deeper into the underground complex."
     caption="The dungeon expanded room by room as the adventurers pushed farther beneath the town."
     type="photo-portrait"
@@ -177,7 +177,7 @@ The farther the adventurers pushed beneath Seaton’s Cove, the clearer it becam
 Unlike the rats, spider, and undead, the kobolds had established themselves in the passages below the town. This was no chance encounter with a wandering creature; the party had entered a small warren.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/mnst-card_kobold-warrior-01.png"
+    src="images/campaigns/assets/monsters/mnst-card_kobold-warrior-01.webp"
     alt="A kobold warrior."
     caption="Kobolds had established a warren among the buried passages beneath Seaton’s Cove."
     type="card-portrait"
@@ -192,7 +192,7 @@ Eventually, the party reached the heart of the warren and defeated the kobold le
 Whatever lay ahead had not been built for kobolds.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-04.JPG"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-04.webp"
     alt="The underground complex has grown substantially by this point in the session."
     caption="By the time the party reached the kobold warren, the underground complex had spread across the table."
     type="photo-portrait"
@@ -209,7 +209,7 @@ Eventually, they emerged into a strange grotto filled with **giant mushrooms**. 
 They were not alone. Among the enormous fungi waited a **young green dragon**.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/mnst-card_green-dragon-01.png"
+    src="images/campaigns/assets/monsters/mnst-card_green-dragon-01.webp"
     alt="A young green dragon."
     caption="The young green dragon waiting in the mushroom grotto."
     type="card-landscape"
@@ -220,7 +220,7 @@ The discovery immediately changed the expedition. Rats, spiders, undead, and kob
 The party tried to face the creature, but it quickly became clear that they were badly outmatched. Whatever confidence had carried them through the kobold warren gave way to the simple need to survive.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-05.JPG"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-05.webp"
     alt="The party confronts the green dragon."
     caption="The party reaches the mushroom grotto and confronts the green dragon during Session 1."
     type="photo-landscape"

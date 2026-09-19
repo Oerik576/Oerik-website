@@ -15,7 +15,7 @@ tags:
   - "Old School Gaming"
   - "History & Lore"
 
-featured_image: "/images/articles/the-birth-of-greyhawk/the-birth-of-greyhawk-hero.png"
+featured_image: "/images/articles/the-birth-of-greyhawk/the-birth-of-greyhawk-hero.webp"
 summary: "From Gary Gygax's home campaign and Castle Greyhawk to the Folio and 1983 boxed set, Greyhawk grew alongside the earliest years of fantasy role-playing."
 
 source_issue: "OERIK Magazine Issue 001"

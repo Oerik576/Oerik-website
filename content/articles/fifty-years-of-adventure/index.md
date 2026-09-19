@@ -17,7 +17,7 @@ tags:
 
 
 
-featured_image: "/images/articles/fifty-years-of-adventure/fifty-years-of-adventure-hero.png"
+featured_image: "/images/articles/fifty-years-of-adventure/fifty-years-of-adventure-hero.webp"
 summary: "For more than half a century, Dungeons & Dragons has inspired players to gather around a table, create heroes, and explore worlds of imagination."
 
 source_issue: "OERIK Magazine Issue 001"

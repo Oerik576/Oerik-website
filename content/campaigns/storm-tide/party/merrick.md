@@ -7,7 +7,7 @@ class: "Cleric"
 level: 2
 background: "Shipwright"
 status: "NPC"
-portrait: "/images/campaigns/storm-tide/party/PC-CARD-NPC-Merric.png"
+portrait: "/images/campaigns/storm-tide/party/PC-CARD-NPC-Merric.webp"
 summary: "A young cleric of Osprem born in Seaton's Cove, Merrick combines his calling to the goddess of the sea with the practical skills of a trained shipwright."
 campaign_history: ""
 ---

@@ -7,7 +7,7 @@ location: Seaton's Cove, Duchy of Salinmoor
 title: Something Beneath the Cove
 type: campaign-journal
 year: 576 CY
-featured_image: "images/campaigns/storm-tide/journals/001-journal/001-session-04.webp"
+featured_image: "images/campaigns/storm-tide/journals/001-journal/001-session-04-upright.webp"
 summary: "Four beginning adventurers investigate missing stores beneath the Salty Net & Fishery Hall and discover that something far more dangerous lies beneath Seaton's Cove."
 tags:
   - Storm Tide Campaign
@@ -30,7 +30,7 @@ Seaton's Cove was the sort of place where trouble usually arrived by sea. Storms
 Those were dangers the people of Seaton's Cove understood. What they were less prepared for was something stirring beneath their own streets.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-01.webp"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-01-upright.webp"
     alt="The first session of the Storm Tide Campaign, July 8, 2023."
     caption="At the table, July 8, 2023 — Session 1 of the Storm Tide Campaign."
     type="photo-portrait"
@@ -112,7 +112,7 @@ The deeper they went, the clearer it became that the rats were only the first in
 And turning back at the cellar wall was already starting to feel like the safer choice.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-02.webp"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-02-upright.webp"
     alt="The dungeon begins to spread across the table as the party explores."
     caption="The underground complex begins to take shape during Session 1."
     type="photo-portrait"
@@ -142,7 +142,7 @@ Every dark opening might conceal another threat.
 And the deeper the party explored, the less the tunnels felt like an extension of the Salty Net’s cellar and the more they seemed like the remains of an older, hidden world beneath Seaton’s Cove.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-03.webp"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-03-upright.webp"
     alt="The group continues deeper into the underground complex."
     caption="The dungeon expanded room by room as the adventurers pushed farther beneath the town."
     type="photo-portrait"
@@ -192,7 +192,7 @@ Eventually, the party reached the heart of the warren and defeated the kobold le
 Whatever lay ahead had not been built for kobolds.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-04.webp"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-04-upright.webp"
     alt="The underground complex has grown substantially by this point in the session."
     caption="By the time the party reached the kobold warren, the underground complex had spread across the table."
     type="photo-portrait"
@@ -220,7 +220,7 @@ The discovery immediately changed the expedition. Rats, spiders, undead, and kob
 The party tried to face the creature, but it quickly became clear that they were badly outmatched. Whatever confidence had carried them through the kobold warren gave way to the simple need to survive.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/001-journal/001-session-05.webp"
+    src="images/campaigns/storm-tide/journals/001-journal/001-session-05-upright.webp"
     alt="The party confronts the green dragon."
     caption="The party reaches the mushroom grotto and confronts the green dragon during Session 1."
     type="photo-landscape"

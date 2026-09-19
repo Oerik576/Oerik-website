@@ -1,0 +1,115 @@
+.player-portal-gateway-page {
+    display: flex;
+    justify-content: center;
+}
+
+.player-portal-gateway {
+    width: 100%;
+    max-width: 620px;
+    text-align: center;
+}
+
+.player-code-form {
+    max-width: 420px;
+    margin: 32px auto 12px;
+    padding: 28px;
+    border: 1px solid #b9aa96;
+    background: #f7f1e7;
+    box-sizing: border-box;
+}
+
+.player-code-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.player-code-form input {
+    display: block;
+    width: 100%;
+    margin: 0 0 18px;
+    padding: 11px 12px;
+    border: 1px solid #8f8172;
+    background: #fff;
+    color: #222;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.player-code-form input[aria-invalid="true"] {
+    border-color: #9b1c1c;
+}
+
+.player-code-error {
+    margin: -6px 0 16px;
+    color: #9b1c1c;
+    font-weight: bold;
+}
+
+.player-code-form button {
+    display: inline-block;
+    min-width: 150px;
+    padding: 10px 24px;
+    border: 1px solid #8a4b10;
+    background: #ed913b;
+    color: #17120d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.player-code-form button:hover,
+.player-code-form button:focus-visible {
+    background: #f2a454;
+}
+
+.player-pdf-list {
+    display: grid;
+    gap: 12px;
+    margin: 20px 0 8px;
+}
+
+.player-pdf {
+    display: block;
+    margin: 0 0 12px;
+    padding: 16px 18px;
+    border: 1px solid #c8b9a6;
+    border-left: 5px solid #ed913b;
+    background: #f7f1e7;
+    color: #17120d;
+    text-decoration: none;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.player-pdf:hover,
+.player-pdf:focus-visible {
+    border-color: #8a4b10;
+    background: #fff8ee;
+}
+
+.player-pdf-name,
+.player-pdf-meta {
+    display: block;
+}
+
+.player-pdf-name {
+    margin-bottom: 5px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #8a3f00;
+}
+
+.player-pdf-meta {
+    font-size: 0.9rem;
+    color: #5e554c;
+}
+
+@media (max-width: 600px) {
+    .player-code-form {
+        padding: 22px 18px;
+    }
+}

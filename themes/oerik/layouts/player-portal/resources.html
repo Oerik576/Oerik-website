@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="standard-page">
+
+  <article class="standard-page-content">
+
+    <h1>{{ .Title }}</h1>
+
+    {{ .Content }}
+
+    {{ $portal := site.GetPage "/player-portal" }}
+
+    {{ with $portal.RegularPages.ByWeight }}
+      <div class="taxonomy-article-list player-portal-list">
+        {{ range . }}
+          <article class="taxonomy-entry">
+            <h2>
+              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            </h2>
+
+            {{ with .Params.summary }}
+              <p>{{ . }}</p>
+            {{ else }}
+              <p>{{ .Summary | plainify | truncate 220 }}</p>
+            {{ end }}
+
+            <a class="read-more" href="{{ .RelPermalink }}">
+              Open Resources →
+            </a>
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+
+  </article>
+
+</div>
+
+{{ end }}
+

@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+<div class="standard-page player-portal-gateway-page">
+
+  <article class="standard-page-content player-portal-gateway">
+
+    <h1>{{ .Title }}</h1>
+
+    {{ .Content }}
+
+    <form
+      class="player-code-form"
+      id="player-code-form"
+      data-destination="{{ "player-portal/game-pdfs/" | relURL }}"
+    >
+      <label for="player-code">Player Code</label>
+
+      <input
+        type="password"
+        id="player-code"
+        autocomplete="off"
+        placeholder="Enter your player code"
+        required
+      >
+
+      <p class="player-code-error" id="player-code-error" role="alert" hidden>
+        Invalid player code. Please try again.
+      </p>
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </article>
+
+</div>
+
+<script>
+  (() => {
+    const acceptedHash = "091edcc3590a961f34e36fbbbe489fa26bd096caf9a82b227888287f1c1ad684";
+    const form = document.getElementById("player-code-form");
+    const input = document.getElementById("player-code");
+    const error = document.getElementById("player-code-error");
+
+    const sha256 = async (value) => {
+      const bytes = new TextEncoder().encode(value);
+      const digest = await crypto.subtle.digest("SHA-256", bytes);
+
+      return Array.from(new Uint8Array(digest))
+        .map((byte) => byte.toString(16).padStart(2, "0"))
+        .join("");
+    };
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      const enteredHash = await sha256(input.value.trim());
+
+      if (enteredHash === acceptedHash) {
+        window.location.assign(form.dataset.destination);
+        return;
+      }
+
+      error.hidden = false;
+      input.setAttribute("aria-invalid", "true");
+      input.focus();
+      input.select();
+    });
+
+    input.addEventListener("input", () => {
+      error.hidden = true;
+      input.removeAttribute("aria-invalid");
+    });
+  })();
+</script>
+
+{{ end }}

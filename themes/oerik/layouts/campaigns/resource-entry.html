@@ -3,6 +3,7 @@
 {{ $page := . }}
 {{ $isNPC := false }}
 {{ $isMagicItem := false }}
+{{ $isDeity := false }}
 
 {{ with .Params.tags }}
   {{ if in . "npc" }}
@@ -10,6 +11,9 @@
   {{ end }}
   {{ if in . "magic-item" }}
     {{ $isMagicItem = true }}
+  {{ end }}
+  {{ if in . "deity" }}
+    {{ $isDeity = true }}
   {{ end }}
 {{ end }}
 
@@ -30,7 +34,7 @@
       {{ end }}
     </header>
 
-    {{ if or $isNPC $isMagicItem }}
+    {{ if or $isNPC $isMagicItem $isDeity }}
       <div
         class="resource-profile-top"
         style="--resource-card-width: {{ .Params.card_width | default 300 }}px;"
@@ -171,6 +175,52 @@
               {{ with .Params.special_affinity }}
                 <div>
                   <dt>Special Affinity</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+            {{ end }}
+
+            {{ if $isDeity }}
+
+              {{ with .Params.divine_rank }}
+                <div>
+                  <dt>Divine Rank</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.alignment }}
+                <div>
+                  <dt>Alignment</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.portfolio }}
+                <div>
+                  <dt>Portfolio</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.symbol }}
+                <div>
+                  <dt>Symbol</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.realm }}
+                <div>
+                  <dt>Realm</dt>
+                  <dd>{{ . }}</dd>
+                </div>
+              {{ end }}
+
+              {{ with .Params.worshippers }}
+                <div>
+                  <dt>Worshippers</dt>
                   <dd>{{ . }}</dd>
                 </div>
               {{ end }}

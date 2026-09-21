@@ -6,7 +6,9 @@
 
     <h1>{{ .Title }}</h1>
 
-    {{ range site.RegularPages.GroupByDate "2006" }}
+    {{ $datedPages := where site.RegularPages "Params.date" "ne" nil }}
+
+    {{ range $datedPages.GroupByDate "2006" }}
 
       <section class="archive-year-section">
 

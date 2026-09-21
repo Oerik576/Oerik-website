@@ -135,7 +135,10 @@
       <section class="dispatch-archive">
         <h2><a href="{{ "archive/" | relURL }}">Archive</a></h2>
 
-        {{ range (where site.RegularPages "Section" "articles").GroupByDate "2006" }}
+        {{ $articlePages := where site.RegularPages "Section" "articles" }}
+        {{ $datedArticlePages := where $articlePages "Params.date" "ne" nil }}
+
+        {{ range $datedArticlePages.GroupByDate "2006" }}
 
           <div class="archive-year">
             <a href="{{ printf "archive/#year-%s" .Key | relURL }}">{{ .Key }}</a>

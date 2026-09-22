@@ -1,0 +1,92 @@
+{{ define "main" }}
+
+<div class="adventures-library-page">
+
+  <section class="adventures-floating-card adventures-header-card">
+    <header class="adventures-header">
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Content }}
+        <div class="adventures-introduction">
+          {{ . }}
+        </div>
+      {{ end }}
+    </header>
+  </section>
+
+  {{ range .Params.adventures }}
+    <article class="adventures-floating-card adventure-catalog-card">
+
+      <figure class="adventure-catalog-image">
+        {{ if .external_link }}
+          <a
+            href="{{ .external_link }}"
+            target="_blank"
+            rel="noopener"
+            aria-label="Open {{ .title }}"
+          >
+            <img
+              src="{{ strings.TrimPrefix "/" .image | relURL }}"
+              alt="{{ .title }}"
+              loading="lazy"
+            >
+          </a>
+        {{ else if .full_image }}
+          <a
+            href="{{ strings.TrimPrefix "/" .full_image | relURL }}"
+            target="_blank"
+            rel="noopener"
+            aria-label="Open a larger image of {{ .title }}"
+          >
+            <img
+              src="{{ strings.TrimPrefix "/" .image | relURL }}"
+              alt="{{ .title }}"
+              loading="lazy"
+            >
+          </a>
+        {{ else }}
+          <img
+            src="{{ strings.TrimPrefix "/" .image | relURL }}"
+            alt="{{ .title }}"
+            loading="lazy"
+          >
+        {{ end }}
+
+        {{ with .link_caption }}
+          <figcaption>{{ . }}</figcaption>
+        {{ end }}
+      </figure>
+
+      <div class="adventure-catalog-copy">
+        <div class="adventure-catalog-heading">
+          <div class="adventure-catalog-code">{{ .code }}</div>
+          <h2>{{ .title }}</h2>
+          {{ with .author }}
+            <div class="adventure-catalog-author">By {{ . }}</div>
+          {{ end }}
+          {{ with .level }}
+            <div class="adventure-catalog-level">{{ . }}</div>
+          {{ end }}
+        </div>
+
+        <p>{{ .description }}</p>
+
+        {{ with .note }}
+          <p class="adventure-catalog-note">{{ . }}</p>
+        {{ end }}
+      </div>
+
+    </article>
+  {{ end }}
+
+  <section class="adventures-floating-card adventures-back-card">
+    <p>
+      <a class="read-more" href="{{ .Parent.RelPermalink }}">
+        ← Return to {{ .Parent.Title }}
+      </a>
+    </p>
+  </section>
+
+</div>
+
+{{ end }}

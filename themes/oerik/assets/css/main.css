@@ -1873,3 +1873,189 @@ a:hover {
         width: 100%;
     }
 }
+
+/* =========================================================
+   STORM TIDE - ADVENTURES CATALOG
+   Scoped to the Adventures page only.
+   ========================================================= */
+
+.adventures-library-page {
+    width: calc(100% - 60px);
+    max-width: 1200px;
+    margin: 30px auto 50px;
+    box-sizing: border-box;
+}
+
+.adventures-floating-card {
+    margin: 0 0 28px;
+    padding: 34px 42px;
+    background: #fff;
+    border: 1px solid rgba(120, 95, 70, 0.35);
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+    box-sizing: border-box;
+}
+
+.adventures-header-card {
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.adventures-header h1 {
+    margin: 0 0 18px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.adventures-introduction p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.adventure-catalog-card {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 34px;
+    align-items: start;
+    padding: 30px 34px;
+}
+
+.adventure-catalog-image {
+    margin: 0;
+    width: 230px;
+}
+
+.adventure-catalog-image a {
+    display: block;
+}
+
+.adventure-catalog-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background: #f5f1e7;
+    border: 1px solid #b8aa91;
+    box-sizing: border-box;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.adventure-catalog-image a:hover img,
+.adventure-catalog-image a:focus img {
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.20);
+    transform: translateY(-1px);
+}
+
+.adventure-catalog-image figcaption {
+    margin-top: 8px;
+    color: #666;
+    font-size: 12px;
+    line-height: 1.35;
+    text-align: center;
+    font-style: italic;
+}
+
+.adventure-catalog-copy {
+    min-width: 0;
+}
+
+.adventure-catalog-heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.adventure-catalog-code {
+    margin-bottom: 3px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+
+.adventure-catalog-heading h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 27px;
+    line-height: 1.2;
+}
+
+.adventure-catalog-author {
+    margin-top: 5px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.adventure-catalog-level {
+    margin-top: 5px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.adventure-catalog-copy p {
+    margin: 0 0 18px;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+.adventure-catalog-note {
+    margin-bottom: 0 !important;
+    font-style: italic;
+}
+
+.adventures-back-card a {
+    color: #8b4513;
+}
+
+.adventures-back-card {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.adventures-back-card p {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 800px) {
+
+    .adventures-library-page {
+        width: calc(100% - 28px);
+        margin: 18px auto 34px;
+    }
+
+    .adventures-floating-card {
+        margin-bottom: 18px;
+        padding: 26px 22px;
+        border-radius: 14px;
+    }
+
+    .adventures-header h1 {
+        font-size: 30px;
+    }
+
+    .adventure-catalog-card {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .adventure-catalog-image {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .adventure-catalog-heading h2 {
+        font-size: 23px;
+    }
+
+    .adventure-catalog-copy p {
+        font-size: 16px;
+    }
+}

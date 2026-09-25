@@ -1,6 +1,6 @@
 ---
 campaign: The Storm Tide Campaign
-date: 2026-09-24
+date: 2026-09-27
 session_date: 2025-07-26
 journal: 4
 location: Seaton's Cove and Wreckshore Beach, Duchy of Salinmoor
@@ -166,6 +166,13 @@ The warped floorboards near the center of the room concealed a hidden burrow. Wi
 The fight was fast and brutal. The creature struck from close range, using the floor itself as cover, but once the party recovered from the surprise it was quickly surrounded. When the spider finally collapsed, foul green ichor seeped from its body and disappeared into cracks between the boards.
 
 The corruption was no longer confined to animals wandering near the camp. It was in the ground beneath them.
+
+{{< journal-image
+    src="images/campaigns/assets/monsters/Card-Corrupted Huge Spider.webp"
+    alt="A huge corrupted spider beneath the Wreckshore camp."
+    caption="A huge corrupted spider burst from beneath the floorboards, bearing the same unnatural corruption seen elsewhere around Wreckshore."
+    type="card-landscape"
+>}}
 
 ---
 

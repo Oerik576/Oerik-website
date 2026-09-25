@@ -1,0 +1,14 @@
+﻿OERIK WEBSITE WEBP CONVERSION REPORT
+Generated: 2026-09-24 23:10:44
+WebP quality: 82
+
+Original image files: 10
+Original total size:  27.79 MB
+WebP preview files:   10
+WebP total size:      3.93 MB
+Space saved:          23.86 MB
+Reduction:            85.8%
+
+Preview folder: C:\Users\RichardMouton\Documents\Oerik-website\audit\webp-preview\static\images
+
+No original website images were changed or deleted.

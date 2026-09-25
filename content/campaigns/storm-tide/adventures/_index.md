@@ -14,6 +14,17 @@ adventures:
     description: "Deep beneath the quiet seaside town of Seaton's Cove, something sinister is stirring. Tamily Tandervil, the proprietor of the local fishery, recently discovered a cellar wall caved in and hundreds of pounds of salted fish ransacked. Any explorer brave enough to answer her call for help will explore an extensive network of caves dotted with ruins from ages long lost from memory and fight their way through whatever creatures they might rouse in the dark."
     note: "Menace under Seaton's Cove is a fan conversion of the Pathfinder Beginner Box adventure, Menace Under Otari."
 
+
+  - code: "RX02"
+    title: "The Camp on Wreckshore Cabin"
+    author: "Richard Xavier Mouton"
+    level: "An Adventure for Character Levels 1–3"
+    image: "images/adventures/RX02 WRECKSHORE CABIN-thumbnail.webp"
+    full_image: "images/adventures/RX02 WRECKSHORE CABIN-full.webp"
+    link_caption: "Click image to view larger."
+    description: "Once a modest fishing retreat perched along Keoland’s rugged southern coast, the Wreckshore Camp has long stood abandoned, battered by storms, overgrown with brambles, and whispered about in Seaton’s Cove taverns. When Tamily Tanderveil gives the camp’s deed to a band of trusted adventurers, they must travel west to uncover what truly happened to her uncle Tamren and what now stirs among the cliffs, roots, and ruined buildings of Wreckshore."
+    note: "Written for the Storm Tide Campaign and compatible with Adventures Dark & Deep and most OSR-style games."
+
   - code: "SQ01"
     title: "Breath of the Viridian Wyrm"
     author: "Richard Mouton"

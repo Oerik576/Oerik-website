@@ -40,9 +40,9 @@ Throughout the pages of OERIK, every adventure, monster, NPC, magic item, and ca
 
 ## First Edition, Continued
 
-Adventures Dark & Deep™ is often described as "First Edition continued," and that simple phrase captures the heart of the game better than any list of features or mechanics ever could.
+Adventures Dark & Deep™ is often described as "First Edition continued," or "Edition 1.5" and that simple phrase captures the heart of the game better than any list of features or mechanics ever could.
 
-Rather than recreating a single moment in the history of fantasy role-playing, Adventures Dark & Deep begins with a different assumption: what if the original game had simply continued to grow and evolve? What new ideas might have been introduced? What systems would have been refined? What possibilities would have been explored while remaining true to the spirit that inspired generations of players?
+Adventures Dark & Deep begins with the question: what if the original game had simply continued to grow and evolve? What new ideas might have been introduced? What systems would have been refined? What possibilities would have been explored while remaining true to the spirit that inspired generations of players? The creator Joseph Bloch brought his own extensive knowledge of **Dungeons & Dragons** as well as scouring **Dragon** magazines and online message boards for information about the game after **Gary Gygax** left **TSR**.
 
 The answer is a game that feels immediately familiar without ever feeling limited by nostalgia. The foundations remain recognizable—heroic adventurers, dangerous dungeons, powerful magic, and a world that rewards exploration and ingenuity—but those foundations have been carefully expanded with new options, additional depth, and a broader framework for long-term campaign play.
 
@@ -54,7 +54,7 @@ In many ways, Adventures Dark & Deep succeeds because it looks in two directions
 
 ## A Complete Fantasy Role-Playing System
 
-One of the greatest strengths of Adventures Dark & Deep™ is its scope. Rather than dividing the game across numerous required supplements, the **Core Rulebook** and **Bestiary** together provide a complete toolkit for creating and running long-term fantasy campaigns.
+One of the greatest strengths of Adventures Dark & Deep™ is its scope. The **Core Rulebook** and **Bestiary** together provide a complete toolkit for creating and running long-term fantasy campaigns. 
 
 For players, the Core Rulebook offers a remarkable range of possibilities. Familiar races and classes stand alongside expanded options, allowing every character to feel both classic and distinctive. Detailed equipment, combat, magic, secondary skills, and character backgrounds provide the structure needed to create heroes who naturally become part of the campaign world rather than simply visitors passing through it.
 
@@ -78,7 +78,7 @@ Adventures Dark & Deep™ feels perfectly at home in that world because it share
 
 For Game Masters, this partnership offers a tremendous advantage. The classic adventures, sourcebooks, and articles published during the First Edition era can be used with minimal effort, preserving not only their mechanics but also the style of play for which they were originally written. The result is a campaign that feels authentic without being trapped in nostalgia—a living world where decades of published material can stand beside entirely new adventures created for OERIK.
 
-That is why Adventures Dark & Deep serves as the official game of this magazine. It is more than a compatible rules system; it is the natural continuation of the style of fantasy role-playing that gave birth to Greyhawk itself.
+That is why Adventures Dark & Deep serves as the official game of OERIK magazine. It is more than a compatible rules system; it is the natural continuation of the style of fantasy role-playing that gave birth to Greyhawk itself.
 
 ## The Core Rulebook
 
@@ -124,8 +124,6 @@ The extensive character options allow the Flanaess to feel like a living world p
 
 The campaign systems are equally well suited to Greyhawk. Secondary skills, social class, languages, and literacy help define where characters fit within society before the first adventure begins. A noble from Furyondy, a merchant's son from Dyvers, a hunter from the Gnarley Forest, and a sailor from Gradsul immediately feel different, not because of combat statistics, but because the rules encourage them to be products of the world they inhabit.
 
-Religion receives similar attention. The rules naturally support campaigns where temples are centers of political and social influence, where priests serve distinct deities with unique traditions, and where faith shapes kingdoms as much as armies and kings. For Greyhawk referees using the rich pantheon of Oeridian, Suel, Flan, Baklunish, and Olman gods, these systems add depth to every encounter without unnecessary complexity.
-
 Even travel feels at home in the Flanaess. Wilderness exploration, overland journeys, ships and waterborne adventures, encounters, weather, and the practical concerns of life on the frontier encourage the kind of campaigns that Greyhawk has always done best. A party might spend one month clearing forgotten ruins in the Cairn Hills, the next sailing the Azure Sea, and the next negotiating with nobles in Rel Astra—all using the same unified rules system.
 
 Perhaps most importantly, Adventures Dark & Deep never forces Greyhawk to conform to the rules. Instead, the rules support the setting that already exists. They provide the framework while allowing the history, cultures, politics, mysteries, and personalities of the Flanaess to remain the true stars of the campaign.
@@ -160,21 +158,11 @@ Need a forgotten temple guarded by archons? A primeval valley filled with dinosa
 
 ### For the Greyhawk Referee
 
-This is where the Bestiary truly shines.
-
 Greyhawk has always been a world of ancient civilizations built upon the ruins of even older ones. The Flanaess is home to forgotten Suel cities buried beneath the Sea of Dust, mysterious forests where fey still hold court, isolated valleys where dinosaurs survive, and mountain ranges inhabited by giants, dragons, and things that civilized lands have long since forgotten.
 
 The breadth of the Bestiary allows those regions to feel genuinely different from one another. A journey into the Dreadwood should not resemble an expedition into the Bright Desert or the Crystalmist Mountains, and this collection provides the creatures needed to give every region its own identity and atmosphere.
 
 Just as importantly, the book preserves many classic monsters that defined the earliest days of fantasy role-playing while introducing enough unfamiliar creatures to ensure that even veteran players cannot assume they already know every danger waiting beyond the next door.
-
-### A Living World
-
-Perhaps the greatest compliment that can be paid to the Adventures Dark & Deep Bestiary is that it encourages referees to think beyond encounters.
-
-It suggests ecosystems instead of wandering monster tables, civilizations instead of isolated stat blocks, and mysteries instead of predictable battles. The result is a world that feels inhabited rather than populated place where every ruined tower, forgotten temple, and unexplored wilderness hex promises the possibility of discovering something remarkable.
-
-For a Greyhawk campaign, that sense of discovery may be the greatest treasure of all.
 
 ## A Living Game
 
@@ -186,7 +174,7 @@ For the Greyhawk referee, this provides tremendous flexibility. The Core Ruleboo
 
 That approach is one of the reasons OERIK selected Adventures Dark & Deep as its official game. The magazine is not built around a finished collection of books that will never change, but around a living system that continues to inspire new ideas and new adventures.
 
-Future issues of OERIK will occasionally shine a spotlight on these supplements, exploring the ways they can enrich a Greyhawk campaign while always keeping the Core Rulebook and Bestiary at the heart of the game. Our goal is not to encourage readers to collect endless rulebooks, but to help Game Masters discover the resources that best support the style of campaign they want to create.
+The OERIK Dispatch and OERIK magazine will occasionally shine a spotlight on these supplements, exploring the ways they can enrich a Greyhawk campaign while always keeping the Core Rulebook and Bestiary at the heart of the game. Our goal is not to encourage readers to collect endless rulebooks, but to help Game Masters discover the resources that best support the style of campaign they want to create.
 
 In many ways, that is the greatest strength of Adventures Dark & Deep. It respects more than fifty years of fantasy role-playing tradition while continuing to build upon it, proving that a classic game can still surprise, inspire, and grow.
 
@@ -196,9 +184,9 @@ Whether you are returning to Greyhawk after decades away or discovering the Flan
 
 For OERIK, that philosophy is more than a rules system, it is a way of approaching the hobby. We believe that worlds should be explored rather than completed, mysteries should invite investigation rather than provide immediate answers, and the greatest stories are the ones created through the unexpected decisions of the people gathered around the gaming table.
 
-Every issue of OERIK will build upon that foundation. Within these pages you will find adventures set in the World of Greyhawk, memorable non-player characters, dangerous monsters, forgotten ruins, magical treasures, campaign advice, historical articles, and new ideas designed to enrich long-term play. Some will expand upon the Core Rulebook and Bestiary, while others will explore the growing library of Adventures Dark & Deep supplements and the many ways, they can enhance a campaign.
+Here at OERIK we will build upon that foundation. You will find adventures set in the World of Greyhawk, memorable non-player characters, dangerous monsters, forgotten ruins, magical treasures, campaign advice, historical articles, and new ideas designed to enrich long-term play. Some will expand upon the Core Rulebook and Bestiary, while others will explore the growing library of Adventures Dark & Deep supplements and the many ways, they can enhance a campaign.
 
-Most importantly, we hope this magazine inspires you to play.
+Most importantly, we hope this inspires you to play.
 
 Unfold a map of the Flanaess. Gather a few friends around the table. Roll the dice. Explore the forgotten places beyond the next hill, the next forest, or the next dungeon door.
 

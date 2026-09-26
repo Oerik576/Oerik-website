@@ -1,7 +1,7 @@
 ---
 campaign: The Storm Tide Campaign
-date: 2026-09-25
-session_date: 2026-08-09
+date: 2026-09-27
+session_date: 2025-08-09
 journal: 5
 location: Wreckshore Beach and the Fangs of Wreckshore, Duchy of Salinmoor
 title: "Wreckshore: King Crimson"
@@ -51,7 +51,7 @@ The lowest tide of the season gave the adventurers an opportunity to reach them 
 
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/Grotto of the King Crimson-Hero.webp"
+    src="/images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/Grotto of the King Crimson-Hero.webp"
     alt="Hero image for Wreckshore: King Crimson."
     caption="At the lowest tide, the party crosses the exposed reef and descends into the grotto of the monstrous crab known as King Crimson."
     type="card-landscape"
@@ -68,7 +68,7 @@ The locals called the event **the Sea's Retreat**. Twice each year, the tide fel
 The adventurers had another reason to cross. From the hidden cove beneath Wreckshore, they had seen wreckage scattered among the offshore rocks. With the tide still falling, **Xalen Thistlewacker**, **Cyr Baggins**, **Haldir Sorenson**, **Hugo Baudelaire**, **Galborn Valgwyn**, **Darrak Goldenforge**, and **Brother Merrick** made their way toward the exposed reef.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/MAP RX01 WRECKSHORE CABIN 3.webp"
+    src="/images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/MAP RX01 WRECKSHORE CABIN 3.webp"
     alt="Map of the lower Wreckshore area and the route toward the sea caves."
     caption="The lower Wreckshore area, where the hidden coastal passages open toward the tidal flats and sea stacks."
     type="map"
@@ -91,7 +91,7 @@ Ahead, on the western sea stack, the remains of a small vessel lay broken across
 The vessel had been a small dhow, the sort commonly used by fishermen and coastal traders because it could work close to shore and navigate shallower water than larger ships. Now its narrow hull had been split nearly in two, the bow driven onto the rocks while much of the stern had been torn away by the sea.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/Card-Dhow.webp"
+    src="/images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/Card-Dhow.webp"
     alt="The wreck of the Sea Mew on the rocks at Wreckshore."
     caption="The Sea Mew lay broken across the rocks, its scattered cargo and damaged hull hinting at the violence that had overtaken its crew."
     type="card-landscape"
@@ -114,7 +114,7 @@ The passage was not empty. Four **brine eels** erupted from holes among the rock
 The fight was awkward rather than grand. Weapons that worked well on dry ground were harder to use in waist-deep water, and every sudden movement risked a fall on the submerged stone. The eels were finally driven back or killed, allowing the party to continue deeper into the grotto.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/Card-Brine Eel.webp"
+    src="/images/campaigns/assets/monsters/Card-Brine Eel.webp"
     alt="A brine eel lurking among the rocks and tidal channels."
     caption="Brine eels attacked from the flooded passage leading deeper into the Wreckshore grotto."
     type="card-portrait"
@@ -135,7 +135,7 @@ Seven **huge red crabs** moved among the tidal pools. They were far larger than 
 Then the largest shape in the grotto began to move. **King Crimson** emerged from the deepest pool near a broad boulder. Its shell was dark red and scarred, thick with barnacles and old marks from years of fighting. Its claws were large enough to crush bone, and one was noticeably heavier than the other. Compared with the lesser crabs around it, the creature looked less like an oversized animal and more like a piece of the shoreline itself coming to life.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/Card-King Crimson.webp"
+    src="/images/campaigns/assets/monsters/Card-King Crimson.webp"
     alt="King Crimson, the monstrous red crab of Wreckshore."
     caption="King Crimson, the enormous crab that dominated the deepest pool of the Wreckshore grotto."
     type="card-landscape"
@@ -144,7 +144,7 @@ Then the largest shape in the grotto began to move. **King Crimson** emerged fro
 The party had crossed the reef looking for answers and salvage. Instead, they found themselves in a fight for survival.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/005-journal/IMG_8862.jpg"
+    src="/images/campaigns/storm-tide/journals/005-journal/IMG_8862.webp"
     alt="Miniatures prepared for the Wreckshore encounters, including the huge red crabs."
     caption="The creatures of Wreckshore assembled for the session, with the huge red crabs that waited in King Crimson's grotto."
     type="photo-landscape"
@@ -157,7 +157,7 @@ The party had crossed the reef looking for answers and salvage. Instead, they fo
 The crabs attacked from several directions, using the pools and broken ledges to divide the adventurers. The confined terrain made it difficult for the party to maintain a clean formation, and the creatures' low bodies and armored shells made them hard to strike effectively.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/005-journal/imagejpeg_0.jpg"
+    src="/images/campaigns/storm-tide/journals/005-journal/imagejpeg_0.webp"
     alt="The adventurers battle huge red crabs among the stepped rocks of King Crimson's grotto."
     caption="The fight spreads across the tidal grotto as the party struggles to hold its ground among the crabs."
     type="photo-landscape"
@@ -168,7 +168,7 @@ The crabs attacked from several directions, using the pools and broken ledges to
 The lesser crabs were dangerous, but **King Crimson** was something else entirely. Its claws struck with enough force to throw an adventurer from his feet, and once it closed around a target, breaking free became a struggle in itself. As the fight continued, the party began taking serious losses.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/005-journal/IMG_8838.jpg"
+    src="/images/campaigns/storm-tide/journals/005-journal/IMG_8838.webp"
     alt="A wide view of the battle in King Crimson's grotto."
     caption="King Crimson and the lesser crabs press the adventurers across the broken ledges and shallow pools."
     type="photo-landscape"
@@ -177,7 +177,7 @@ The lesser crabs were dangerous, but **King Crimson** was something else entirel
 **Xalen** was brought down during the fighting. Not long afterward, **Haldir** fell as well, and then **Darrak**. With three companions out of the fight, the remaining adventurers had to hold the line while the surviving crabs continued pressing through the pools.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/005-journal/IMG_8839.jpg"
+    src="/images/campaigns/storm-tide/journals/005-journal/IMG_8839.webp"
     alt="The later stages of the battle in King Crimson's grotto."
     caption="With several companions down, the remaining adventurers continue the fight against King Crimson and the surviving crabs."
     type="photo-landscape"

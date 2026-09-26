@@ -18,7 +18,7 @@ activation: "Touch"
 special_affinity: "Clerics of Pelor"
 first_appearance: "RX01A - Menace Under Seaton's Cove"
 
-image: "images/magic-items/wand-of-curing.webp"
+image: "images/magic-items/M-wand-of-curing.webp"
 card_width: 300
 ---
 

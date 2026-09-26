@@ -16,7 +16,7 @@ gp_value: 2500
 activation: "Don the hat"
 first_appearance: "RX01A - Menace Under Seaton's Cove"
 
-image: "images/magic-items/hat-of-disguise.webp"
+image: "images/magic-items/M-hat-of-disguise.webp"
 card_width: 300
 ---
 

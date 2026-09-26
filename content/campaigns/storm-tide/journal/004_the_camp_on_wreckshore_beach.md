@@ -49,7 +49,7 @@ The weeks following the death of Blixteem gave Seaton's Cove time to breathe. Th
 By early Coldeven, winter's chill had begun to loosen its grip on the southern coast. The mornings remained cool, but the afternoons were milder, and the sea wind carried the first hint that spring was approaching. It was during one of those evenings that **Tamily Tanderveil** offered the party something none of them expected: a place of their own.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/RX02_Hero.webp"
+    src="/images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/RX02_Hero.webp"
     alt="Hero image for The Camp on Wreckshore Beach."
     caption="A new mystery on the Wreckshore coast draws the party west from Seaton's Cove."
     type="card-landscape"
@@ -96,7 +96,7 @@ Their search turned up more than the remains of a predator's nest. Among the deb
 The road ahead suddenly seemed less ordinary.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/Card-Daggerbeak.webp"
+    src="/images/campaigns/assets/monsters/Card-Daggerbeak.webp"
     alt="A daggerbeak."
     caption="The first danger on the Seaguard Road came in the form of three corrupted daggerbeaks."
     type="card-portrait"
@@ -119,7 +119,7 @@ At one of the doors, **Cyr** paused to listen. He heard whispers.
 They were too faint to understand, little more than the shape of words somewhere beyond the wood, but they were unmistakably voices. When he listened again later, they seemed slightly clearer—and somehow more interested in him.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/MAP RX01 WRECKSHORE CABIN 1.webp"
+    src="/images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/MAP RX01 WRECKSHORE CABIN 1.webp"
     alt="Map of the upper structures of the Wreckshore camp."
     caption="The abandoned Wreckshore camp: the cabin, sheds, and surrounding structures above the hidden chambers below."
     type="map"
@@ -142,14 +142,14 @@ As the party moved through the hall, **Cyr** heard the whispers again. This time
 Whatever was speaking wanted him below.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/Card-Centipede.webp"
+    src="/images/campaigns/assets/monsters/Card-Centipede.webp"
     alt="A huge corrupted centipede."
     caption="Corrupted centipedes were among the first signs that something beneath Wreckshore had twisted the local vermin."
     type="card-portrait"
 >}}
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/Card-Containment Rune.webp"
+    src="/images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/Card-Containment Rune.webp"
     alt="A containment rune."
     caption="Markings and containment symbols suggested that someone had once tried to understand—or restrain—what was happening beneath the camp."
     type="card-portrait"
@@ -168,7 +168,7 @@ The fight was fast and brutal. The creature struck from close range, using the f
 The corruption was no longer confined to animals wandering near the camp. It was in the ground beneath them.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/Card-Corrupted Huge Spider.webp"
+    src="/images/campaigns/assets/monsters/Card-Corrupted Huge Spider.webp"
     alt="A huge corrupted spider beneath the Wreckshore camp."
     caption="A huge corrupted spider burst from beneath the floorboards, bearing the same unnatural corruption seen elsewhere around Wreckshore."
     type="card-landscape"
@@ -189,7 +189,7 @@ The passage opened into a broad cavern choked with roots, vines, and fungal grow
 Then it began to move.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/MAP RX01 WRECKSHORE CABIN 2.webp"
+    src="/images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/MAP RX01 WRECKSHORE CABIN 2.webp"
     alt="Map of the first underground chambers beneath the Wreckshore cabin."
     caption="The trapdoor beneath the pantry led into a second level of damp passages and corrupted growth."
     type="map"
@@ -212,14 +212,14 @@ The pulsing light faded. Vines that had moved with unnatural purpose slackened a
 At least for now.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/Card-Chickleek.webp"
+    src="/images/campaigns/assets/monsters/Card-Chickleek.webp"
     alt="The Chikleek beneath Wreckshore."
     caption="At the heart of the corruption lurked the Chikleek, directing the blighted growth and its shambling servants."
     type="card-portrait"
 >}}
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/Card-Stinkweed Shambler.webp"
+    src="/images/campaigns/assets/monsters/Card-Stinkweed Shambler.webp"
     alt="A Stinkweed Shambler beneath Wreckshore."
     caption="The Chikleek did not fight alone; Stinkweed Shamblers lurched out of the roots to defend the corrupted den."
     type="card-portrait"

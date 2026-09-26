@@ -20,7 +20,7 @@ adventures:
     author: "Richard Xavier Mouton"
     level: "An Adventure for Character Levels 1–3"
     image: "images/adventures/RX02 WRECKSHORE CABIN-thumbnail.webp"
-    full_image: "images/adventures/RX02 WRECKSHORE CABIN-full.webp"
+    full_image: "images/adventures/RX02 WRECKSHORE CABIN-Full.webp"
     link_caption: "Click image to view larger."
     description: "Once a modest fishing retreat perched along Keoland’s rugged southern coast, the Wreckshore Camp has long stood abandoned, battered by storms, overgrown with brambles, and whispered about in Seaton’s Cove taverns. When Tamily Tanderveil gives the camp’s deed to a band of trusted adventurers, they must travel west to uncover what truly happened to her uncle Tamren and what now stirs among the cliffs, roots, and ruined buildings of Wreckshore."
     note: "Written for the Storm Tide Campaign and compatible with Adventures Dark & Deep and most OSR-style games."

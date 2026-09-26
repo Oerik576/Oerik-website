@@ -92,7 +92,7 @@ Lyrielle's news was less reassuring.
 She had consulted the signs available to her and warned that the green dragon might represent only one part of a larger danger gathering around Seaton's Cove. Whatever shape that danger eventually took, she believed the town had not yet seen the whole of it.
 
 {{< journal-image
-    src="images/campaigns/assets/npc/C-NPC-Lyrielle Silivren.webp"
+    src="/images/campaigns/assets/npc/C-NPC-Lyrielle Silivren.webp"
     alt="Lyrielle Silivren, the elven seer of Seaton's Cove."
     caption="Lyrielle Silivren warned that the dragon might be only one piece of a greater danger."
     type="card-portrait"
@@ -165,7 +165,7 @@ The trail led the adventurers back to the vast natural cavern where their previo
 Towering yellow mushrooms rose from the cavern floor, their strange glow throwing pale light across stone, broken barrels, scattered debris, and kobold bones. The chamber was large enough that much of it disappeared into shadow beyond the reach of ordinary sight.
 
 {{< journal-image
-    src="images/campaigns/assets/monsters/mnst-card_green-dragon-01.webp"
+    src="/images/campaigns/assets/monsters/mnst-card_green-dragon-01.webp"
     alt="Blixteem, the young green dragon beneath Seaton's Cove."
     caption="Blixteem, the young green dragon waiting in the mushroom cavern beneath Seaton's Cove."
     type="card-landscape"
@@ -174,7 +174,7 @@ Towering yellow mushrooms rose from the cavern floor, their strange glow throwin
 Arenir and Darrak moved to the front while the others spread out behind them. Galborn and Cyr searched for positions from which they could fire without striking their companions, while Hugo and Haldir prepared to support the fighters.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/003-journal/003-session-01-upright.webp"
+    src="/images/campaigns/storm-tide/journals/003-journal/003-session-01.webp"
     alt="The party takes position against Blixteem in the mushroom cavern."
     caption="The adventurers spread out among the giant mushrooms as the battle with Blixteem begins."
     type="wide"
@@ -209,7 +209,7 @@ This was the attack the party had prepared for.
 The Potions of Viridian Defense did exactly what Haldir and Galborn had risked so much to make possible. Instead of collapsing beneath the dragon's toxic breath, the adventurers remained standing.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/003-journal/003-session-02-upright.webp"
+    src="/images/campaigns/storm-tide/journals/003-journal/003-session-02.webp"
     alt="The battle against Blixteem continues among the giant mushrooms."
     caption="The fight continues after the Viridian Defense potions blunt Blixteem's poisonous breath."
     type="wide"
@@ -238,7 +238,7 @@ The dragon fought savagely as the party pressed in.
 Arenir and Darrak kept it occupied at close range while Galborn and Cyr attacked whenever openings appeared. Hugo continued using magic where he could, and Haldir remained close enough to strike with his spear.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/journals/003-journal/003-session-03-upright.webp"
+    src="/images/campaigns/storm-tide/journals/003-journal/003-session-03.webp"
     alt="The final phase of the battle against Blixteem."
     caption="The party presses the attack during the final moments of the battle with Blixteem."
     type="wide"

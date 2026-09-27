@@ -2059,3 +2059,36 @@ a:hover {
         font-size: 16px;
     }
 }
+
+/* =========================================================
+   CAMPAIGN JOURNAL ROSTER
+   ========================================================= */
+
+.journal-roster {
+    table-layout: fixed;
+}
+
+.journal-roster th:nth-child(1),
+.journal-roster td:nth-child(1) {
+    width: 8%;
+}
+
+.journal-roster th:nth-child(2),
+.journal-roster td:nth-child(2) {
+    width: 28%;
+}
+
+.journal-roster th:nth-child(3),
+.journal-roster td:nth-child(3) {
+    width: 16%;
+}
+
+.journal-roster th:nth-child(4),
+.journal-roster td:nth-child(4) {
+    width: 18%;
+}
+
+.journal-roster th:nth-child(5),
+.journal-roster td:nth-child(5) {
+    width: 30%;
+}

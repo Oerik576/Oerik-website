@@ -3,6 +3,7 @@ campaign: The Storm Tide Campaign
 date: 2026-09-27
 session_date: 2025-08-09
 journal: 5
+part: 1
 location: Wreckshore Beach and the Fangs of Wreckshore, Duchy of Salinmoor
 title: "Wreckshore: King Crimson"
 type: campaign-journal

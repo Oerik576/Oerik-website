@@ -3,6 +3,7 @@ campaign: The Storm Tide Campaign
 date: 2026-08-28
 session_date: 2023-07-08
 journal: 0
+part: 1
 location: Seaton's Cove, Duchy of Salinmoor
 title: Welcome to Seaton's Cove
 type: campaign-journal

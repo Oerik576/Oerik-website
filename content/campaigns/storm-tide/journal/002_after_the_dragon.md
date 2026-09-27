@@ -3,6 +3,7 @@ campaign: The Storm Tide Campaign
 date: 2026-09-10
 session_date: 2023-07-23
 journal: 2
+part: 1
 location: Seaton's Cove, Duchy of Salinmoor
 title: After the Dragon
 type: campaign-journal

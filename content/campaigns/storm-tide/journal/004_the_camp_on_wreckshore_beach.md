@@ -3,6 +3,7 @@ campaign: The Storm Tide Campaign
 date: 2026-09-27
 session_date: 2025-07-26
 journal: 4
+part: 1
 location: Seaton's Cove and Wreckshore Beach, Duchy of Salinmoor
 title: The Camp on Wreckshore Beach
 type: campaign-journal

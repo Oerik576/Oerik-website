@@ -25,7 +25,7 @@
       </thead>
 
       <tbody>
-        {{ range .Pages.ByParam "journal" }}
+        {{ range sort (sort .Pages ".Params.part" "asc") ".Params.journal" "asc" }}
 
           {{ $journalNum := .Params.journal }}
 

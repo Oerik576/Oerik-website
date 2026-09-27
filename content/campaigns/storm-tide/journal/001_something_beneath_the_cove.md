@@ -3,6 +3,7 @@ campaign: The Storm Tide Campaign
 date: 2026-09-05
 session_date: 2023-07-08
 journal: 1
+part: 1
 location: Seaton's Cove, Duchy of Salinmoor
 title: Something Beneath the Cove
 type: campaign-journal

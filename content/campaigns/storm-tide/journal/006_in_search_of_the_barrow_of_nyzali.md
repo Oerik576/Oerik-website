@@ -3,6 +3,7 @@ campaign: The Storm Tide Campaign
 date: 2026-09-25
 session_date: 2025-10-04
 journal: 6
+part: 1
 location: Wreckshore Beach, Saltmarsh, Burle, and Ashridge Hollow, Viscounty of Salinmoor
 title: In Search of the Barrow of Nyzali
 type: campaign-journal

@@ -3,6 +3,7 @@ campaign: The Storm Tide Campaign
 date: 2026-09-20
 session_date: 2023-09-09
 journal: 3
+part: 1
 location: Seaton's Cove, Duchy of Salinmoor
 title: The Menace of Blixteem
 type: campaign-journal

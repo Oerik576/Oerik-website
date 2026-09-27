@@ -1,6 +1,6 @@
 ---
 campaign: The Storm Tide Campaign
-date: 2026-09-26
+date: 2026-10-25
 session_date: 2026-03-21
 journal: 7
 part: 2

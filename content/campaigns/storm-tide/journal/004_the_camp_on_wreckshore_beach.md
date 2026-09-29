@@ -21,7 +21,7 @@ tags:
   - Wreckshore Camp
   - Tamily Tanderveil
   - Tamren Tanderveil
-  - Xalen Thistlewacker
+  - Xahlen Thistlewacker
   - Cyr Baggins
   - Haldir Sorenson
   - Hugo Baudelaire
@@ -40,7 +40,7 @@ tags:
 **Seaton's Cove and Wreckshore Beach, Duchy of Salinmoor --- 4 Coldeven, 576 CY**\
 **Session 4 --- July 26, 2025**
 
-**Adventurers:** Xalen Thistlewacker, Cyr Baggins, Haldir Sorenson, Hugo Baudelaire, Galborn Valgwyn, Darrak Goldenforge, Brother Merrick\
+**Adventurers:** Xahlen Thistlewacker, Cyr Baggins, Haldir Sorenson, Hugo Baudelaire, Galborn Valgwyn, Darrak Goldenforge, Brother Merrick\
 **Level:** 2nd\
 **Adventure:** RX02 --- *The Camp on Wreckshore Beach*\
 **Weather:** Mild and breezy; broken clouds, a sharp coastal wind, and temperatures near 68°F
@@ -80,7 +80,7 @@ The offer was too useful—and the mystery too compelling—to ignore.
 
 ## West Along the Seaguard Road
 
-The following morning, **Xalen Thistlewacker**, **Cyr Baggins**, **Haldir Sorenson**, **Hugo Baudelaire**, **Galborn Valgwyn**, **Darrak Goldenforge**, and **Brother Merrick** left Seaton's Cove and followed the **Seaguard Road** west along the coast. The road had once been maintained to military standards, but years of weather and uneven repair had left it a rough coastal track of gravel, hard-packed earth, and exposed stone.
+The following morning, **Xahlen Thistlewacker**, **Cyr Baggins**, **Haldir Sorenson**, **Hugo Baudelaire**, **Galborn Valgwyn**, **Darrak Goldenforge**, and **Brother Merrick** left Seaton's Cove and followed the **Seaguard Road** west along the coast. The road had once been maintained to military standards, but years of weather and uneven repair had left it a rough coastal track of gravel, hard-packed earth, and exposed stone.
 
 The Azure Sea glittered beyond the cliffs as gulls wheeled overhead, and hardy pines leaned inland under the steady pressure of the wind. For much of the journey the road seemed almost pleasant, but the farther they traveled from town, the less frequently they passed carts or fishermen making their way along the coast.
 
@@ -204,7 +204,7 @@ The creature that emerged from the root mass was a **Chikleek**, a small corrupt
 
 The attack came from more than one direction. The shamblers pressed forward through the cavern while the Chikleek fought from the roots, filling the chamber with maddening whispers and toxic spores. The confined space, uneven ground, and choking fungal growth made it difficult for the party to keep a clean battle line.
 
-It became one of the hardest fights the group had faced since Blixteem. **Darrak**, **Merrick**, and the others struggled to keep the shamblers from dividing the party while **Hugo**, **Haldir**, **Galborn**, **Cyr**, and **Xalen** tried to bring enough force against the Chikleek to break its hold over the cavern. Vines lashed across the floor, spores clouded the air, and every movement through the central root mass became a fight against the terrain itself.
+It became one of the hardest fights the group had faced since Blixteem. **Darrak**, **Merrick**, and the others struggled to keep the shamblers from dividing the party while **Hugo**, **Haldir**, **Galborn**, **Cyr**, and **Xahlen** tried to bring enough force against the Chikleek to break its hold over the cavern. Vines lashed across the floor, spores clouded the air, and every movement through the central root mass became a fight against the terrain itself.
 
 Eventually the balance shifted. One shambler fell, then another, and the party finally brought the Chikleek down. Its death cry echoed through the cavern, and for an instant the old runes embedded among the roots seemed to flicker in response.
 

@@ -20,7 +20,7 @@ tags:
   - Sea Mew
   - Seaton's Cove
   - Salinmoor
-  - Xalen Thistlewacker
+  - Xahlen Thistlewacker
   - Cyr Baggins
   - Haldir Sorenson
   - Hugo Baudelaire
@@ -41,7 +41,7 @@ tags:
 **Wreckshore Beach, Duchy of Salinmoor --- 11 Coldeven, 576 CY**\
 **Session 5 --- August 9, 2026**
 
-**Adventurers:** Xalen Thistlewacker, Cyr Baggins, Haldir Sorenson, Hugo Baudelaire, Galborn Valgwyn, Darrak Goldenforge, Brother Merrick\
+**Adventurers:** Xahlen Thistlewacker, Cyr Baggins, Haldir Sorenson, Hugo Baudelaire, Galborn Valgwyn, Darrak Goldenforge, Brother Merrick\
 **Level:** 2nd\
 **Adventure:** RX02 --- *The Camp on Wreckshore Beach*\
 **Weather:** Cool and windy along the coast; overcast near the sea stacks, with the season's low tide exposing reefs, sandbars, and tidal pools
@@ -66,7 +66,7 @@ At low tide, the shore below Wreckshore looked almost like another landscape. Wa
 
 The locals called the event **the Sea's Retreat**. Twice each year, the tide fell far enough to expose a route toward the Fangs, and fishermen sometimes used those hours to gather shellfish, tidal herbs, and whatever the sea had left behind. The same stories that encouraged such expeditions also warned that the caves beneath the stacks were best avoided when the water was at its lowest.
 
-The adventurers had another reason to cross. From the hidden cove beneath Wreckshore, they had seen wreckage scattered among the offshore rocks. With the tide still falling, **Xalen Thistlewacker**, **Cyr Baggins**, **Haldir Sorenson**, **Hugo Baudelaire**, **Galborn Valgwyn**, **Darrak Goldenforge**, and **Brother Merrick** made their way toward the exposed reef.
+The adventurers had another reason to cross. From the hidden cove beneath Wreckshore, they had seen wreckage scattered among the offshore rocks. With the tide still falling, **Xahlen Thistlewacker**, **Cyr Baggins**, **Haldir Sorenson**, **Hugo Baudelaire**, **Galborn Valgwyn**, **Darrak Goldenforge**, and **Brother Merrick** made their way toward the exposed reef.
 
 {{< journal-image
     src="/images/campaigns/storm-tide/adventures/004_the_camp_on_wreckshore_beach/MAP RX01 WRECKSHORE CABIN 3.webp"
@@ -164,7 +164,7 @@ The crabs attacked from several directions, using the pools and broken ledges to
     type="photo-landscape"
 >}}
 
-**Darrak Goldenforge** tried to hold one side of the chamber while **Haldir Sorenson** and **Xalen Thistlewacker** fought among the shallows. **Galborn Valgwyn** searched for openings from higher ground, while **Hugo Baudelaire**, **Cyr Baggins**, and **Brother Merrick** worked to keep the party from being overwhelmed by the number of attackers.
+**Darrak Goldenforge** tried to hold one side of the chamber while **Haldir Sorenson** and **Xahlen Thistlewacker** fought among the shallows. **Galborn Valgwyn** searched for openings from higher ground, while **Hugo Baudelaire**, **Cyr Baggins**, and **Brother Merrick** worked to keep the party from being overwhelmed by the number of attackers.
 
 The lesser crabs were dangerous, but **King Crimson** was something else entirely. Its claws struck with enough force to throw an adventurer from his feet, and once it closed around a target, breaking free became a struggle in itself. As the fight continued, the party began taking serious losses.
 
@@ -175,7 +175,7 @@ The lesser crabs were dangerous, but **King Crimson** was something else entirel
     type="photo-landscape"
 >}}
 
-**Xalen** was brought down during the fighting. Not long afterward, **Haldir** fell as well, and then **Darrak**. With three companions out of the fight, the remaining adventurers had to hold the line while the surviving crabs continued pressing through the pools.
+**Xahlen** was brought down during the fighting. Not long afterward, **Haldir** fell as well, and then **Darrak**. With three companions out of the fight, the remaining adventurers had to hold the line while the surviving crabs continued pressing through the pools.
 
 {{< journal-image
     src="/images/campaigns/storm-tide/journals/005-journal/IMG_8839.webp"

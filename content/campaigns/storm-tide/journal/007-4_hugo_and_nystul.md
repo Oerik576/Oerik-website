@@ -22,7 +22,7 @@ tags:
 **Wreckshore, Salinmoor --- 16 Flocktime, 576 CY**\
 **Session 7 --- March 21, 2026**
 
-**Adventurers:** Cyr Baggins, Darrak Goldenforge, Galborn Valgwyn, Haldir Sorenson, Hugo Baudelaire, Brother Merrick, Xalen Thistlewacker\
+**Adventurers:** Cyr Baggins, Darrak Goldenforge, Galborn Valgwyn, Haldir Sorenson, Hugo Baudelaire, Brother Merrick, Xahlen Thistlewacker\
 **Level:** 2\
 **Adventure:** RX02B --- *The Camp on Wreckshore Beach Part 3 - Healing the Ley Line Knot*\
 **Weather:** Mild and clear; cool morning air giving way to scattered clouds, a steady breeze off the Azure Sea, and an afternoon high near 72°F

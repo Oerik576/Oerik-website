@@ -2,7 +2,7 @@
 title: "Getting Started with Adventures Dark & Deep"
 subtitle: "Making the Most of the Core Rulebook"
 author: "Joseph Colb"
-date: 2026-10-01
+date: 2026-09-30
 draft: false
 layout: "dispatch"
 

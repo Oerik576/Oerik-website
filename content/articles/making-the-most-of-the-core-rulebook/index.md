@@ -27,11 +27,7 @@ source_issue_url: "/oerik-magazine/issue-001/"
 show_toc: false
 ---
 
-{{< figure
-    src="/images/articles/making-the-most-of-the-core-rulebook/making-the-most-of-the-core-rulebook-hero.webp"
-    alt="A fantasy role-playing core rulebook beside a character sheet, dice, pencil, mug, lantern, and coin pouch."
-    class="dispatch-article-hero"
->}}
+
 
 > “Every great campaign begins somewhere. The secret is choosing a place small enough that both you and your players can discover it together.”
 

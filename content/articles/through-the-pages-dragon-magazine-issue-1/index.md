@@ -2,7 +2,7 @@
 title: "Through the Pages: Dragon Magazine Issue #1"
 subtitle: "A Look Back at Classic Dragon Magazine"
 author: "Kam Tisk"
-date: 2026-11-12
+date: 2026-11-11
 draft: false
 layout: "dispatch"
 

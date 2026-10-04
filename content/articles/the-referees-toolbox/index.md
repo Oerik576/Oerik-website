@@ -2,7 +2,7 @@
 title: "The Referee’s Toolbox"
 subtitle: "Finding the Style That Fits Your Table"
 author: "Richard Kristianson"
-date: 2026-10-08
+date: 2026-10-07
 draft: false
 layout: "dispatch"
 

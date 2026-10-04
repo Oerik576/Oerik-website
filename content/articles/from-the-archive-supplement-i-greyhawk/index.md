@@ -2,7 +2,7 @@
 title: "From the Archive: Supplement I - Greyhawk"
 subtitle: "The Supplement That Changed Dungeons & Dragons"
 author: "RX Mouton"
-date: 2026-11-05
+date: 2026-11-04
 draft: false
 layout: "dispatch"
 

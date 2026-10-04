@@ -2,7 +2,7 @@
 title: "Being a Good Player"
 subtitle: "What to Expect When Playing Adventures Dark & Deep™"
 author: "Joseph Colb"
-date: 2026-10-15
+date: 2026-10-14
 draft: false
 layout: "dispatch"
 

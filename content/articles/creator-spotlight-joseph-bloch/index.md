@@ -2,7 +2,7 @@
 title: "Creator Spotlight: Joseph Bloch"
 subtitle: "The Greyhawk Grognard"
 author: "OERIK Magazine"
-date: 2026-10-29
+date: 2026-10-28
 draft: false
 layout: "dispatch"
 

@@ -1,6 +1,6 @@
 ---
 campaign: The Storm Tide Campaign
-date: 2026-10-02
+date: 2026-11-26
 featured_image: "images/campaigns/storm-tide/journals/009-journal/The Chamber of Remembrance.webp"
 journal: 9
 location: "Black Fang Warren - The Hall of Whispers, beneath Oldstairs, Seaton's Cove"

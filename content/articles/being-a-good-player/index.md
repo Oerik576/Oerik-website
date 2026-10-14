@@ -17,7 +17,7 @@ tags:
   - "Table Etiquette"
   - "Character Play"
 
-featured_image: "/images/articles/being-a-good-player/being-a-good-player-hero.webp"
+featured_image: "/images/articles/being-a-good-player/Whimsical Fantasy Character Sheet-HERO.webp"
 summary: "Practical advice for new Adventures Dark & Deep players: come prepared, stay engaged, think like an adventurer, work as a team, accept risk, and help make the table better for everyone."
 
 source_issue: "OERIK Magazine Issue 001"
@@ -25,12 +25,6 @@ source_issue_url: "/oerik-magazine/issue-001/"
 
 show_toc: false
 ---
-
-{{< figure
-    src="/images/articles/being-a-good-player/being-a-good-player-hero.webp"
-    alt="Fantasy role-playing players gathered around a table with dice, character sheets, books, and adventuring notes."
-    class="dispatch-article-hero"
->}}
 
 > “The greatest treasures in fantasy role-playing are not found in dungeons, but in the stories shared around the table.”
 
@@ -86,6 +80,12 @@ None of these tools are inherently good or bad. In fact, many of them can make t
 The key is remembering why the technology is there.
 
 It should support the adventure, not compete with it.
+
+{{< figure
+    src="/images/articles/being-a-good-player/Distracted Dungeons & Dragons Night.webp"
+    alt="A humorous black-and-white cartoon showing tabletop role-playing players distracted by phones, tablets, and laptops while the Dungeon Master tries to keep the game moving."
+    class="dispatch-article-image"
+>}}
 
 Using a tablet to look up a spell or check your equipment list helps keep the game moving. Using the same tablet to answer email, browse social media, or watch videos while another player is negotiating with the town guard sends a very different message: the game is no longer your focus.
 
@@ -153,6 +153,12 @@ Very few heroes survive alone.
 
 The greatest adventures are rarely remembered because of a single character's accomplishments. They are remembered because a group of ordinary people trusted one another, combined their talents, and succeeded where none of them could have alone.
 
+{{< figure
+    src="/images/articles/being-a-good-player/Lively Tabletop RPG Adventure Night.webp"
+    alt="A humorous black-and-white cartoon of engaged tabletop role-playing players listening, laughing, taking notes, and sharing the spotlight during a game."
+    class="dispatch-article-image"
+>}}
+
 > “The best parties succeed because every player contributes, every voice is heard, and every victory belongs to the entire group.”
 
 Every class brings something valuable to the party. The fighter stands between danger and the rest of the group. The thief scouts ahead, searches for traps, and notices what others miss. The cleric protects and heals while serving as the party's moral center. The magic-user contributes knowledge, planning, and carefully chosen spells that can change the course of an expedition.
@@ -201,12 +207,6 @@ The fortunate ones are still around to tell it.
 
 ## Respect the Table
 
-{{< figure
-    src="/images/articles/being-a-good-player/adventurers-at-the-table.webp"
-    alt="Fantasy role-playing players sharing a tabletop adventure with books, dice, character sheets, and notes."
-    class="dispatch-article-image"
->}}
-
 The greatest adventures are created by groups of people who trust one another and work together toward a common goal. Rules and dice may shape the adventure, but the attitude each player brings to the table determines whether everyone has a good time.
 
 Arrive on time and come prepared. Have your character sheet ready, your dice within reach, and your notes organized before the session begins. When the game starts, give it your attention. Listen while the referee describes a room, follow conversations between other players, and stay engaged even when the spotlight is on someone else.
@@ -226,6 +226,12 @@ It is about making everyone else glad that you joined the party.
 ### Leave the Table Better Than You Found It
 
 Perhaps the simplest rule of all is the most important: **Leave the table better than you found it.**
+
+{{< figure
+    src="/images/articles/being-a-good-player/exhausted-dungeon-masters-messy-aftermath.webp"
+    alt="A humorous black-and-white cartoon of an exhausted Dungeon Master staring at a table covered with abandoned dice, character sheets, cups, snacks, and gaming clutter after the players have left."
+    class="dispatch-article-image"
+>}}
 
 Bring snacks if your group enjoys them. Help clean up when the session ends. Thank the referee for the time spent preparing the adventure. Celebrate the successes of the other players and laugh together when the plan inevitably falls apart.
 

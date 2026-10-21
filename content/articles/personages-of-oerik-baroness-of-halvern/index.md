@@ -26,13 +26,6 @@ source_issue_url: "/oerik-magazine/issue-001/"
 
 show_toc: false
 ---
-
-{{< figure
-    src="/images/articles/personages-of-oerik-baroness-of-halvern/lady-arcella-portrait.webp"
-    alt="Lady Arcella Halvern, Baroness of Halvern"
-    class="dispatch-article-hero"
->}}
-
 ## Lady Arcella of House Halvern
 
 *Guardian of Sterich's Western Frontier*

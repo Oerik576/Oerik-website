@@ -1,8 +1,8 @@
 ---
 title: "Personages of Oerik: Baroness of Halvern"
 subtitle: "Lady Arcella of House Halvern — Guardian of Sterich's Western Frontier"
-author: "Jaque Paul"
-date: 2026-10-21
+author: "Rylan Hagio"
+date: 2026-10-20
 draft: false
 layout: "dispatch"
 

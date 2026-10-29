@@ -1,0 +1,39 @@
+/* =========================================================
+   CAMPAIGNS LANDING PAGE
+   ========================================================= */
+
+.campaigns-library {
+    width: 100%;
+    max-width: none;
+}
+
+.campaigns-header {
+    margin-bottom: 34px;
+}
+
+.campaign-listing {
+    margin-top: 34px;
+    padding-top: 8px;
+    border-top: 1px solid #ccc;
+}
+
+.campaign-listing h2 {
+    margin-top: 0;
+}
+
+.campaign-listing-image {
+    margin: 18px 0 22px;
+}
+
+.campaign-listing-image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .campaign-listing {
+        margin-top: 28px;
+    }
+}

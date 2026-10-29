@@ -1,0 +1,158 @@
+/* =========================================================
+   STORM TIDE CAMPAIGN RESOURCES
+   Scoped styles only. Existing standard-page rules remain unchanged.
+   ========================================================= */
+
+.campaign-resources-page,
+.campaign-resource-category-page,
+.campaign-resource-entry-page {
+    width: 100%;
+    max-width: none;
+}
+
+.campaign-resources-header,
+.campaign-resource-category-header,
+.campaign-resource-entry-header {
+    margin-bottom: 34px;
+}
+
+.campaign-resources-introduction,
+.campaign-resource-category-introduction,
+.campaign-resource-entry-body {
+    max-width: none;
+}
+
+.campaign-resources-group {
+    margin-top: 38px;
+}
+
+.campaign-resources-group-intro {
+    margin-bottom: 22px;
+}
+
+.resource-category-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 28px;
+    margin-top: 22px;
+}
+
+.resource-category-card {
+    padding: 22px 24px;
+    border: 1px solid #c9bda5;
+    background: #fbfaf7;
+    box-sizing: border-box;
+}
+
+.resource-category-card h3 {
+    margin: 0 0 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.resource-category-card h3 a {
+    color: #222;
+    text-decoration: none;
+}
+
+.resource-category-card h3 a:hover {
+    color: #8b4513;
+}
+
+.resource-category-card p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.resource-category-card .read-more {
+    font-weight: bold;
+}
+
+.campaign-resources-note {
+    margin-top: 42px;
+    padding: 18px 22px;
+    border-left: 4px solid #8b4513;
+    background: #f5f1e7;
+    box-sizing: border-box;
+}
+
+.campaign-resources-note h2 {
+    margin-top: 0;
+}
+
+.campaign-resources-note p:last-child {
+    margin-bottom: 0;
+}
+
+.campaign-resource-category-summary,
+.campaign-resource-entry-summary {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.campaign-resource-entry-list {
+    margin-top: 30px;
+}
+
+.campaign-resource-list-entry {
+    padding: 24px 0;
+    border-top: 1px solid #ccc;
+}
+
+.campaign-resource-list-entry:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.campaign-resource-list-entry h2 {
+    margin-top: 0;
+}
+
+.campaign-resource-empty {
+    margin-top: 28px;
+    padding: 18px 22px;
+    border: 1px solid #d6d0c4;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+.campaign-resource-empty p:last-child {
+    margin-bottom: 0;
+}
+
+.campaign-resource-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 24px;
+    color: #666;
+    font-size: 14px;
+}
+
+.campaign-resource-breadcrumb a {
+    color: #8b4513;
+}
+
+.campaign-resources-back {
+    margin-top: 38px;
+}
+
+@media (max-width: 800px) {
+
+    .resource-category-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .resource-category-card {
+        padding: 20px;
+    }
+
+    .campaign-resources-group {
+        margin-top: 30px;
+    }
+}
+

@@ -1,0 +1,277 @@
+/* =========================================================
+   DISPATCH ARTICLE PAGE
+   ========================================================= */
+
+.dispatch-article-page {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.dispatch-article {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 55px 65px 80px;
+    box-sizing: border-box;
+}
+
+.dispatch-article-header {
+    margin-bottom: 45px;
+}
+
+.dispatch-article-header h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 44px;
+    line-height: 1.15;
+}
+
+.dispatch-article-subtitle {
+    margin: 10px 0 18px;
+    color: #555;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.dispatch-article-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #777;
+    font-size: 14px;
+}
+
+.dispatch-source-note {
+    margin-top: 22px;
+    padding: 11px 14px;
+    border-left: 4px solid #8b4513;
+    background: #f5f1e7;
+    color: #333;
+    font-size: 14px;
+    width: fit-content;
+    min-width: 420px;
+    box-sizing: border-box;
+}
+
+.dispatch-featured-image {
+    margin: 0 0 35px;
+}
+
+.dispatch-featured-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dispatch-article-body {
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.dispatch-article-body h2 {
+    margin-top: 42px;
+    margin-bottom: 14px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #bbb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.dispatch-article-body h3 {
+    margin-top: 30px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.dispatch-article-body blockquote {
+    margin: 28px 0;
+    padding: 14px 24px;
+    border-left: 4px solid #8b4513;
+    background: #f5f1e7;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.dispatch-article-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================================================
+   DISPATCH ARTICLE ARTWORK
+   ========================================================= */
+
+.dispatch-article-body figure {
+    margin: 32px 0;
+}
+
+.dispatch-article-body figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dispatch-article-body figcaption {
+    margin-top: 8px;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.4;
+    font-style: italic;
+    text-align: center;
+}
+
+.dispatch-article-body figure.dispatch-article-hero {
+    width: 100%;
+    max-width: 100%;
+    margin: 28px 0 30px;
+}
+
+.dispatch-article-body figure.dispatch-article-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* =========================================================
+   INLINE DISPATCH SIDEBARS
+   ========================================================= */
+
+.dispatch-inline-sidebar {
+    float: right;
+    width: 300px;
+    margin: 10px 0 25px 30px;
+    padding: 20px 22px;
+    background: #f5f1e7;
+    border: 1px solid #c9bda5;
+    box-sizing: border-box;
+}
+
+.dispatch-inline-sidebar h3 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+}
+
+.dispatch-inline-sidebar ul {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+/* =========================================================
+   DISPATCH INFO BOX
+   ========================================================= */
+
+.dispatch-info-box {
+    margin: 32px 0;
+    padding: 22px 24px;
+    background: #f5f1e7;
+    border-left: 4px solid #8b4513;
+    box-sizing: border-box;
+}
+
+.dispatch-info-box h3 {
+    margin: 0 0 18px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+}
+
+.dispatch-info-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.dispatch-info-columns p {
+    margin-top: 0;
+}
+
+.dispatch-info-columns ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+}
+
+.dispatch-info-footer {
+    margin: 20px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid #c9bda5;
+    font-style: italic;
+}
+
+/* =========================================================
+   WHERE IS OERIK?
+   ========================================================= */
+
+.dispatch-about-link {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background: #f5f1e7;
+    border-bottom: 1px solid #c9bda5;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.dispatch-about-link a {
+    color: #222;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dispatch-about-link a:hover {
+    color: #8b4513;
+    text-decoration: none;
+}
+
+/* =========================================================
+   ARTICLE LABELS / TAGS
+   ========================================================= */
+
+.dispatch-article-footer {
+    margin-top: 28px;
+    padding: 12px 16px;
+    background: #eeeeee;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.dispatch-article-labels {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+/* =========================================================
+   DISPATCH ARTICLE IMAGE SIZES
+   Reusable supporting-art sizes for article figure shortcodes.
+   ========================================================= */
+
+.dispatch-article-body figure.article-image--wide {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dispatch-article-body figure.article-image--large {
+    width: min(100%, 700px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dispatch-article-body figure.article-image--medium {
+    width: min(100%, 450px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dispatch-article-body figure.article-image--small {
+    width: min(100%, 280px);
+    margin-left: auto;
+    margin-right: auto;
+}
+

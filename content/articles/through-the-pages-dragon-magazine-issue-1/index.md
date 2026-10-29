@@ -39,12 +39,6 @@ Turning these pages today is like opening a time capsule. Famous names appear be
 
 So let's open the cover and see what gamers found on the newsstands in the summer of 1976.
 
-{{< figure
-    src="/images/articles/through-the-pages-dragon-magazine-issue-1/dragon-magazine-issue-1-cover.webp"
-    alt="Cover of the premiere June 1976 issue of The Dragon magazine"
-    class="dispatch-article-hero"
->}}
-
 ## Inside This Issue
 
 The first thing that becomes apparent when reading **Dragon Magazine #1** is that it doesn't feel like a modern gaming magazine. There are no previews of upcoming products, no glossy advertisements, and no endless pages of reviews. Instead, every page is devoted to sharing ideas from gamers, designers, authors, and hobbyists who were helping define a brand-new pastime.

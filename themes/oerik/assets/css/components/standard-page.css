@@ -1,0 +1,65 @@
+/* =========================================================
+   STANDARD CONTENT PAGES
+   ========================================================= */
+
+/* Interior pages use the full white content area.
+   Home and Articles retain their sidebar layouts. */
+
+.standard-page {
+    width: calc(100% - 60px);
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.standard-page-content {
+    width: 100%;
+    max-width: none;
+    padding: 50px 60px 70px;
+    box-sizing: border-box;
+    color: #222;
+}
+
+.standard-page-content h1 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.standard-page-content h2 {
+    margin-top: 38px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #bbb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.standard-page-content p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.standard-page-content ul {
+    margin-bottom: 25px;
+}
+
+.standard-page-content li {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.standard-page-content a {
+    color: #8b4513;
+}
+
+.page-meta {
+    margin-bottom: 30px;
+    color: #777;
+    font-size: 14px;
+}
+
+

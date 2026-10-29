@@ -32,12 +32,6 @@ Before there was *Advanced Dungeons & Dragons*, before the *Player's Handbook*, 
 
 Published only a year after the original three little brown books, this slim digest introduced many of the ideas that would become inseparable from Dungeons & Dragons. Despite its title, it is not a setting guide but a collection of rules, monsters, spells, and treasures born directly from the campaigns run by Gary Gygax and Rob Kuntz beneath the legendary halls of Castle Greyhawk.
 
-{{< figure
-    src="/images/articles/from-the-archive-supplement-i-greyhawk/supplement-i-greyhawk-cover.webp"
-    alt="Cover of Supplement I: Greyhawk for the original Dungeons & Dragons game"
-    class="dispatch-article-hero"
->}}
-
 ## Historical Context
 
 In 1974, **Dungeons & Dragons** was unlike any game the world had ever seen. The original boxed set provided the foundation for fantasy role-playing, but many of the concepts players now consider essential simply did not exist. There was no thief class to pick locks or disarm traps, no paladin championing Law and virtue, no variable weapon damage, and no high-level spells capable of reshaping reality.

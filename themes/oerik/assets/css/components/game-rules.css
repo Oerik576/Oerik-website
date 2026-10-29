@@ -1,0 +1,111 @@
+/* =========================================================
+   GAME RULES
+   ========================================================= */
+
+.game-rules-page,
+.core-rulebooks-page {
+    width: 100%;
+    max-width: none;
+}
+
+.game-rules-header,
+.core-rulebooks-header {
+    margin-bottom: 34px;
+}
+
+.game-rules-header {
+    text-align: left;
+}
+
+.game-rules-header-logo {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 28px;
+}
+
+.game-rules-introduction {
+    text-align: left;
+}
+
+.game-rules-option {
+    margin-top: 34px;
+    padding-top: 8px;
+    border-top: 1px solid #ccc;
+}
+
+
+.game-rules-back {
+    margin-top: 28px;
+}
+
+/* =========================================================
+   CORE RULEBOOK LIST
+   ========================================================= */
+
+.rulebook-entry {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 26px;
+    align-items: start;
+    padding: 28px 0;
+    border-top: 1px solid #ccc;
+}
+
+.rulebook-cover {
+    margin: 0;
+}
+
+.rulebook-cover img {
+    display: block;
+    width: 130px;
+    max-width: 100%;
+    height: auto;
+}
+
+.rulebook-description h2,
+.rulebook-description h3 {
+    margin: 0 0 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.2;
+}
+
+.rulebook-description p {
+    margin: 0 0 14px;
+}
+
+.rulebook-description .read-more {
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.player-resources-section {
+    margin-top: 30px;
+    padding-top: 18px;
+    border-top: 2px solid #999;
+}
+
+.player-resources-section > h2 {
+    margin-bottom: 0;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+    .rulebook-entry {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .rulebook-cover {
+        max-width: 160px;
+        margin: 0 auto;
+    }
+
+    .rulebook-cover img {
+        width: 100%;
+    }
+}
+

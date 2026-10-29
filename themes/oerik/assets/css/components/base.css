@@ -1,0 +1,32 @@
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+body {
+    color: #222;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        to bottom,
+        #241039 0%,
+        #34124f 20%,
+        #5b2386 45%,
+        #4a1f73 70%,
+        #2b1245 100%
+    );
+
+    background-attachment: fixed;
+}
+
+a {
+    color: #8b4513;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

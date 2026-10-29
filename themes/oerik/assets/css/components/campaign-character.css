@@ -1,0 +1,58 @@
+/* CAMPAIGN CHARACTER PAGES */
+.campaign-character-page {
+    width: 100%;
+    max-width: none;
+}
+.campaign-character-header { margin-bottom: 26px; }
+
+.campaign-character-overview {
+    display: grid;
+    grid-template-columns: minmax(260px, 380px) 1fr;
+    gap: 36px;
+    align-items: start;
+    margin-bottom: 42px;
+}
+
+.campaign-character-portrait { margin: 0; }
+.campaign-character-portrait img { display:block; width:100%; height:auto; }
+
+.campaign-character-info {
+    padding: 22px 24px;
+    background: #f5f1e7;
+    border: 1px solid #c9bda5;
+    box-sizing: border-box;
+}
+
+.campaign-character-info h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #c9bda5;
+}
+
+.campaign-character-info dl { margin: 0; }
+
+.campaign-character-info dl > div {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 14px;
+    padding: 7px 0;
+    border-bottom: 1px solid #ddd3bf;
+}
+
+.campaign-character-info dl > div:last-child { border-bottom: 0; }
+.campaign-character-info dt { font-weight: bold; }
+.campaign-character-info dd { margin: 0; }
+
+.campaign-character-section { margin-top: 36px; }
+.campaign-character-body { font-size: 17px; line-height: 1.7; }
+.campaign-character-back { margin-top: 40px; }
+
+@media (max-width: 800px) {
+    .campaign-character-page { max-width: none; }
+    .campaign-character-overview { grid-template-columns: 1fr; gap: 24px; }
+    .campaign-character-portrait { max-width: 360px; margin: 0 auto; }
+    .campaign-character-info dl > div { grid-template-columns: 105px 1fr; }
+}
+
+

@@ -41,12 +41,6 @@ Each group is playing the same game. Each group is creating unforgettable advent
 
 ## Theatre of the Mind
 
-{{< figure
-    src="/images/articles/the-referees-toolbox/theatre-of-the-mind.webp"
-    alt="A Dungeon Master and players gathered around a table using books, dice, character sheets, and imagination."
-    class="dispatch-article-hero"
->}}
-
 For decades, this was how most fantasy role-playing games were experienced.
 
 The Dungeon Master describes the scene, the players imagine it, and the adventure unfolds entirely within a shared mental picture. There are no battle maps to prepare, no miniatures to paint, and no terrain to assemble. The only things required are a few dice, character sheets, and a willingness to listen and imagine.

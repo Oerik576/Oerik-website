@@ -1,0 +1,41 @@
+/* =========================================================
+   CAMPAIGN PAGES
+   ========================================================= */
+
+.campaign-page {
+    width: 100%;
+    max-width: none;
+}
+
+.campaign-header {
+    margin-bottom: 34px;
+}
+
+.campaign-banner {
+    margin: 22px 0;
+}
+
+.campaign-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.campaign-introduction {
+    font-size: 1.05em;
+}
+
+.campaign-section {
+    margin-top: 34px;
+    padding-top: 6px;
+    border-top: 1px solid #ccc;
+}
+
+.campaign-entry {
+    margin-bottom: 22px;
+}
+
+.campaign-entry h3 {
+    margin-bottom: 4px;
+}
+

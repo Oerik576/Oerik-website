@@ -27,12 +27,6 @@ source_issue_url: "/oerik-magazine/issue-001/"
 show_toc: false
 ---
 
-{{< figure
-    src="/images/articles/creator-spotlight-joseph-bloch/joseph-bloch-greyhawk-grognard.webp"
-    alt="Illustration of Joseph Bloch, the Greyhawk Grognard, writing at a desk surrounded by gaming books, a fantasy miniature, and a Greyhawk map."
-    class="dispatch-article-hero"
->}}
-
 Every hobby has its historians.
 
 The people who preserve forgotten stories, track down obscure references, and ensure that important ideas are not lost to time. For the World of Greyhawk and the Old School Renaissance, one of those voices belongs to **Joseph Bloch**, better known to thousands of gamers as **The Greyhawk Grognard**.
@@ -43,11 +37,27 @@ Long before becoming known for **Adventures Dark & Deep™**, Bloch contributed 
 
 His article **"See the Pomarj—And Die!"**, published in **Dragon Magazine #167**. It demonstrated the same qualities that would come to define much of his later work: careful research, respect for established lore, and a desire to expand the setting in ways that felt authentic rather than revisionist.
 
+<figure style="max-width:250px; margin:1.5rem auto; text-align:center;">
+  <img
+    src="/images/articles/creator-spotlight-joseph-bloch/Drmg167.webp"
+    alt="Dragon Magazine issue 167"
+    style="width:100%; height:auto; display:block;"
+  >
+</figure>
+
 For many readers, it was their first introduction to a writer who would become one of Greyhawk's most recognizable advocates.
 
 ## The Greyhawk Grognard
 
 Over the years, Bloch became widely known through his long-running **Greyhawk Grognard** blog.
+
+<figure style="max-width:350px; margin:1.5rem auto; text-align:center;">
+  <img
+    src="/images/articles/creator-spotlight-joseph-bloch/gg_logo4.webp"
+    alt="The Greyhawk Grognard logo"
+    style="width:100%; height:auto; display:block;"
+  >
+</figure>
 
 Rather than simply reviewing products or sharing campaign stories, the blog explored the history of the hobby itself. Articles examined forgotten TSR publications, obscure rules, Greyhawk lore, interviews, and the design philosophies that shaped early fantasy role-playing.
 
@@ -56,6 +66,14 @@ The site became a valuable resource for both longtime fans and newcomers seeking
 ## Designer and Publisher
 
 As president of **BRW Games**, Bloch has continued that commitment through publishing.
+
+<figure style="max-width:300px; margin:1.5rem auto; text-align:center;">
+  <img
+    src="/images/articles/creator-spotlight-joseph-bloch/brw_logo_small.webp"
+    alt="BRW Games logo"
+    style="width:100%; height:auto; display:block;"
+  >
+</figure>
 
 He is the creator of **Adventures Dark & Deep™**, a role-playing game inspired by Gary Gygax's published ideas for the future evolution of Advanced Dungeons & Dragons, as well as **Castle of the Mad Archmage™**, one of the largest and most ambitious megadungeon projects produced for old-school fantasy gaming.
 

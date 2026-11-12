@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+<div class="standard-page">
+  <article class="standard-page-content greyhawk-reference-page">
+
+    <header class="greyhawk-reference-header">
+      <h1>{{ .Title }}</h1>
+      <div class="greyhawk-introduction">
+        {{ .Content }}
+      </div>
+    </header>
+
+    <section class="greyhawk-option">
+      <h2>YouTube &amp; Streaming Channels</h2>
+      <p>
+        Video channels and livestreams with a continuing focus on the World of Greyhawk.
+      </p>
+    </section>
+
+    {{ range .Params.channels }}
+      <section class="greyhawk-option">
+        <h3>{{ .name }}</h3>
+        {{ with .creator }}
+          <p><em>{{ . }}</em></p>
+        {{ end }}
+        <p>{{ .description }}</p>
+        <p>
+          <a class="read-more" href="{{ .url }}" target="_blank" rel="noopener">
+            {{ .link_text }}
+          </a>
+        </p>
+      </section>
+    {{ end }}
+
+    <section class="greyhawk-option">
+      <h2>Podcasts</h2>
+      <p>
+        Audio programs devoted primarily to Greyhawk lore, adventures, and campaign discussion.
+      </p>
+    </section>
+
+    {{ range .Params.podcasts }}
+      <section class="greyhawk-option">
+        <h3>{{ .name }}</h3>
+        {{ with .creator }}
+          <p><em>{{ . }}</em></p>
+        {{ end }}
+        <p>{{ .description }}</p>
+        <p>
+          <a class="read-more" href="{{ .url }}" target="_blank" rel="noopener">
+            {{ .link_text }}
+          </a>
+        </p>
+      </section>
+    {{ end }}
+
+    <p class="greyhawk-back">
+      <a class="read-more" href="{{ "greyhawk/" | relURL }}">← Return to Greyhawk</a>
+    </p>
+
+  </article>
+</div>
+
+{{ end }}

@@ -1,7 +1,7 @@
 ---
 campaign: The Storm Tide Campaign
 date: 2026-11-14
-session_date: 2026-04-14
+session_date: 2026-04-13
 journal: 8
 part: 1
 location: Saltwharf, Seaton's Cove

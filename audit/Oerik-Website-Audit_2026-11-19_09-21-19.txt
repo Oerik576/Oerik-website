@@ -1,0 +1,124 @@
+﻿OERIK WEBSITE SIZE AUDIT
+Generated: 2026-11-19 09:21:20
+Project:   C:\Users\RichardMouton\Documents\Oerik-website\
+
+SUMMARY
+Files:       1,390
+Total size:  550.69 MB (0.54 GB)
+
+TOP-LEVEL FOLDERS
+Size MB      Files   Folder
+-------      -----   ------
+    292.88        137   .git
+    162.89        802   public
+     93.51        270   static
+      0.82         87   content
+      0.43         10   newsletter
+      0.14         67   themes
+      0.00          1   .github
+      0.00          5   archetypes
+      0.00          0   resources
+      0.00          0   i18n
+      0.00          0   layouts
+      0.00          0   assets
+      0.00          0   data
+      0.02         11   [files in project root]
+
+LARGEST 50 FILES
+Size MB      Relative path
+-------      -------------
+    228.55   .git\objects\pack\pack-0203ceca94b4d0b1296d9356b3f0a38ac2a0bc90.pack
+     63.74   .git\objects\pack\pack-5cbce83582ac1ef25e202579780552e3719275d4.pack
+      3.90   public\images\campaigns\storm-tide\journals\008-journal\Black Fang Idol BW.png
+      3.90   static\images\campaigns\storm-tide\journals\008-journal\Black Fang Idol BW.png
+      3.49   public\images\campaigns\storm-tide\journals\009-journal\IMG_0824.jpg
+      3.21   public\images\campaigns\storm-tide\journals\009-journal\IMG_0829.jpg
+      2.90   public\images\campaigns\storm-tide\journals\009-journal\IMG_0832.jpg
+      2.87   public\images\campaigns\storm-tide\journals\009-journal\IMG_0825.PNG
+      2.87   public\images\campaigns\storm-tide\journals\009-journal\The Chamber of Rememberance.png
+      2.80   public\images\campaigns\storm-tide\journals\009-journal\IMG_0823.jpg
+      2.77   public\images\campaigns\storm-tide\journals\009-journal\IMG_0835.jpg
+      2.76   public\images\campaigns\storm-tide\journals\009-journal\The Chamber of Rememberance stone a.png
+      2.66   public\images\campaigns\storm-tide\journals\009-journal\The Chamber of Rememberance stone b.png
+      2.61   public\images\campaigns\storm-tide\journals\009-journal\IMG_0831.jpg
+      2.59   public\images\campaigns\storm-tide\journals\009-journal\IMG_0821.jpg
+      2.46   static\images\campaigns\storm-tide\journals\008-journal\IMG_8707.webp
+      2.46   public\images\campaigns\storm-tide\journals\008-journal\IMG_8707.webp
+      2.29   public\images\campaigns\storm-tide\journals\009-journal\IMG_0830.jpg
+      1.83   public\images\greyhawk\GXP5J-Sea-Princes.webp
+      1.83   public\images\greyhawk\GXP5J - Sea Princes.webp
+      1.83   public\images\greyhawk\GXP5J-Sea-Princes-Players-Guide.webp
+      1.83   public\images\greyhawk\GXP5J-Sea-Princes-Players-Guide..webp
+      1.83   static\images\greyhawk\GXP5J-Sea-Princes-Players-Guide.webp
+      1.78   public\images\campaigns\storm-tide\journals\008-journal\IMG_8730.webp
+      1.78   static\images\campaigns\storm-tide\journals\008-journal\IMG_8730.webp
+      1.77   public\images\articles\being-a-good-player\GXP5E-Sterich.webp
+      1.77   static\images\greyhawk\GXP5E-Sterich-Players-Guide.webp
+      1.77   public\images\greyhawk\GXP5E-Sterich-Players-Guide.webp
+      1.77   public\images\greyhawk\GXP5E-Sterich.webp
+      1.72   public\images\campaigns\storm-tide\journals\009-journal\IMG_0833.jpg
+      1.72   public\images\campaigns\storm-tide\journals\009-journal\IMG_0824.webp
+      1.72   static\images\campaigns\storm-tide\journals\009-journal\IMG_0824.webp
+      1.71   public\images\greyhawk\GXP5A-Keoland-Players-Guide.webp
+      1.71   static\images\greyhawk\GXP5A-Keoland-Players-Guide.webp
+      1.71   public\images\greyhawk\GXP5A COVER.webp
+      1.70   public\images\greyhawk\GXP1 - Greyhawk Cover.webp
+      1.68   public\images\greyhawk\GXP5 - The Sheldomar Players Guide Cover.webp
+      1.53   public\images\campaigns\storm-tide\journals\009-journal\CARD-RUNE-Rememberance Stone.png
+      1.49   public\images\greyhawk\GXP1A - The World of Greyhawk - The Suel.webp
+      1.49   public\images\greyhawk\GXS1-The World of Greyhawk-The Suel.webp
+      1.49   static\images\greyhawk\GXS1-The World of Greyhawk-The Suel.webp
+      1.47   public\images\campaigns\storm-tide\journals\009-journal\IMG_0829.webp
+      1.47   static\images\campaigns\storm-tide\journals\009-journal\IMG_0829.webp
+      1.45   public\images\campaigns\storm-tide\journals\008-journal\IMG_8725.webp
+      1.45   static\images\campaigns\storm-tide\journals\008-journal\IMG_8725.webp
+      1.38   public\pdfs\greyhawk\GXP1-The-World-of-Greyhawk-Players-Primer.pdf
+      1.38   static\pdfs\greyhawk\GXP1-The-World-of-Greyhawk-Players-Primer.pdf
+      1.29   public\images\campaigns\storm-tide\journals\009-journal\IMG_0823.webp
+      1.29   static\images\campaigns\storm-tide\journals\009-journal\IMG_0823.webp
+      1.27   static\images\campaigns\storm-tide\journals\006-journal\Foes Vanquished.webp
+
+FILE TYPES BY TOTAL SIZE
+Size MB      Files   Extension
+-------      -----   ---------
+    292.30          2   .pack
+    194.24        554   .webp
+     31.62         18   .png
+     24.39          9   .jpg
+      4.25          4   .pdf
+      1.66        310   .html
+      0.67        101   .md
+      0.50        117   [none]
+      0.42        212   .xml
+      0.37          3   .zip
+      0.08         22   .css
+      0.07          1   .map
+      0.05          2   .idx
+      0.03         14   .sample
+      0.02          6   .bat
+      0.01          1   .ico
+      0.01          2   .rev
+      0.00          6   .ini
+      0.00          1   .yaml
+      0.00          2   .txt
+      0.00          1   .toml
+      0.00          1   .gitignore
+      0.00          1   .lock
+
+IMAGE TOTALS
+Image files: 581
+Image size:  250.25 MB
+Percent of project: 45.4%
+
+COMMON HUGO OR DEVELOPMENT FOLDERS
+These may be omitted from a review ZIP when present. Do not delete them solely from this report.
+.git               292.88 MB         137 files
+public             162.89 MB         802 files
+resources            0.00 MB           0 files
+node_modules   [not present]
+
+NOTES
+- PNG, JPG, WEBP, GIF, and PDF files are already compressed and may not shrink much in a ZIP.
+- Hugo public output often duplicates files stored under static.
+- The .git folder contains repository history and is unnecessary for a website-review ZIP.
+- Keep source folders such as content, static, assets, themes, layouts, data, and configuration files.

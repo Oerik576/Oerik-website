@@ -92,7 +92,7 @@ None came.
 That settled any remaining question about whether the cistern led somewhere. The party secured their ropes and checked their equipment before beginning the descent. Cyr volunteered to go first. He swung himself over the edge and started downward, leaving the daylight of Oldstairs above him as he followed the two-tailed cat into the darkness beneath the town.
 
 {{< journal-image
-    src="images/campaigns/storm-tide/adventures/007_the_cat_who_walked_with_shadows/IMG_8707.webp"
+    src="images/campaigns/storm-tide/journals/008-journal/IMG_8707.webp"
     alt="Map of the Black Fang Warren beneath Oldstairs."
     caption="The passages beneath Oldstairs descend into the ratling warren and the older ruins beyond."
     type="card-landscape"
